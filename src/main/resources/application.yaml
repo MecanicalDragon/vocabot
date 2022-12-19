@@ -1,0 +1,21 @@
+server.port: ${PORT}
+
+net.medrag.vocabot:
+  post-word-cron: '0 0 9-22 * * *'
+  post-quiz-cron: '0 0 9-22 * * *'
+  voc:
+    words-in-quiz: 5
+    delimiter: '.'
+    use-like: true
+  master:
+    bot-name: botName
+    master: master
+    token: token
+    source-chat: chatId
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+logging:
+  level:
+    net.medrag: trace
