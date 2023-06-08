@@ -1,6 +1,7 @@
 package net.medrag.vocabot.service
 
 import net.medrag.vocabot.config.VocProps
+import net.medrag.vocabot.dao.IdiomRepository
 import net.medrag.vocabot.dao.IrregularVerbRepository
 import net.medrag.vocabot.dao.WordPair
 import net.medrag.vocabot.dao.WordPairRepository
@@ -20,7 +21,6 @@ import kotlin.reflect.KFunction
 import kotlin.reflect.full.declaredFunctions
 import kotlin.reflect.jvm.isAccessible
 
-
 @ExtendWith(MockitoExtension::class)
 @Suppress("unused")
 internal class VocabularyServiceTest {
@@ -32,6 +32,9 @@ internal class VocabularyServiceTest {
 
     @Mock
     private lateinit var irregularVerbRepository: IrregularVerbRepository
+
+    @Mock
+    private lateinit var idiomRepo: IdiomRepository
 
     @Mock
     private lateinit var applicationEventPublisher: ApplicationEventPublisher
@@ -47,7 +50,8 @@ internal class VocabularyServiceTest {
         `when`(vocProps.delimiter).thenReturn(delimiter)
         val buildPair = getBuildPairFunction()
         val wordPair = buildPair?.call(vocabularyService, arrayOf("dog", "-", "пёс")) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("dog", wordPair?.lang1) },
             { assertEquals("пёс", wordPair?.lang2) }
         )
@@ -58,7 +62,8 @@ internal class VocabularyServiceTest {
         `when`(vocProps.delimiter).thenReturn(delimiter)
         val buildPair = getBuildPairFunction()
         val wordPair = buildPair?.call(vocabularyService, arrayOf("пёс", "-", "dog")) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("dog", wordPair?.lang1) },
             { assertEquals("пёс", wordPair?.lang2) }
         )
@@ -70,7 +75,8 @@ internal class VocabularyServiceTest {
         val buildPair = getBuildPairFunction()
         val e = assertThrows<InvocationTargetException> { buildPair?.call(vocabularyService, arrayOf("пёс", "-", "dogя")) }
         println(e)
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals(InputFormatException::class.java, e.cause?.javaClass) }
         )
     }
@@ -81,7 +87,8 @@ internal class VocabularyServiceTest {
         val buildPair = getBuildPairFunction()
         val e = assertThrows<InvocationTargetException> { buildPair?.call(vocabularyService, arrayOf("пёсi", "-", "dog")) }
         println(e)
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals(InputFormatException::class.java, e.cause?.javaClass) }
         )
     }
@@ -92,7 +99,8 @@ internal class VocabularyServiceTest {
         val buildPair = getBuildPairFunction()
         val e = assertThrows<InvocationTargetException> { buildPair?.call(vocabularyService, arrayOf("dog", "-", "пёсi")) }
         println(e)
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals(InputFormatException::class.java, e.cause?.javaClass) }
         )
     }
@@ -102,7 +110,8 @@ internal class VocabularyServiceTest {
         `when`(vocProps.delimiter).thenReturn(delimiter)
         val buildPair = getBuildPairFunction()
         val e = assertThrows<InvocationTargetException> { buildPair?.call(vocabularyService, arrayOf("dogя", "-", "пёс")) }
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals(InputFormatException::class.java, e.cause?.javaClass) }
         )
     }
@@ -112,7 +121,8 @@ internal class VocabularyServiceTest {
         `when`(vocProps.delimiter).thenReturn(delimiter)
         val buildPair = getBuildPairFunction()
         val wordPair = buildPair?.call(vocabularyService, arrayOf("dog   ", "-", "   пёс")) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("dog", wordPair?.lang1) },
             { assertEquals("пёс", wordPair?.lang2) }
         )
@@ -123,7 +133,8 @@ internal class VocabularyServiceTest {
         `when`(vocProps.delimiter).thenReturn(delimiter)
         val buildPair = getBuildPairFunction()
         val wordPair = buildPair?.call(vocabularyService, arrayOf("ferret", "-", "выискивать,", "хорёк")) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) }
         )
@@ -134,7 +145,8 @@ internal class VocabularyServiceTest {
         `when`(vocProps.delimiter).thenReturn(delimiter)
         val buildPair = getBuildPairFunction()
         val wordPair = buildPair?.call(vocabularyService, arrayOf("ferret", "-", "выискивать,", "хорёк", delimiter)) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(0, wordPair?.examples?.size) }
@@ -146,7 +158,8 @@ internal class VocabularyServiceTest {
         `when`(vocProps.delimiter).thenReturn(delimiter)
         val buildPair = getBuildPairFunction()
         val wordPair = buildPair?.call(vocabularyService, arrayOf("ferret", "-", "выискивать,", "хорёк", delimiter, delimiter)) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(0, wordPair?.examples?.size) }
@@ -158,7 +171,8 @@ internal class VocabularyServiceTest {
         `when`(vocProps.delimiter).thenReturn(delimiter)
         val buildPair = getBuildPairFunction()
         val wordPair = buildPair?.call(vocabularyService, arrayOf("ferret", "-", "выискивать,", "хорёк$delimiter")) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(0, wordPair?.examples?.size) }
@@ -170,7 +184,8 @@ internal class VocabularyServiceTest {
         `when`(vocProps.delimiter).thenReturn(delimiter)
         val buildPair = getBuildPairFunction()
         val wordPair = buildPair?.call(vocabularyService, arrayOf("ferret", "-", "выискивать,", "хорёк$delimiter", delimiter)) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(0, wordPair?.examples?.size) }
@@ -185,7 +200,8 @@ internal class VocabularyServiceTest {
             vocabularyService,
             arrayOf("ferret", "-", "выискивать,", "хорёк$delimiter", "this", "is", "example.", delimiter)
         ) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(1, wordPair?.examples?.size) },
@@ -201,7 +217,8 @@ internal class VocabularyServiceTest {
             vocabularyService,
             arrayOf("ferret", "-", "выискивать,", "хорёк$delimiter", "this", "is", "example..", delimiter)
         ) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(1, wordPair?.examples?.size) },
@@ -217,7 +234,8 @@ internal class VocabularyServiceTest {
             vocabularyService,
             arrayOf("ferret", "-", "выискивать,", "хорёк$delimiter", "this", "is", "example$delimiter")
         ) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(1, wordPair?.examples?.size) },
@@ -233,7 +251,8 @@ internal class VocabularyServiceTest {
             vocabularyService,
             arrayOf("ferret", "-", "выискивать,", "хорёк$delimiter", "this", "is", "example$delimiter", delimiter)
         ) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(1, wordPair?.examples?.size) },
@@ -252,7 +271,8 @@ internal class VocabularyServiceTest {
                 "this", "is", "example$delimiter", delimiter, "this", "is", "another", "example"
             )
         ) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(2, wordPair?.examples?.size) },
@@ -272,7 +292,8 @@ internal class VocabularyServiceTest {
                 "this", "is", "example$delimiter", "this", "is", "another", "example$delimiter"
             )
         ) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(2, wordPair?.examples?.size) },
@@ -292,7 +313,8 @@ internal class VocabularyServiceTest {
                 "this", "is", "example$delimiter", "this", "is", "another", "example", delimiter
             )
         ) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(2, wordPair?.examples?.size) },
@@ -312,7 +334,8 @@ internal class VocabularyServiceTest {
                 "this", "is", "example", delimiter, "this", "is", "another", "example$delimiter"
             )
         ) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(2, wordPair?.examples?.size) },
@@ -331,7 +354,8 @@ internal class VocabularyServiceTest {
                 arrayOf("ferret", "-", "выискивать,", "хорёк", delimiter + delimiter)
             )
         }
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals(InputFormatException::class.java, e.cause?.javaClass) }
         )
     }
@@ -344,7 +368,8 @@ internal class VocabularyServiceTest {
             vocabularyService,
             arrayOf("ferret", "-", "выискивать,", "хорёк", delimiter, "this", "is", "example:")
         ) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(1, wordPair?.examples?.size) },
@@ -362,7 +387,8 @@ internal class VocabularyServiceTest {
                 arrayOf("ferret:", "-", "выискивать,", "хорёк", delimiter, "this", "is", "example")
             )
         }
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals(InputFormatException::class.java, e.cause?.javaClass) }
         )
     }
@@ -375,7 +401,8 @@ internal class VocabularyServiceTest {
             vocabularyService,
             arrayOf("ferret", "-", "выискивать,", "хорёк", delimiter, delimiter, "this", "is", "example")
         ) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(1, wordPair?.examples?.size) },
@@ -394,7 +421,8 @@ internal class VocabularyServiceTest {
                 delimiter, delimiter, "this", "is", "another", "example"
             )
         ) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(2, wordPair?.examples?.size) },
@@ -414,7 +442,8 @@ internal class VocabularyServiceTest {
                 delimiter, "this", "is", "another", "example", delimiter
             )
         ) as? WordPair
-        assertAll("built word pair",
+        assertAll(
+            "built word pair",
             { assertEquals("ferret", wordPair?.lang1) },
             { assertEquals("выискивать, хорёк", wordPair?.lang2) },
             { assertEquals(2, wordPair?.examples?.size) },

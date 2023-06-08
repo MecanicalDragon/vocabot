@@ -1,5 +1,6 @@
 package net.medrag.vocabot.service
 
+import net.medrag.vocabot.bot.toNewLinedString
 import net.medrag.vocabot.model.WordPairDto
 import org.springframework.stereotype.Service
 import org.telegram.telegrambots.meta.api.methods.polls.SendPoll
@@ -27,11 +28,10 @@ class QuizService {
     }
 
     private fun explanation(word: WordPairDto): String? {
-        return if (word.examples.isEmpty())
+        return if (word.examples.isNotEmpty()) {
+            word.examples.toNewLinedString()
+        } else {
             null
-//            "No examples are presented. You can add some with '/ex' command ('/help' for thorough instruction)."
-        else word.examples.toNewLinedString()
+        }
     }
-
-    private fun List<String>.toNewLinedString(): String = asSequence().joinToString(separator = "\n")
 }

@@ -1,6 +1,6 @@
 package net.medrag.vocabot.dao
 
-import javax.persistence.*
+import jakarta.persistence.*
 
 /**
  * @author Stanislav Tretyakov

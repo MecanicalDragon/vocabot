@@ -1,7 +1,7 @@
 package net.medrag.vocabot.command
 
-import net.medrag.vocabot.model.events.AdministrationEvent
 import net.medrag.vocabot.model.CommanderInfo
+import net.medrag.vocabot.model.events.AdministrationEvent
 import org.springframework.context.ApplicationEventPublisher
 import org.springframework.stereotype.Component
 import org.telegram.telegrambots.meta.api.objects.Chat

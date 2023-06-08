@@ -113,7 +113,7 @@ class VocabularyService(
         }
         val word = wordBuilder.trim().toString()
         if (vocProps.useLike) {
-            wordRepo.findLike(word)?.let {
+            wordRepo.findLike(word).let {
                 if (it.isEmpty()) {
                     throw InputFormatException("Pattern <$word> has not been found in vocabulary!")
                 } else if (it.size > 1) {
@@ -178,8 +178,8 @@ class VocabularyService(
         val word1 = word1Sb.toString().trim()
         val word2 = word2Sb.toString().trim()
         if (word1.isBlank() || word2.isBlank()) throw InputFormatException("Words must not be empty!")
-        var lang1: String
-        var lang2: String
+        val lang1: String
+        val lang2: String
         if (checkEnglish(word1[0])) {
             checkSequenceForEnglishOnly(word1)
             checkSequenceForRussianOnly(word2)
@@ -190,7 +190,9 @@ class VocabularyService(
             checkSequenceForEnglishOnly(word2)
             lang1 = word2
             lang2 = word1
-        } else throw InputFormatException(ERROR_MSG)
+        } else {
+            throw InputFormatException(ERROR_MSG)
+        }
 
         WordPair(lang1 = lang1, lang2 = lang2, examples = examples)
     } ?: throw InputFormatException("Args array must not be null!")

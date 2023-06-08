@@ -21,7 +21,7 @@ import org.telegram.telegrambots.meta.bots.AbsSender
 @Component
 class GetWordCommand(
     private val vocabularyService: VocabularyService,
-    private val quizService: QuizService,
+    private val quizService: QuizService
 ) : AbstractCommand(
     "get",
     "Get word from vocabulary to check yourself"

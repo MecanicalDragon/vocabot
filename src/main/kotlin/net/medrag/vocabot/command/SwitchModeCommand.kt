@@ -12,7 +12,7 @@ import org.telegram.telegrambots.meta.bots.AbsSender
  * @author Stanislav Tretyakov
  * 18.04.2022
  */
-//@Component
+// @Component
 class SwitchModeCommand(
     private val publisher: ApplicationEventPublisher
 ) : AbstractCommand(

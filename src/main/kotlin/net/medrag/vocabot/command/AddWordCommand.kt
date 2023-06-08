@@ -22,7 +22,7 @@ class AddWordCommand(
     """
         Add new word to vocabulary. Input must conform pattern <words(s) of 1 language> - <words(s) of 2 language> 
         <optionally: '. ', followed by set of examples, separated with '. '>.
-        """.trimIndent()
+    """.trimIndent()
 ) {
     override fun execute(absSender: AbsSender?, user: User?, chat: Chat?, arguments: Array<out String>?) {
         try {
@@ -30,14 +30,14 @@ class AddWordCommand(
             absSender?.execute(
                 SendMessage().apply {
                     text = "New word has been added:\n${word.word1} - ${word.word2}" +
-                            if (word.examples.isEmpty()) "." else ": ${word.examples.joinToString(separator = " ")}"
+                        if (word.examples.isEmpty()) "." else ": ${word.examples.joinToString(separator = " ")}"
                     chatId = chat?.id.toString()
                 }
             )
         } catch (e: InputFormatException) {
             absSender?.execute(
                 SendMessage().apply {
-                    text = e.message ?: "Looks like you've input words in some unsupported format."
+                    text = e.message
                     chatId = chat?.id.toString()
                 }
             )

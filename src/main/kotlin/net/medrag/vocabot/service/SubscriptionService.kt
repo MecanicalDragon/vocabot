@@ -22,7 +22,6 @@ class SubscriptionService(
     }
 
     fun subscribe(commanderInfo: CommanderInfo) {
-
         logger.trace {
             "New subscription request has been received. User id: <${commanderInfo.user?.id}>, " +
                 "user name: <${commanderInfo.user?.userName}>, chat id: <${commanderInfo.chat?.id}>," +
@@ -40,7 +39,6 @@ class SubscriptionService(
     }
 
     fun unsubscribe(commanderInfo: CommanderInfo) {
-
         logger.trace {
             "New unsubscription request has been received. User id: <${commanderInfo.user?.id}>, " +
                 "user name: <${commanderInfo.user?.userName}>, chat id: <${commanderInfo.chat?.id}>," +

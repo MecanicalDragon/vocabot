@@ -14,8 +14,7 @@ interface Mode {
 enum class ModeName(
     private val tag: String
 ) {
-    DEFAULT("default"),
-    LOAD_DIC("load");
+    DEFAULT("default");
 
     companion object {
         fun withTag(tag: String?): ModeName {

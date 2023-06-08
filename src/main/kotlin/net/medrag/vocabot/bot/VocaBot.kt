@@ -1,5 +1,6 @@
 package net.medrag.vocabot.bot
 
+import jakarta.annotation.PostConstruct
 import mu.KotlinLogging
 import net.medrag.vocabot.command.AbstractCommand
 import net.medrag.vocabot.config.MasterProps
@@ -23,7 +24,6 @@ import org.telegram.telegrambots.meta.api.objects.Update
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession
-import javax.annotation.PostConstruct
 
 /**
  * @author Stanislav Tretyakov
@@ -153,35 +153,39 @@ class VocaBot(
     @EventListener(NextPersonalQuizEvent::class)
     fun processNextQuizCallback(event: NextPersonalQuizEvent) {
         executeAsync(AnswerCallbackQuery(event.update.callbackQuery.id))
-        executeAsync(DeleteMessage().apply {
-            messageId = event.update.callbackQuery.message.messageId
-            chatId = event.update.callbackQuery.message.chatId.toString()
-        })
+        executeAsync(
+            DeleteMessage().apply {
+                messageId = event.update.callbackQuery.message.messageId
+                chatId = event.update.callbackQuery.message.chatId.toString()
+            }
+        )
         if (event.answer === NextPersonalQuizEvent.Answer.YES) {
             sendNextQuiz(event)
         }
     }
 
     private fun sendNextQuiz(event: NextPersonalQuizEvent) {
-        execute(serviceFacade.createQuiz().apply {
-            chatId = event.update.chatIdFromCallback()
-        })
-        executeAsync(SendMessage().apply {
-            chatId = event.update.chatIdFromCallback()
-            text = "Get another quiz?"
-            replyMarkup = InlineKeyboardMarkup.builder().keyboardRow(
-                listOf(
-                    InlineKeyboardButton.builder()
-                        .text("Yes")
-                        .callbackData(CALLBACK_PREFIX_GET_QUIZ + CALLBACK_DELIMITER + NextPersonalQuizEvent.Answer.YES)
-                        .build(),
-                    InlineKeyboardButton.builder()
-                        .text("No")
-                        .callbackData(CALLBACK_PREFIX_GET_QUIZ + CALLBACK_DELIMITER + NextPersonalQuizEvent.Answer.NO)
-                        .build()
-                )
-            ).build()
-        })
+        execute(
+            serviceFacade.createQuiz().apply { chatId = event.update.chatIdFromCallback() }
+        )
+        executeAsync(
+            SendMessage().apply {
+                chatId = event.update.chatIdFromCallback()
+                text = "Get another quiz?"
+                replyMarkup = InlineKeyboardMarkup.builder().keyboardRow(
+                    listOf(
+                        InlineKeyboardButton.builder()
+                            .text("Yes")
+                            .callbackData(CALLBACK_PREFIX_GET_QUIZ + CALLBACK_DELIMITER + NextPersonalQuizEvent.Answer.YES)
+                            .build(),
+                        InlineKeyboardButton.builder()
+                            .text("No")
+                            .callbackData(CALLBACK_PREFIX_GET_QUIZ + CALLBACK_DELIMITER + NextPersonalQuizEvent.Answer.NO)
+                            .build()
+                    )
+                ).build()
+            }
+        )
     }
 
     private fun checkCommander(commanderInfo: CommanderInfo) {
@@ -194,8 +198,8 @@ class VocaBot(
     private fun applyAdminEvent(commanderInfo: CommanderInfo) {
         logger.info {
             "Admin command has been received: sender: <${commanderInfo.user?.userName}>, " +
-                    "chat id: <${commanderInfo.chat.idString()}>, " +
-                    "command arguments: [${commanderInfo.arguments.argsToString()}]."
+                "chat id: <${commanderInfo.chat.idString()}>, " +
+                "command arguments: [${commanderInfo.arguments.argsToString()}]."
         }
         commanderInfo.arguments?.get(0)?.let {
             adminCommands[it]?.execute(commanderInfo)

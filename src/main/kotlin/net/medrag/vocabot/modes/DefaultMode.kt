@@ -12,7 +12,7 @@ import org.telegram.telegrambots.meta.api.objects.Update
  */
 @Component
 class DefaultMode(
-    _callbacks: List<CallbackExecutor>,
+    _callbacks: List<CallbackExecutor>
 ) : Mode {
     private val callbacks = _callbacks.associateBy { it.getCallbackPrefix() }
 

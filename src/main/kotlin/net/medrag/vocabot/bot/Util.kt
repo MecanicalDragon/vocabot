@@ -20,6 +20,8 @@ fun Update?.messageIdFromCallback() = this?.callbackQuery?.message?.messageId ?:
 
 fun Update?.userFromCallback() = this?.callbackQuery?.from
 
+fun List<String>.toNewLinedString(): String = asSequence().joinToString(separator = "\n")
+
 fun Array<out String>?.argsToString(skip: Int = 0): String {
     if (this == null) return "null"
     val iMax = size - 1

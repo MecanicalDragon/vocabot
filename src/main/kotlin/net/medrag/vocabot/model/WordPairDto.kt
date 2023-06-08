@@ -7,7 +7,7 @@ package net.medrag.vocabot.model
 data class WordPairDto(
     val word1: String,
     val word2: String,
-    val examples: List<String> = emptyList(),
+    val examples: List<String> = emptyList()
 ) {
     override fun toString() = "$word1 - $word2"
 }

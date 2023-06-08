@@ -1,5 +1,6 @@
 package net.medrag.vocabot.command
 
+import jakarta.annotation.PostConstruct
 import net.medrag.vocabot.bot.idString
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.annotation.Lazy
@@ -8,7 +9,6 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage
 import org.telegram.telegrambots.meta.api.objects.Chat
 import org.telegram.telegrambots.meta.api.objects.User
 import org.telegram.telegrambots.meta.bots.AbsSender
-import javax.annotation.PostConstruct
 
 /**
  * @author Stanislav Tretyakov
@@ -50,7 +50,6 @@ class CommandHelper {
     var message: String? = null
 
     fun execute(p0: AbsSender?, p1: User?, p2: Chat?, p3: Array<out String>?) {
-
         SendMessage().apply {
             text = message ?: "NOT INITIALIZED YET"
             chatId = p2.idString()

@@ -1,9 +1,8 @@
 package net.medrag.vocabot.dao
 
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType
+import jakarta.persistence.*
 import org.hibernate.annotations.Type
-import org.hibernate.annotations.TypeDef
-import javax.persistence.*
 
 /**
  * @author Stanislav Tretyakov
@@ -11,13 +10,12 @@ import javax.persistence.*
  */
 @Entity
 @Table(name = "idioms")
-@TypeDef(name = "jsonb", typeClass = JsonBinaryType::class)
 data class Idiom(
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     val id: Int = 0,
     val idiom: String,
     val meaning: String,
-    @Type(type = "jsonb")
-    var examples: List<String> = emptyList(),
+    @Type(JsonBinaryType::class)
+    var examples: List<String> = emptyList()
 )

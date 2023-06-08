@@ -1,9 +1,7 @@
 package net.medrag.vocabot.service
 
-import com.nhaarman.mockitokotlin2.check
-import com.nhaarman.mockitokotlin2.verify
-import com.nhaarman.mockitokotlin2.whenever
 import net.medrag.vocabot.config.VocProps
+import net.medrag.vocabot.dao.IdiomRepository
 import net.medrag.vocabot.dao.IrregularVerbRepository
 import net.medrag.vocabot.dao.WordPair
 import net.medrag.vocabot.dao.WordPairRepository
@@ -14,8 +12,10 @@ import org.junit.jupiter.api.extension.ExtendWith
 import org.mockito.InjectMocks
 import org.mockito.Mock
 import org.mockito.junit.jupiter.MockitoExtension
+import org.mockito.kotlin.check
+import org.mockito.kotlin.verify
+import org.mockito.kotlin.whenever
 import org.springframework.context.ApplicationEventPublisher
-
 
 @ExtendWith(MockitoExtension::class)
 @Suppress("unused")
@@ -28,6 +28,9 @@ internal class VocabularyServiceExampleTest {
 
     @Mock
     private lateinit var irregularVerbRepository: IrregularVerbRepository
+
+    @Mock
+    private lateinit var idiomRepo: IdiomRepository
 
     @Mock
     private lateinit var applicationEventPublisher: ApplicationEventPublisher
@@ -48,15 +51,17 @@ internal class VocabularyServiceExampleTest {
 
         vocabularyService.addExample(commanderInfo)
 
-        verify(wordPairRepository).save(check {
-            assertAll(
-                { assertEquals("ferret", it.lang1) },
-                { assertEquals("хорёк", it.lang2) },
-                { assertNotNull(it.examples) },
-                { assertEquals(1, it.examples.size) },
-                { assertEquals("this is example", it.examples[0]) }
-            )
-        })
+        verify(wordPairRepository).save(
+            check {
+                assertAll(
+                    { assertEquals("ferret", it.lang1) },
+                    { assertEquals("хорёк", it.lang2) },
+                    { assertNotNull(it.examples) },
+                    { assertEquals(1, it.examples.size) },
+                    { assertEquals("this is example", it.examples[0]) }
+                )
+            }
+        )
     }
 
     @Test
@@ -69,15 +74,17 @@ internal class VocabularyServiceExampleTest {
 
         vocabularyService.addExample(commanderInfo)
 
-        verify(wordPairRepository).save(check {
-            assertAll(
-                { assertEquals("ferret", it.lang1) },
-                { assertEquals("хорёк", it.lang2) },
-                { assertNotNull(it.examples) },
-                { assertEquals(1, it.examples.size) },
-                { assertEquals("this is example", it.examples[0]) }
-            )
-        })
+        verify(wordPairRepository).save(
+            check {
+                assertAll(
+                    { assertEquals("ferret", it.lang1) },
+                    { assertEquals("хорёк", it.lang2) },
+                    { assertNotNull(it.examples) },
+                    { assertEquals(1, it.examples.size) },
+                    { assertEquals("this is example", it.examples[0]) }
+                )
+            }
+        )
     }
 
     @Test
@@ -90,15 +97,17 @@ internal class VocabularyServiceExampleTest {
 
         vocabularyService.addExample(commanderInfo)
 
-        verify(wordPairRepository).save(check {
-            assertAll(
-                { assertEquals("ferret", it.lang1) },
-                { assertEquals("хорёк", it.lang2) },
-                { assertNotNull(it.examples) },
-                { assertEquals(1, it.examples.size) },
-                { assertEquals("this is example.", it.examples[0]) }
-            )
-        })
+        verify(wordPairRepository).save(
+            check {
+                assertAll(
+                    { assertEquals("ferret", it.lang1) },
+                    { assertEquals("хорёк", it.lang2) },
+                    { assertNotNull(it.examples) },
+                    { assertEquals(1, it.examples.size) },
+                    { assertEquals("this is example.", it.examples[0]) }
+                )
+            }
+        )
     }
 
     @Test
@@ -111,15 +120,17 @@ internal class VocabularyServiceExampleTest {
 
         vocabularyService.addExample(commanderInfo)
 
-        verify(wordPairRepository).save(check {
-            assertAll(
-                { assertEquals("ferret", it.lang1) },
-                { assertEquals("хорёк", it.lang2) },
-                { assertNotNull(it.examples) },
-                { assertEquals(1, it.examples.size) },
-                { assertEquals("this is example.", it.examples[0]) }
-            )
-        })
+        verify(wordPairRepository).save(
+            check {
+                assertAll(
+                    { assertEquals("ferret", it.lang1) },
+                    { assertEquals("хорёк", it.lang2) },
+                    { assertNotNull(it.examples) },
+                    { assertEquals(1, it.examples.size) },
+                    { assertEquals("this is example.", it.examples[0]) }
+                )
+            }
+        )
     }
 
     @Test
@@ -132,16 +143,18 @@ internal class VocabularyServiceExampleTest {
 
         vocabularyService.addExample(commanderInfo)
 
-        verify(wordPairRepository).save(check {
-            assertAll(
-                { assertEquals("ferret", it.lang1) },
-                { assertEquals("хорёк", it.lang2) },
-                { assertNotNull(it.examples) },
-                { assertEquals(2, it.examples.size) },
-                { assertEquals("another example", it.examples[0]) },
-                { assertEquals("this is example", it.examples[1]) }
-            )
-        })
+        verify(wordPairRepository).save(
+            check {
+                assertAll(
+                    { assertEquals("ferret", it.lang1) },
+                    { assertEquals("хорёк", it.lang2) },
+                    { assertNotNull(it.examples) },
+                    { assertEquals(2, it.examples.size) },
+                    { assertEquals("another example", it.examples[0]) },
+                    { assertEquals("this is example", it.examples[1]) }
+                )
+            }
+        )
     }
 
     @Test
@@ -154,17 +167,19 @@ internal class VocabularyServiceExampleTest {
 
         vocabularyService.addExample(commanderInfo)
 
-        verify(wordPairRepository).save(check {
-            assertAll(
-                { assertEquals("ferret", it.lang1) },
-                { assertEquals("хорёк", it.lang2) },
-                { assertNotNull(it.examples) },
-                { assertEquals(3, it.examples.size) },
-                { assertEquals("another example", it.examples[0]) },
-                { assertEquals("this is example", it.examples[1]) },
-                { assertEquals("example three", it.examples[2]) }
-            )
-        })
+        verify(wordPairRepository).save(
+            check {
+                assertAll(
+                    { assertEquals("ferret", it.lang1) },
+                    { assertEquals("хорёк", it.lang2) },
+                    { assertNotNull(it.examples) },
+                    { assertEquals(3, it.examples.size) },
+                    { assertEquals("another example", it.examples[0]) },
+                    { assertEquals("this is example", it.examples[1]) },
+                    { assertEquals("example three", it.examples[2]) }
+                )
+            }
+        )
     }
 
     @Test
@@ -178,16 +193,18 @@ internal class VocabularyServiceExampleTest {
 
         vocabularyService.addExample(commanderInfo)
 
-        verify(wordPairRepository).save(check {
-            assertAll(
-                { assertEquals("ferret", it.lang1) },
-                { assertEquals("хорёк", it.lang2) },
-                { assertNotNull(it.examples) },
-                { assertEquals(3, it.examples.size) },
-                { assertEquals("another example", it.examples[0]) },
-                { assertEquals("this is example.", it.examples[1]) },
-                { assertEquals("example three", it.examples[2]) }
-            )
-        })
+        verify(wordPairRepository).save(
+            check {
+                assertAll(
+                    { assertEquals("ferret", it.lang1) },
+                    { assertEquals("хорёк", it.lang2) },
+                    { assertNotNull(it.examples) },
+                    { assertEquals(3, it.examples.size) },
+                    { assertEquals("another example", it.examples[0]) },
+                    { assertEquals("this is example.", it.examples[1]) },
+                    { assertEquals("example three", it.examples[2]) }
+                )
+            }
+        )
     }
 }
