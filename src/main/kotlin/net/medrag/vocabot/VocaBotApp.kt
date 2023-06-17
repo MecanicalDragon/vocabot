@@ -1,6 +1,7 @@
 package net.medrag.vocabot
 
 import mu.KotlinLogging
+import net.medrag.vocabot.config.DailyProps
 import net.medrag.vocabot.config.MasterProps
 import net.medrag.vocabot.config.VocProps
 import org.springframework.boot.ApplicationArguments
@@ -16,7 +17,7 @@ import org.springframework.scheduling.annotation.EnableScheduling
  */
 @SpringBootApplication
 @EnableScheduling
-@EnableConfigurationProperties(value = [MasterProps::class, VocProps::class])
+@EnableConfigurationProperties(value = [MasterProps::class, VocProps::class, DailyProps::class])
 class DicBotApp : ApplicationRunner {
 
     override fun run(args: ApplicationArguments?) {

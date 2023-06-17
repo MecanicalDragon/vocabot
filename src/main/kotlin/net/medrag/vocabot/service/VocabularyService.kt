@@ -11,8 +11,7 @@ import net.medrag.vocabot.model.CommanderInfo
 import net.medrag.vocabot.model.IdiomDto
 import net.medrag.vocabot.model.IrregularVerbDto
 import net.medrag.vocabot.model.WordPairDto
-import net.medrag.vocabot.model.events.PostIdiomEvent
-import net.medrag.vocabot.model.events.PostIrregularVerbEvent
+import net.medrag.vocabot.model.events.PostEvent
 import net.medrag.vocabot.model.events.PostQuizEvent
 import net.medrag.vocabot.model.exceptions.InputFormatException
 import net.medrag.vocabot.model.exceptions.WordAlreadyExistsException
@@ -41,11 +40,11 @@ class VocabularyService(
         if (random > 0.5) {
             logger.info { "Irregular verb is going to be sent." }
             val irregular = irregularRepo.findRandom()
-            publisher.publishEvent(PostIrregularVerbEvent(IrregularVerbDto(irregular.form1, irregular.form2, irregular.form3), this))
+            publisher.publishEvent(PostEvent(IrregularVerbDto(irregular.form1, irregular.form2, irregular.form3).toString(), this))
         } else {
             logger.info { "Idiom is going to be sent." }
             val idiom = idiomRepo.findRandom()
-            publisher.publishEvent(PostIdiomEvent(IdiomDto(idiom.idiom, idiom.meaning, idiom.examples), this))
+            publisher.publishEvent(PostEvent(IdiomDto(idiom.idiom, idiom.meaning, idiom.examples).toString(), this))
         }
     }
 

@@ -75,50 +75,12 @@ class VocaBot(
         setMode(event.mode)
     }
 
-    @EventListener(PostWordEvent::class)
-    fun postWord(event: PostWordEvent) {
+    @EventListener(PostEvent::class)
+    fun postIdiom(event: PostEvent) {
         val msg: Message = execute(
             SendMessage().apply {
                 chatId = masterProps.sourceChat
-                text = event.wordPair.word1 + " - " + event.wordPair.word2
-            }
-        )
-        serviceFacade.getSubscriptions().forEach {
-            executeAsync(
-                ForwardMessage().apply {
-                    chatId = it.subId.toString()
-                    fromChatId = msg.chatId.toString()
-                    messageId = msg.messageId
-                }
-            )
-        }
-    }
-
-    @EventListener(PostIdiomEvent::class)
-    fun postIdiom(event: PostIdiomEvent) {
-        val msg: Message = execute(
-            SendMessage().apply {
-                chatId = masterProps.sourceChat
-                text = event.idiom.toString()
-            }
-        )
-        serviceFacade.getSubscriptions().forEach {
-            executeAsync(
-                ForwardMessage().apply {
-                    chatId = it.subId.toString()
-                    fromChatId = msg.chatId.toString()
-                    messageId = msg.messageId
-                }
-            )
-        }
-    }
-
-    @EventListener(PostIrregularVerbEvent::class)
-    fun postIrregular(event: PostIrregularVerbEvent) {
-        val msg: Message = execute(
-            SendMessage().apply {
-                chatId = masterProps.sourceChat
-                text = "Irregular verb:\n${event.verb.form1} - ${event.verb.form2} - ${event.verb.form3}"
+                text = event.message
             }
         )
         serviceFacade.getSubscriptions().forEach {

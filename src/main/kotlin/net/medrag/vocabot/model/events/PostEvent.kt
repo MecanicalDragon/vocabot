@@ -1,13 +1,12 @@
 package net.medrag.vocabot.model.events
 
-import net.medrag.vocabot.model.IdiomDto
 import org.springframework.context.ApplicationEvent
 
 /**
- * @author Stanislav Tretyakov
- * 19.12.2022
+ * @author Stanislav Tretiakov
+ * 17.06.2023
  */
-class PostIdiomEvent(
-    val idiom: IdiomDto,
+class PostEvent(
+    val message: String,
     source: Any
 ) : ApplicationEvent(source)
