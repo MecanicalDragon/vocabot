@@ -8,5 +8,6 @@ import org.springframework.context.ApplicationEvent
  */
 class PostEvent(
     val message: String,
+    val html: Boolean = false,
     source: Any
 ) : ApplicationEvent(source)

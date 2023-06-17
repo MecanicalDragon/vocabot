@@ -8,5 +8,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties
  */
 @ConfigurationProperties("net.medrag.vocabot.daily")
 data class DailyProps(
-    val phrasalVerbs: Int
+    val phrasalVerbs: Int,
+    val idioms: Int
 )

@@ -14,5 +14,10 @@ data class IrregularVerb(
     val id: Int = 0,
     val form1: String,
     val form2: String,
-    val form3: String
-)
+    val form3: String,
+    val description: String
+) {
+    override fun toString(): String {
+        return "$form1 - $form2 - $form3"
+    }
+}

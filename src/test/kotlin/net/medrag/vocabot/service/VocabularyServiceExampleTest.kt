@@ -1,8 +1,6 @@
 package net.medrag.vocabot.service
 
 import net.medrag.vocabot.config.VocProps
-import net.medrag.vocabot.dao.IdiomRepository
-import net.medrag.vocabot.dao.IrregularVerbRepository
 import net.medrag.vocabot.dao.WordPair
 import net.medrag.vocabot.dao.WordPairRepository
 import net.medrag.vocabot.model.CommanderInfo
@@ -25,12 +23,6 @@ internal class VocabularyServiceExampleTest {
 
     @Mock
     private lateinit var wordPairRepository: WordPairRepository
-
-    @Mock
-    private lateinit var irregularVerbRepository: IrregularVerbRepository
-
-    @Mock
-    private lateinit var idiomRepo: IdiomRepository
 
     @Mock
     private lateinit var applicationEventPublisher: ApplicationEventPublisher

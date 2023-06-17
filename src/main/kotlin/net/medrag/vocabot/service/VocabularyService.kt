@@ -3,15 +3,10 @@ package net.medrag.vocabot.service
 import mu.KotlinLogging
 import net.medrag.vocabot.bot.argsToString
 import net.medrag.vocabot.config.VocProps
-import net.medrag.vocabot.dao.IdiomRepository
-import net.medrag.vocabot.dao.IrregularVerbRepository
 import net.medrag.vocabot.dao.WordPair
 import net.medrag.vocabot.dao.WordPairRepository
 import net.medrag.vocabot.model.CommanderInfo
-import net.medrag.vocabot.model.IdiomDto
-import net.medrag.vocabot.model.IrregularVerbDto
 import net.medrag.vocabot.model.WordPairDto
-import net.medrag.vocabot.model.events.PostEvent
 import net.medrag.vocabot.model.events.PostQuizEvent
 import net.medrag.vocabot.model.exceptions.InputFormatException
 import net.medrag.vocabot.model.exceptions.WordAlreadyExistsException
@@ -28,25 +23,9 @@ import org.springframework.transaction.annotation.Transactional
 @Service
 class VocabularyService(
     private val wordRepo: WordPairRepository,
-    private val irregularRepo: IrregularVerbRepository,
-    private val idiomRepo: IdiomRepository,
     private val publisher: ApplicationEventPublisher,
     private val vocProps: VocProps
 ) {
-
-    @Scheduled(cron = "\${net.medrag.vocabot.post-word-cron}")
-    fun sendIrregularVerb() {
-        val random = Math.random()
-        if (random > 0.5) {
-            logger.info { "Irregular verb is going to be sent." }
-            val irregular = irregularRepo.findRandom()
-            publisher.publishEvent(PostEvent(IrregularVerbDto(irregular.form1, irregular.form2, irregular.form3).toString(), this))
-        } else {
-            logger.info { "Idiom is going to be sent." }
-            val idiom = idiomRepo.findRandom()
-            publisher.publishEvent(PostEvent(IdiomDto(idiom.idiom, idiom.meaning, idiom.examples).toString(), this))
-        }
-    }
 
     @Scheduled(cron = "\${net.medrag.vocabot.post-quiz-cron}")
     fun sendQuiz() {

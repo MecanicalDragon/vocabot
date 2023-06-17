@@ -81,6 +81,9 @@ class VocaBot(
             SendMessage().apply {
                 chatId = masterProps.sourceChat
                 text = event.message
+                if (event.html) {
+                    parseMode = "HTML"
+                }
             }
         )
         serviceFacade.getSubscriptions().forEach {

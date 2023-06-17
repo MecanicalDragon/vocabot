@@ -22,6 +22,12 @@ fun Update?.userFromCallback() = this?.callbackQuery?.from
 
 fun List<String>.toNewLinedString(): String = asSequence().joinToString(separator = "\n")
 
+fun String.bold(): String = TEXT_BOLD_START + this + TEXT_BOLD_END
+
+fun String.italic(): String = TEXT_ITALIC_START + this + TEXT_ITALIC_END
+
+fun String.underline(): String = TEXT_UNDER_START + this + TEXT_UNDER_END
+
 fun Array<out String>?.argsToString(skip: Int = 0): String {
     if (this == null) return "null"
     val iMax = size - 1
