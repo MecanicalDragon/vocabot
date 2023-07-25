@@ -1,13 +1,13 @@
 server.port: ${PORT}
 
 net.medrag.vocabot:
-  post-quiz-cron: '0 0 9-22 * * *'
+  post-quiz-cron: '0 0 10-22 * * *'
   voc:
     words-in-quiz: 5
     delimiter: '.'
     use-like: true
   daily:
-    cron: '0 0 10 * * *'
+    cron: '0 0 10,16,22 * * *'
     phrasal-verbs: 5
     idioms: 3
   master:

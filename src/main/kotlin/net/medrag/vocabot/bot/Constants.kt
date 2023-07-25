@@ -7,6 +7,7 @@ package net.medrag.vocabot.bot
 const val CALLBACK_DELIMITER = "#"
 const val INVALID_CALLBACK_PREFIX = "INVALID_CALLBACK_PREFIX"
 const val CALLBACK_PREFIX_GET_QUIZ = "CALLBACK_PREFIX_GET_QUIZ"
+const val CALLBACK_PREFIX_GET_LEARN = "CALLBACK_PREFIX_GET_LEARN"
 
 const val TEXT_BOLD_START = "<b>"
 const val TEXT_BOLD_END = "</b>"

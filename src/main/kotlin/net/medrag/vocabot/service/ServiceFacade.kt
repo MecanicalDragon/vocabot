@@ -14,6 +14,7 @@ import org.telegram.telegrambots.meta.api.methods.polls.SendPoll
 class ServiceFacade(
     private val wordPairRepository: WordPairRepository,
     private val subscriptionService: SubscriptionService,
+    private val checkWordsService: CheckWordsService,
     private val vocabularyService: VocabularyService,
     private val quizService: QuizService
 ) {
@@ -28,4 +29,6 @@ class ServiceFacade(
     fun createQuiz(): SendPoll = with(vocabularyService.getSome()) {
         quizService.createQuiz(this)
     }
+
+    fun learn(number: Int, chatId: String) = checkWordsService.getWordsToCheck(number, chatId)
 }

@@ -16,7 +16,7 @@ class GetQuizCallbackExecutor(
     private val applicationEventPublisher: ApplicationEventPublisher
 ) : CallbackExecutor {
     override fun executeCallback(update: Update): CallbackExecutionResult? {
-        if (extractCallbackPostfix(update) == NextPersonalQuizEvent.Answer.YES.toString()) {
+        if (extractCallbackPostfix(update) == Answer.YES.toString()) {
             applicationEventPublisher.publishEvent(NextPersonalQuizEvent(update, Answer.YES, this))
         } else {
             applicationEventPublisher.publishEvent(NextPersonalQuizEvent(update, Answer.NO, this))

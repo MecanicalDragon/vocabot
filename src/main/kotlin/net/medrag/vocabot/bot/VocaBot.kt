@@ -129,6 +129,23 @@ class VocaBot(
         }
     }
 
+    @EventListener(NextPersonalLearnEvent::class)
+    fun processNextLearnCallback(event: NextPersonalLearnEvent) {
+        val chatIdentifier = event.update.callbackQuery.message.chatId.toString()
+        executeAsync(AnswerCallbackQuery(event.update.callbackQuery.id))
+        executeAsync(
+            DeleteMessage().apply {
+                messageId = event.update.callbackQuery.message.messageId
+                chatId = chatIdentifier
+            }
+        )
+        if (event.number > 0) {
+            for (sendMessage in serviceFacade.learn(event.number, chatIdentifier)) {
+                execute(sendMessage)
+            }
+        }
+    }
+
     private fun sendNextQuiz(event: NextPersonalQuizEvent) {
         execute(
             serviceFacade.createQuiz().apply { chatId = event.update.chatIdFromCallback() }

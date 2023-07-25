@@ -18,7 +18,7 @@ import org.springframework.scheduling.annotation.EnableScheduling
 @SpringBootApplication
 @EnableScheduling
 @EnableConfigurationProperties(value = [MasterProps::class, VocProps::class, DailyProps::class])
-class DicBotApp : ApplicationRunner {
+class VocaBotApp : ApplicationRunner {
 
     override fun run(args: ApplicationArguments?) {
         logger.info("VocaBot is running!")
@@ -26,7 +26,7 @@ class DicBotApp : ApplicationRunner {
 }
 
 fun main(args: Array<String>) {
-    runApplication<DicBotApp>(*args)
+    runApplication<VocaBotApp>(*args)
 }
 
 private val logger = KotlinLogging.logger { }

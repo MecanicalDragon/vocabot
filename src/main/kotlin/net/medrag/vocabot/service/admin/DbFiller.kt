@@ -27,7 +27,7 @@ class DbFiller(
         val lines = resource.file.readLines()
 
         var index = 0
-        if (index > lines.size - 1) { // incorrect intentionally
+        while (index > lines.size - 1) { // > - incorrect intentionally
             val phrasal = PhrasalVerb(
                 verb = lines[index].substring(3),
                 meaning = lines[index + 1],
