@@ -30,8 +30,7 @@ class VocabularyService(
     @Scheduled(cron = "\${net.medrag.vocabot.post-quiz-cron}")
     fun sendQuiz() {
         logger.info { "Batch of words is going to be sent as a quiz." }
-        val list = wordRepo.findSome(vocProps.wordsInQuiz).map { WordPairDto(it.lang1, it.lang2, it.examples) }.toList()
-        publisher.publishEvent(PostQuizEvent(list, this))
+        publisher.publishEvent(PostQuizEvent(this))
     }
 
     fun getSome(): List<WordPairDto> {

@@ -10,9 +10,11 @@ import org.telegram.telegrambots.meta.api.methods.polls.SendPoll
  * 18.04.2022
  */
 @Service
-class QuizService {
-
-    fun createQuiz(words: List<WordPairDto>): SendPoll {
+class QuizService(
+    private val vocabularyService: VocabularyService
+) {
+    fun createQuiz(): SendPoll {
+        val words = vocabularyService.getSome()
         val correct = (Math.random() * words.size).toInt()
         return SendPoll().apply {
             question = words[correct].word2

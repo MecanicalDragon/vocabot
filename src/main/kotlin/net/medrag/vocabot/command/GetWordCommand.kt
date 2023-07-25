@@ -5,7 +5,6 @@ import net.medrag.vocabot.bot.CALLBACK_PREFIX_GET_QUIZ
 import net.medrag.vocabot.bot.idString
 import net.medrag.vocabot.model.events.NextPersonalQuizEvent
 import net.medrag.vocabot.service.QuizService
-import net.medrag.vocabot.service.VocabularyService
 import org.springframework.stereotype.Component
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage
 import org.telegram.telegrambots.meta.api.objects.Chat
@@ -20,7 +19,6 @@ import org.telegram.telegrambots.meta.bots.AbsSender
  */
 @Component
 class GetWordCommand(
-    private val vocabularyService: VocabularyService,
     private val quizService: QuizService
 ) : AbstractCommand(
     "get",
@@ -28,8 +26,7 @@ class GetWordCommand(
 ) {
 
     override fun execute(absSender: AbsSender?, user: User?, chat: Chat?, arguments: Array<out String>?) {
-        val words = vocabularyService.getSome()
-        quizService.createQuiz(words).also {
+        quizService.createQuiz().also {
             it.chatId = chat.idString()
             absSender?.execute(it)
         }

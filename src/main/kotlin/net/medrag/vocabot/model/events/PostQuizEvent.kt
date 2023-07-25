@@ -1,6 +1,5 @@
 package net.medrag.vocabot.model.events
 
-import net.medrag.vocabot.model.WordPairDto
 import org.springframework.context.ApplicationEvent
 
 /**
@@ -8,6 +7,5 @@ import org.springframework.context.ApplicationEvent
  * 18.04.2022
  */
 class PostQuizEvent(
-    val words: List<WordPairDto>,
     source: Any
 ) : ApplicationEvent(source)

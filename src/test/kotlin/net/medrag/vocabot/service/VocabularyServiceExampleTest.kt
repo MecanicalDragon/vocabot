@@ -128,7 +128,7 @@ internal class VocabularyServiceExampleTest {
     @Test
     fun `must add another example for word`() {
         val commanderInfo = CommanderInfo(arguments = arrayOf("ferret", delimiter, "this", "is", "example"))
-        val word = WordPair(123, "ferret", "хорёк", listOf("another example"))
+        val word = WordPair(123, "ferret", "хорёк", 0, listOf("another example"))
         whenever(vocProps.delimiter).thenReturn(delimiter)
         whenever(wordPairRepository.findByLang1("ferret")).thenReturn(word)
         whenever(wordPairRepository.save(word)).thenReturn(word)
@@ -152,7 +152,7 @@ internal class VocabularyServiceExampleTest {
     @Test
     fun `must add two examples for word`() {
         val commanderInfo = CommanderInfo(arguments = arrayOf("ferret", delimiter, "this", "is", "example", delimiter, "example", "three"))
-        val word = WordPair(123, "ferret", "хорёк", listOf("another example"))
+        val word = WordPair(123, "ferret", "хорёк", 0, listOf("another example"))
         whenever(vocProps.delimiter).thenReturn(delimiter)
         whenever(wordPairRepository.findByLang1("ferret")).thenReturn(word)
         whenever(wordPairRepository.save(word)).thenReturn(word)
@@ -178,7 +178,7 @@ internal class VocabularyServiceExampleTest {
     fun `must add two examples for word 2`() {
         val commanderInfo =
             CommanderInfo(arguments = arrayOf("ferret", delimiter, "this", "is", "example$delimiter", "example", "three", delimiter))
-        val word = WordPair(123, "ferret", "хорёк", listOf("another example"))
+        val word = WordPair(123, "ferret", "хорёк", 0, listOf("another example"))
         whenever(vocProps.delimiter).thenReturn(delimiter)
         whenever(wordPairRepository.findByLang1("ferret")).thenReturn(word)
         whenever(wordPairRepository.save(word)).thenReturn(word)

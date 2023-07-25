@@ -100,7 +100,7 @@ class VocaBot(
     @EventListener(PostQuizEvent::class)
     fun postQuiz(event: PostQuizEvent) {
         val msg: Message = execute(
-            serviceFacade.createQuiz(event.words).apply {
+            serviceFacade.createQuiz().apply {
                 chatId = masterProps.sourceChat
             }
         )
