@@ -4,6 +4,7 @@ import mu.KotlinLogging
 import net.medrag.vocabot.config.DailyProps
 import net.medrag.vocabot.config.MasterProps
 import net.medrag.vocabot.config.VocProps
+import net.medrag.vocabot.config.WordsCheckingProps
 import org.springframework.boot.ApplicationArguments
 import org.springframework.boot.ApplicationRunner
 import org.springframework.boot.autoconfigure.SpringBootApplication
@@ -17,7 +18,7 @@ import org.springframework.scheduling.annotation.EnableScheduling
  */
 @SpringBootApplication
 @EnableScheduling
-@EnableConfigurationProperties(value = [MasterProps::class, VocProps::class, DailyProps::class])
+@EnableConfigurationProperties(value = [MasterProps::class, VocProps::class, DailyProps::class, WordsCheckingProps::class])
 class VocaBotApp : ApplicationRunner {
 
     override fun run(args: ApplicationArguments?) {

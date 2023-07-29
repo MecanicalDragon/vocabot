@@ -50,7 +50,8 @@ class CheckWordsService(
     }
 
     private fun WordPairDto.toMaskedText(): String {
-        return this.word1 + "\n" + TEXT_SPOILER_START + TEXT_ITALIC_START + this.word2 + TEXT_ITALIC_END + "\n\n" +
-            this.examples.toNewLinedString() + TEXT_SPOILER_END
+        return this.word2 + "\n\n" + spoiler(
+            bold(this.word1) + "\n\n" + this.examples.toNewLinedString()
+        )
     }
 }

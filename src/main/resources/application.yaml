@@ -10,6 +10,9 @@ net.medrag.vocabot:
     cron: '0 0 10,16,22 * * *'
     phrasal-verbs: 5
     idioms: 3
+  words-checking:
+    default: 10
+    max: 20
   master:
     bot-name: botName
     master: master

@@ -21,8 +21,6 @@ import org.telegram.telegrambots.meta.api.methods.send.SendMessage
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.DeleteMessage
 import org.telegram.telegrambots.meta.api.objects.Message
 import org.telegram.telegrambots.meta.api.objects.Update
-import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup
-import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession
 
 /**
@@ -99,11 +97,7 @@ class VocaBot(
 
     @EventListener(PostQuizEvent::class)
     fun postQuiz(event: PostQuizEvent) {
-        val msg: Message = execute(
-            serviceFacade.createQuiz().apply {
-                chatId = masterProps.sourceChat
-            }
-        )
+        val msg: Message = execute(serviceFacade.createQuiz(masterProps.sourceChat)[0])
         serviceFacade.getSubscriptions().forEach {
             executeAsync(
                 ForwardMessage().apply {
@@ -125,7 +119,9 @@ class VocaBot(
             }
         )
         if (event.answer === NextPersonalQuizEvent.Answer.YES) {
-            sendNextQuiz(event)
+            serviceFacade.createQuiz(event.update.chatIdFromCallback()).onEach {
+                executeAsync(it)
+            }
         }
     }
 
@@ -144,30 +140,6 @@ class VocaBot(
                 execute(sendMessage)
             }
         }
-    }
-
-    private fun sendNextQuiz(event: NextPersonalQuizEvent) {
-        execute(
-            serviceFacade.createQuiz().apply { chatId = event.update.chatIdFromCallback() }
-        )
-        executeAsync(
-            SendMessage().apply {
-                chatId = event.update.chatIdFromCallback()
-                text = "Get another quiz?"
-                replyMarkup = InlineKeyboardMarkup.builder().keyboardRow(
-                    listOf(
-                        InlineKeyboardButton.builder()
-                            .text("Yes")
-                            .callbackData(CALLBACK_PREFIX_GET_QUIZ + CALLBACK_DELIMITER + NextPersonalQuizEvent.Answer.YES)
-                            .build(),
-                        InlineKeyboardButton.builder()
-                            .text("No")
-                            .callbackData(CALLBACK_PREFIX_GET_QUIZ + CALLBACK_DELIMITER + NextPersonalQuizEvent.Answer.NO)
-                            .build()
-                    )
-                ).build()
-            }
-        )
     }
 
     private fun checkCommander(commanderInfo: CommanderInfo) {

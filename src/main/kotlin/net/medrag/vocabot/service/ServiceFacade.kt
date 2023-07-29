@@ -1,7 +1,7 @@
 package net.medrag.vocabot.service
 
 import org.springframework.stereotype.Service
-import org.telegram.telegrambots.meta.api.methods.polls.SendPoll
+import org.telegram.telegrambots.meta.api.methods.botapimethods.BotApiMethodMessage
 
 /**
  * @author Stanislav Tretyakov
@@ -16,7 +16,7 @@ class ServiceFacade(
 
     fun getSubscriptions() = subscriptionService.getSubscriptions()
 
-    fun createQuiz(): SendPoll = quizService.createQuiz()
+    fun createQuiz(chatId: String): List<BotApiMethodMessage> = quizService.createQuiz(chatId)
 
     fun learn(number: Int, chatId: String) = checkWordsService.getWordsToCheck(number, chatId)
 }

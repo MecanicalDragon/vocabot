@@ -10,7 +10,3 @@ dump database in Json
 consume json to database
 trailing semicolon
 example %like%
-
-### BUGS
-remove old code
-
