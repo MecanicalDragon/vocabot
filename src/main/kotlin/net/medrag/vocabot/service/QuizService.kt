@@ -20,12 +20,13 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKe
 class QuizService(
     private val vocabularyService: VocabularyService
 ) {
-    fun createQuiz(chatId: String): List<BotApiMethodMessage> = listOf(getThePoll(), getTheProceedQuestion(chatId))
+    fun createQuiz(chatId: String): List<BotApiMethodMessage> = listOf(getThePoll(chatId), getTheProceedQuestion(chatId))
 
-    private fun getThePoll(): SendPoll {
+    private fun getThePoll(chat: String): SendPoll {
         val words = vocabularyService.getSome()
         val correct = (Math.random() * words.size).toInt()
         return SendPoll().apply {
+            chatId = chat
             question = words[correct].word2
             correctOptionId = correct
             type = "quiz"
