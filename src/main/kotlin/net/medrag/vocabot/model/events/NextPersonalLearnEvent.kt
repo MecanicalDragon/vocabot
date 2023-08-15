@@ -10,5 +10,10 @@ import org.telegram.telegrambots.meta.api.objects.Update
 class NextPersonalLearnEvent(
     val update: Update,
     val number: Int,
+    val type: Type,
     source: Any
 ) : ApplicationEvent(source)
+
+enum class Type {
+    CHECK, LEARN
+}

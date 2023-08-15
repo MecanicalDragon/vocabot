@@ -41,6 +41,10 @@ class VocabularyService(
         return wordRepo.findToLearn(number).map { WordPairDto(it.lang1, it.lang2, it.examples) }.toList()
     }
 
+    fun getToCheck(user: Long, number: Int): List<WordPairDto> {
+        return wordRepo.getToCheck(user, number).map { WordPairDto(it.lang1, it.lang2, it.examples) }.toList()
+    }
+
     fun addWord(commanderInfo: CommanderInfo): WordPairDto {
         logger.info { "User <${commanderInfo.user?.userName}> adds new word pair: <${commanderInfo.arguments.argsToString()}>." }
         val newPair: WordPair = buildPair(commanderInfo.arguments)

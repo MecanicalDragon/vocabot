@@ -15,8 +15,8 @@ import org.telegram.telegrambots.meta.bots.AbsSender
 class GetQuizCommand(
     private val quizService: QuizService
 ) : AbstractCommand(
-    "get",
-    "Get word from vocabulary to check yourself"
+    "q",
+    "Get a quiz to check yourself"
 ) {
 
     override fun execute(absSender: AbsSender?, user: User?, chat: Chat?, arguments: Array<out String>?) {

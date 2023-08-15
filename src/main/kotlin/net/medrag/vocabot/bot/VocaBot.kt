@@ -97,7 +97,8 @@ class VocaBot(
 
     @EventListener(PostQuizEvent::class)
     fun postQuiz(event: PostQuizEvent) {
-        val msg: Message = execute(serviceFacade.createQuiz(masterProps.sourceChat)[0])
+        val quiz = serviceFacade.createQuiz(masterProps.sourceChat)
+        val msg: Message = execute(quiz[0])
         serviceFacade.getSubscriptions().forEach {
             executeAsync(
                 ForwardMessage().apply {
@@ -136,7 +137,11 @@ class VocaBot(
             }
         )
         if (event.number > 0) {
-            for (sendMessage in serviceFacade.learn(event.number, chatIdentifier)) {
+            val words = when (event.type) {
+                Type.LEARN -> serviceFacade.learn(event.number, chatIdentifier)
+                Type.CHECK -> serviceFacade.check(event.number, chatIdentifier)
+            }
+            for (sendMessage in words) {
                 execute(sendMessage)
             }
         }

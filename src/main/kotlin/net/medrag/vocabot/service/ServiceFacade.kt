@@ -18,5 +18,7 @@ class ServiceFacade(
 
     fun createQuiz(chatId: String): List<BotApiMethodMessage> = quizService.createQuiz(chatId)
 
-    fun learn(number: Int, chatId: String) = checkWordsService.getWordsToCheck(number, chatId)
+    fun learn(number: Int, chatId: String) = checkWordsService.getWordsToLearn(chatId, number)
+
+    fun check(number: Int, chatId: String) = checkWordsService.getWordsToCheck(chatId, number)
 }

@@ -1,6 +1,6 @@
 package net.medrag.vocabot.callback
 
-import net.medrag.vocabot.bot.CALLBACK_PREFIX_GET_CHECK
+import net.medrag.vocabot.bot.CALLBACK_PREFIX_GET_LEARN
 import net.medrag.vocabot.model.events.NextPersonalLearnEvent
 import net.medrag.vocabot.model.events.Type
 import org.springframework.context.ApplicationEventPublisher
@@ -12,13 +12,13 @@ import org.telegram.telegrambots.meta.api.objects.Update
  * 25.07.2023
  */
 @Component
-class CheckWordsCallbackExecutor(
+class LearnWordsCallbackExecutor(
     private val applicationEventPublisher: ApplicationEventPublisher
 ) : CallbackExecutor {
     override fun executeCallback(update: Update): CallbackExecutionResult? {
-        applicationEventPublisher.publishEvent(NextPersonalLearnEvent(update, extractCallbackPostfix(update).toInt(), Type.CHECK, this))
+        applicationEventPublisher.publishEvent(NextPersonalLearnEvent(update, extractCallbackPostfix(update).toInt(), Type.LEARN, this))
         return null
     }
 
-    override fun getCallbackPrefix(): String = CALLBACK_PREFIX_GET_CHECK
+    override fun getCallbackPrefix(): String = CALLBACK_PREFIX_GET_LEARN
 }

@@ -14,17 +14,17 @@ import org.telegram.telegrambots.meta.bots.AbsSender
  * 25.07.2023
  */
 @Component
-class CheckWordsCommand(
+class LearnWordsCommand(
     private val checkWordsService: CheckWordsService,
     private val wordsCheckingProps: WordsCheckingProps
 ) : AbstractCommand(
-    "check",
-    "Get words from vocabulary to check yourself"
+    "learn",
+    "Learn marked words from vocabulary"
 ) {
 
     override fun execute(absSender: AbsSender?, user: User?, chat: Chat?, arguments: Array<out String>?) {
-        logger.info { "${wordsCheckingProps.default} words are going to be sent to check." }
-        for (sendMessage in checkWordsService.getWordsToCheck(chat.idString(), wordsCheckingProps.default)) {
+        logger.info { "${wordsCheckingProps.default} words are going to be sent to learn." }
+        for (sendMessage in checkWordsService.getWordsToLearn(chat.idString(), wordsCheckingProps.default)) {
             absSender?.execute(sendMessage)
         }
     }
