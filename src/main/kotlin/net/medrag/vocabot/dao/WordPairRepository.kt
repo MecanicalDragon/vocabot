@@ -1,6 +1,7 @@
 package net.medrag.vocabot.dao
 
 import org.springframework.data.jpa.repository.JpaRepository
+import org.springframework.data.jpa.repository.Modifying
 import org.springframework.data.jpa.repository.Query
 import org.springframework.data.repository.query.Param
 
@@ -29,4 +30,8 @@ interface WordPairRepository : JpaRepository<WordPair, Int> {
 
     @Query(value = "from WordPair v WHERE v.lang1 like %:l%")
     fun findLike(@Param(value = "l") lang1: String): List<WordPair>
+
+    @Modifying
+    @Query(nativeQuery = true, value = "UPDATE vocabulary SET value = :value WHERE id = :id")
+    fun learnWord(@Param(value = "value") value: Int, @Param(value = "id") id: Int): Int
 }

@@ -7,6 +7,7 @@ import net.medrag.vocabot.dao.WordPair
 import net.medrag.vocabot.dao.WordPairRepository
 import net.medrag.vocabot.model.CommanderInfo
 import net.medrag.vocabot.model.WordPairDto
+import net.medrag.vocabot.model.WordPairWithId
 import net.medrag.vocabot.model.events.PostQuizEvent
 import net.medrag.vocabot.model.exceptions.InputFormatException
 import net.medrag.vocabot.model.exceptions.WordAlreadyExistsException
@@ -37,12 +38,12 @@ class VocabularyService(
         return wordRepo.findSome(vocProps.wordsInQuiz).map { WordPairDto(it.lang1, it.lang2, it.examples) }.toList()
     }
 
-    fun getToLearn(number: Int): List<WordPairDto> {
-        return wordRepo.findToLearn(number).map { WordPairDto(it.lang1, it.lang2, it.examples) }.toList()
+    fun getToLearn(number: Int): List<WordPairWithId> {
+        return wordRepo.findToLearn(number).map { WordPairWithId(it.id, it.lang1, it.lang2, it.examples) }.toList()
     }
 
-    fun getToCheck(user: Long, number: Int): List<WordPairDto> {
-        return wordRepo.getToCheck(user, number).map { WordPairDto(it.lang1, it.lang2, it.examples) }.toList()
+    fun getToCheck(user: Long, number: Int): List<WordPairWithId> {
+        return wordRepo.getToCheck(user, number).map { WordPairWithId(it.id, it.lang1, it.lang2, it.examples) }.toList()
     }
 
     fun addWord(commanderInfo: CommanderInfo): WordPairDto {

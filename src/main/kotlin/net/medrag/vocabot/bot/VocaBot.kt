@@ -147,6 +147,17 @@ class VocaBot(
         }
     }
 
+    @EventListener(CheckLearnEvent::class)
+    fun processCheckLearnCallback(event: CheckLearnEvent) {
+        val chatIdentifier = event.update.callbackQuery.message.chatId.toString()
+        // TODO: EditMessageReplyMarkup
+        executeAsync(AnswerCallbackQuery(event.update.callbackQuery.id))
+        when (event.type) {
+            LearnType.LEARNED -> serviceFacade.learned(chatIdentifier, event.wordId)
+            LearnType.TO_LEARN -> serviceFacade.toLearn(chatIdentifier, event.wordId)
+        }
+    }
+
     private fun checkCommander(commanderInfo: CommanderInfo) {
         logger.info { "User <${commanderInfo.user?.userName}> invoked an admin command." }
         if (commanderInfo.user?.userName != masterProps.master) {

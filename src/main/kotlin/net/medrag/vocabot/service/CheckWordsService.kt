@@ -2,7 +2,7 @@ package net.medrag.vocabot.service
 
 import net.medrag.vocabot.bot.*
 import net.medrag.vocabot.dao.SubscriptionRepository
-import net.medrag.vocabot.model.WordPairDto
+import net.medrag.vocabot.model.WordPairWithId
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage
@@ -36,6 +36,7 @@ class CheckWordsService(
                 chatId = chat
                 text = word.toMaskedText()
             }.also {
+                it.checkedWordMarkup(word.id)
                 messages.add(it)
             }
         }
@@ -52,6 +53,7 @@ class CheckWordsService(
                 chatId = chat
                 text = word.toMaskedText()
             }.also {
+                it.learnedWordMarkup(word.id)
                 messages.add(it)
             }
         }
@@ -93,7 +95,29 @@ class CheckWordsService(
         ).build()
     }
 
-    private fun WordPairDto.toMaskedText(): String {
+    private fun SendMessage.checkedWordMarkup(wordId: Int) {
+        replyMarkup = InlineKeyboardMarkup.builder().keyboardRow(
+            listOf(
+                InlineKeyboardButton.builder()
+                    .text("Add to learn")
+                    .callbackData(CALLBACK_PREFIX_ADD_TO_LEARN + CALLBACK_DELIMITER + wordId)
+                    .build()
+            )
+        ).build()
+    }
+
+    private fun SendMessage.learnedWordMarkup(wordId: Int) {
+        replyMarkup = InlineKeyboardMarkup.builder().keyboardRow(
+            listOf(
+                InlineKeyboardButton.builder()
+                    .text("Learned")
+                    .callbackData(CALLBACK_PREFIX_REMOVE_FROM_LEARN + CALLBACK_DELIMITER + wordId)
+                    .build()
+            )
+        ).build()
+    }
+
+    private fun WordPairWithId.toMaskedText(): String {
         return this.word2 + "\n\n" + spoiler(
             bold(this.word1) + "\n\n" + this.examples.toNewLinedString()
         )
