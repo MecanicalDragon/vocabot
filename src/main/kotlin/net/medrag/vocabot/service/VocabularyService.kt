@@ -34,12 +34,12 @@ class VocabularyService(
         publisher.publishEvent(PostQuizEvent(this))
     }
 
-    fun getSome(): List<WordPairDto> {
-        return wordRepo.findSome(vocProps.wordsInQuiz).map { WordPairDto(it.lang1, it.lang2, it.examples) }.toList()
+    fun getSome(): List<WordPairWithId> {
+        return wordRepo.findSome(vocProps.wordsInQuiz).map { WordPairWithId(it.id, it.lang1, it.lang2, it.examples) }.toList()
     }
 
-    fun getToLearn(number: Int): List<WordPairWithId> {
-        return wordRepo.findToLearn(number).map { WordPairWithId(it.id, it.lang1, it.lang2, it.examples) }.toList()
+    fun getToLearn(ids: List<Int>): List<WordPairWithId> {
+        return wordRepo.findToLearn(ids).map { WordPairWithId(it.id, it.lang1, it.lang2, it.examples) }.toList()
     }
 
     fun getToCheck(user: Long, number: Int): List<WordPairWithId> {

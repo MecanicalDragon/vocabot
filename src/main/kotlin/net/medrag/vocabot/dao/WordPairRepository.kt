@@ -17,8 +17,8 @@ interface WordPairRepository : JpaRepository<WordPair, Int> {
     @Query(nativeQuery = true, value = "SELECT * FROM vocabulary ORDER BY random() LIMIT :l")
     fun findSome(@Param(value = "l") l: Int): List<WordPair>
 
-    @Query(nativeQuery = true, value = "SELECT * FROM vocabulary WHERE value > 0 ORDER BY random() LIMIT :l")
-    fun findToLearn(@Param(value = "l") l: Int): List<WordPair>
+    @Query(nativeQuery = true, value = "SELECT * FROM vocabulary WHERE id IN :ids")
+    fun findToLearn(@Param(value = "ids") ids: List<Int>): List<WordPair>
 
     @Query(
         nativeQuery = true,

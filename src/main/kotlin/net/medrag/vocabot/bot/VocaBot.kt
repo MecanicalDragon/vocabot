@@ -19,6 +19,7 @@ import org.telegram.telegrambots.meta.api.methods.AnswerCallbackQuery
 import org.telegram.telegrambots.meta.api.methods.ForwardMessage
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.DeleteMessage
+import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageReplyMarkup
 import org.telegram.telegrambots.meta.api.objects.Message
 import org.telegram.telegrambots.meta.api.objects.Update
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession
@@ -150,8 +151,15 @@ class VocaBot(
     @EventListener(CheckLearnEvent::class)
     fun processCheckLearnCallback(event: CheckLearnEvent) {
         val chatIdentifier = event.update.callbackQuery.message.chatId.toString()
-        // TODO: EditMessageReplyMarkup
         executeAsync(AnswerCallbackQuery(event.update.callbackQuery.id))
+        executeAsync(
+            EditMessageReplyMarkup(
+                chatIdentifier,
+                event.update.callbackQuery.message.messageId,
+                event.update.callbackQuery.inlineMessageId,
+                null
+            )
+        )
         when (event.type) {
             LearnType.LEARNED -> serviceFacade.learned(chatIdentifier, event.wordId)
             LearnType.TO_LEARN -> serviceFacade.toLearn(chatIdentifier, event.wordId)

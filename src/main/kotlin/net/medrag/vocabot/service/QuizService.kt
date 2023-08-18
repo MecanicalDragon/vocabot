@@ -3,7 +3,7 @@ package net.medrag.vocabot.service
 import net.medrag.vocabot.bot.CALLBACK_DELIMITER
 import net.medrag.vocabot.bot.CALLBACK_PREFIX_GET_QUIZ
 import net.medrag.vocabot.bot.toNewLinedString
-import net.medrag.vocabot.model.WordPairDto
+import net.medrag.vocabot.model.WordPairWithId
 import net.medrag.vocabot.model.events.NextPersonalQuizEvent
 import org.springframework.stereotype.Service
 import org.telegram.telegrambots.meta.api.methods.botapimethods.BotApiMethodMessage
@@ -25,21 +25,23 @@ class QuizService(
     private fun getThePoll(chat: String): SendPoll {
         val words = vocabularyService.getSome()
         val correct = (Math.random() * words.size).toInt()
+        val correctWord = words[correct]
         return SendPoll().apply {
             chatId = chat
-            question = words[correct].word2
+            question = correctWord.word2
             correctOptionId = correct
             type = "quiz"
             isAnonymous = false
             protectContent = false
-            explanation = explanation(words[correct])
+            explanation = explanation(correctWord)
+            replyMarkup = addToLearnMarkup(correctWord.id)
             options = words.map {
                 it.word1
             }.toList()
         }
     }
 
-    private fun explanation(word: WordPairDto): String? {
+    private fun explanation(word: WordPairWithId): String? {
         return if (word.examples.isNotEmpty()) {
             word.examples.toNewLinedString()
         } else {

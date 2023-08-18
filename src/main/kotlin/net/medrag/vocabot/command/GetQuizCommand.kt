@@ -15,7 +15,7 @@ import org.telegram.telegrambots.meta.bots.AbsSender
 class GetQuizCommand(
     private val quizService: QuizService
 ) : AbstractCommand(
-    "q",
+    "quiz",
     "Get a quiz to check yourself"
 ) {
 

@@ -14,11 +14,11 @@ import org.telegram.telegrambots.meta.bots.AbsSender
  * 25.07.2023
  */
 @Component
-class CheckWordsCommand(
+class GetWordsCommand(
     private val checkWordsService: CheckWordsService,
     private val wordsCheckingProps: WordsCheckingProps
 ) : AbstractCommand(
-    "check",
+    "get",
     "Get words from vocabulary to check yourself"
 ) {
 

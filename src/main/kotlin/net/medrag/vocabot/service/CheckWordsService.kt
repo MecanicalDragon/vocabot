@@ -4,7 +4,6 @@ import net.medrag.vocabot.bot.*
 import net.medrag.vocabot.dao.SubscriptionRepository
 import net.medrag.vocabot.model.WordPairWithId
 import org.springframework.stereotype.Service
-import org.springframework.transaction.annotation.Transactional
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup
 import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton
@@ -19,15 +18,14 @@ class CheckWordsService(
     private val subscriptionRepository: SubscriptionRepository
 ) {
 
-    @Transactional
     fun getWordsToCheck(chat: String, number: Int): List<SendMessage> {
         val chatLong = chat.toLong()
         var words = vocabularyService.getToCheck(chatLong, number)
         if (words.isEmpty()) {
-            subscriptionRepository.setWordIndex(chatLong, 1)
+            subscriptionRepository.setWordIndexForSubscription(chatLong, 1)
             words = vocabularyService.getToCheck(chatLong, number)
         } else {
-            subscriptionRepository.incrementWordIndex(chatLong, number)
+            subscriptionRepository.incrementWordIndexForSubscription(chatLong, number)
         }
         val messages = ArrayList<SendMessage>(words.size + 1)
         for (word in words) {
@@ -36,7 +34,7 @@ class CheckWordsService(
                 chatId = chat
                 text = word.toMaskedText()
             }.also {
-                it.checkedWordMarkup(word.id)
+                it.replyMarkup = addToLearnMarkup(word.id)
                 messages.add(it)
             }
         }
@@ -45,7 +43,8 @@ class CheckWordsService(
     }
 
     fun getWordsToLearn(chat: String, number: Int): List<SendMessage> {
-        val words = vocabularyService.getToLearn(number)
+        val wordIds = subscriptionRepository.getToLearn(chat.toLong(), number)
+        val words = vocabularyService.getToLearn(wordIds.map { it.toInt() }.shuffled())
         val messages = ArrayList<SendMessage>(words.size + 1)
         for (word in words) {
             SendMessage().apply {
@@ -53,7 +52,7 @@ class CheckWordsService(
                 chatId = chat
                 text = word.toMaskedText()
             }.also {
-                it.learnedWordMarkup(word.id)
+                it.replyMarkup = addLearnedMarkup(word.id)
                 messages.add(it)
             }
         }
@@ -90,28 +89,6 @@ class CheckWordsService(
                 InlineKeyboardButton.builder()
                     .text("No")
                     .callbackData(CALLBACK_PREFIX_GET_CHECK + CALLBACK_DELIMITER + 0)
-                    .build()
-            )
-        ).build()
-    }
-
-    private fun SendMessage.checkedWordMarkup(wordId: Int) {
-        replyMarkup = InlineKeyboardMarkup.builder().keyboardRow(
-            listOf(
-                InlineKeyboardButton.builder()
-                    .text("Add to learn")
-                    .callbackData(CALLBACK_PREFIX_ADD_TO_LEARN + CALLBACK_DELIMITER + wordId)
-                    .build()
-            )
-        ).build()
-    }
-
-    private fun SendMessage.learnedWordMarkup(wordId: Int) {
-        replyMarkup = InlineKeyboardMarkup.builder().keyboardRow(
-            listOf(
-                InlineKeyboardButton.builder()
-                    .text("Learned")
-                    .callbackData(CALLBACK_PREFIX_REMOVE_FROM_LEARN + CALLBACK_DELIMITER + wordId)
                     .build()
             )
         ).build()

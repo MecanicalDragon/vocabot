@@ -17,6 +17,14 @@ class SubscriptionService(
     private val subscriptionRepository: SubscriptionRepository
 ) {
 
+    fun addToLearn(subId: String, wordId: Int) {
+        subscriptionRepository.addToLearn(subId.toLong(), wordId.toString())
+    }
+
+    fun learned(subId: String, wordId: Int) {
+        subscriptionRepository.learned(subId.toLong(), wordId.toString())
+    }
+
     fun getSubscriptions(): List<Subscription> {
         return subscriptionRepository.findAll()
     }

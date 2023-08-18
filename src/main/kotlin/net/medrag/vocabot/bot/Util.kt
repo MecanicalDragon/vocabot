@@ -2,6 +2,7 @@ package net.medrag.vocabot.bot
 
 import org.telegram.telegrambots.meta.api.objects.Chat
 import org.telegram.telegrambots.meta.api.objects.Update
+import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKeyboardButton
 
 /**
  * @author Stanislav Tretyakov
@@ -39,4 +40,11 @@ fun Array<out String>?.argsToString(skip: Int = 0): String {
         if (i++ == iMax) return b.toString()
         b.append(" ")
     }
+}
+
+fun InlineKeyboardButton.InlineKeyboardButtonBuilder.callback(
+    prefix: String,
+    postfix: Any
+): InlineKeyboardButton.InlineKeyboardButtonBuilder {
+    return this.callbackData(prefix + CALLBACK_DELIMITER + postfix.toString())
 }
