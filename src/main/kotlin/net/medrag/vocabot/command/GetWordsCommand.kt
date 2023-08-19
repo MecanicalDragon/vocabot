@@ -23,8 +23,16 @@ class GetWordsCommand(
 ) {
 
     override fun execute(absSender: AbsSender?, user: User?, chat: Chat?, arguments: Array<out String>?) {
-        logger.info { "${wordsCheckingProps.default} words are going to be sent to check." }
-        for (sendMessage in checkWordsService.getWordsToCheck(chat.idString(), wordsCheckingProps.default)) {
+        val number: Int = parseArgAsInt(arguments, 0, wordsCheckingProps.default).let {
+            if (it > wordsCheckingProps.max) {
+                logger.info { "<$it> words have been requested to check, but <${wordsCheckingProps.max}> is max." }
+                wordsCheckingProps.max
+            } else {
+                it
+            }
+        }
+        logger.info { "<$number> words are going to be sent to check." }
+        for (sendMessage in checkWordsService.getWordsToCheck(chat.idString(), number)) {
             absSender?.execute(sendMessage)
         }
     }

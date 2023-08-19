@@ -10,19 +10,10 @@ import org.telegram.telegrambots.meta.api.methods.botapimethods.BotApiMethodMess
 @Service
 class ServiceFacade(
     private val subscriptionService: SubscriptionService,
-    private val checkWordsService: CheckWordsService,
     private val quizService: QuizService
 ) {
 
     fun getSubscriptions() = subscriptionService.getSubscriptions()
 
     fun createQuiz(chatId: String): List<BotApiMethodMessage> = quizService.createQuiz(chatId)
-
-    fun learn(number: Int, chatId: String) = checkWordsService.getWordsToLearn(chatId, number)
-
-    fun check(number: Int, chatId: String) = checkWordsService.getWordsToCheck(chatId, number)
-
-    fun learned(chatId: String, wordId: Int) = subscriptionService.learned(chatId, wordId)
-
-    fun toLearn(chatId: String, wordId: Int) = subscriptionService.addToLearn(chatId, wordId)
 }

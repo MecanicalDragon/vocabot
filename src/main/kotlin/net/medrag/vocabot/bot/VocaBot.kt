@@ -2,6 +2,7 @@ package net.medrag.vocabot.bot
 
 import jakarta.annotation.PostConstruct
 import mu.KotlinLogging
+import net.medrag.vocabot.callback.ExecutionWay
 import net.medrag.vocabot.command.AbstractCommand
 import net.medrag.vocabot.config.MasterProps
 import net.medrag.vocabot.model.CommanderInfo
@@ -19,7 +20,6 @@ import org.telegram.telegrambots.meta.api.methods.AnswerCallbackQuery
 import org.telegram.telegrambots.meta.api.methods.ForwardMessage
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.DeleteMessage
-import org.telegram.telegrambots.meta.api.methods.updatingmessages.EditMessageReplyMarkup
 import org.telegram.telegrambots.meta.api.objects.Message
 import org.telegram.telegrambots.meta.api.objects.Update
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession
@@ -127,45 +127,6 @@ class VocaBot(
         }
     }
 
-    @EventListener(NextPersonalLearnEvent::class)
-    fun processNextLearnCallback(event: NextPersonalLearnEvent) {
-        val chatIdentifier = event.update.callbackQuery.message.chatId.toString()
-        executeAsync(AnswerCallbackQuery(event.update.callbackQuery.id))
-        executeAsync(
-            DeleteMessage().apply {
-                messageId = event.update.callbackQuery.message.messageId
-                chatId = chatIdentifier
-            }
-        )
-        if (event.number > 0) {
-            val words = when (event.type) {
-                Type.LEARN -> serviceFacade.learn(event.number, chatIdentifier)
-                Type.CHECK -> serviceFacade.check(event.number, chatIdentifier)
-            }
-            for (sendMessage in words) {
-                execute(sendMessage)
-            }
-        }
-    }
-
-    @EventListener(CheckLearnEvent::class)
-    fun processCheckLearnCallback(event: CheckLearnEvent) {
-        val chatIdentifier = event.update.callbackQuery.message.chatId.toString()
-        executeAsync(AnswerCallbackQuery(event.update.callbackQuery.id))
-        executeAsync(
-            EditMessageReplyMarkup(
-                chatIdentifier,
-                event.update.callbackQuery.message.messageId,
-                event.update.callbackQuery.inlineMessageId,
-                null
-            )
-        )
-        when (event.type) {
-            LearnType.LEARNED -> serviceFacade.learned(chatIdentifier, event.wordId)
-            LearnType.TO_LEARN -> serviceFacade.toLearn(chatIdentifier, event.wordId)
-        }
-    }
-
     private fun checkCommander(commanderInfo: CommanderInfo) {
         logger.info { "User <${commanderInfo.user?.userName}> invoked an admin command." }
         if (commanderInfo.user?.userName != masterProps.master) {
@@ -193,7 +154,16 @@ class VocaBot(
 
     override fun getBotUsername(): String = masterProps.botName
 
-    override fun processNonCommandUpdate(update: Update?) = currentMode.processNonCommandUpdate(update)
+    override fun processNonCommandUpdate(update: Update?) {
+        currentMode.processNonCommandUpdate(update)?.let {
+            for (replyAction in it.replyActions) {
+                when (replyAction.executionWay) {
+                    ExecutionWay.DEFAULT -> execute(replyAction.botApiMethod)
+                    ExecutionWay.ASYNC -> executeAsync(replyAction.botApiMethod)
+                }
+            }
+        }
+    }
 }
 
 private val logger = KotlinLogging.logger { }

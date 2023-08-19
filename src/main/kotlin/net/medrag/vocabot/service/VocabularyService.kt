@@ -2,6 +2,7 @@ package net.medrag.vocabot.service
 
 import mu.KotlinLogging
 import net.medrag.vocabot.bot.argsToString
+import net.medrag.vocabot.bot.idString
 import net.medrag.vocabot.config.VocProps
 import net.medrag.vocabot.dao.WordPair
 import net.medrag.vocabot.dao.WordPairRepository
@@ -24,6 +25,7 @@ import org.springframework.transaction.annotation.Transactional
 @Service
 class VocabularyService(
     private val wordRepo: WordPairRepository,
+    private val subscriptionService: SubscriptionService,
     private val publisher: ApplicationEventPublisher,
     private val vocProps: VocProps
 ) {
@@ -50,7 +52,13 @@ class VocabularyService(
         logger.info { "User <${commanderInfo.user?.userName}> adds new word pair: <${commanderInfo.arguments.argsToString()}>." }
         val newPair: WordPair = buildPair(commanderInfo.arguments)
         try {
-            wordRepo.save(newPair)
+            wordRepo.save(newPair).let {
+                try {
+                    subscriptionService.addToLearn(commanderInfo.chat.idString(), it.id)
+                } catch (e: Exception) {
+                    logger.warn(e) { "Error during adding new word <$it> to subscriber <${it.id}> learning set." }
+                }
+            }
         } catch (e: DataIntegrityViolationException) {
             throw WordAlreadyExistsException(
                 "Looks like word <${WordPairDto(newPair.lang1, newPair.lang2)}> already exists in vocabulary."

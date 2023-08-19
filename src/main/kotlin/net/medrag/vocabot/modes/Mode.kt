@@ -1,5 +1,6 @@
 package net.medrag.vocabot.modes
 
+import net.medrag.vocabot.callback.CallbackExecutionResult
 import org.telegram.telegrambots.meta.api.objects.Update
 
 /**
@@ -8,7 +9,7 @@ import org.telegram.telegrambots.meta.api.objects.Update
  */
 interface Mode {
     fun name(): ModeName
-    fun processNonCommandUpdate(update: Update?)
+    fun processNonCommandUpdate(update: Update?): CallbackExecutionResult?
 }
 
 enum class ModeName(

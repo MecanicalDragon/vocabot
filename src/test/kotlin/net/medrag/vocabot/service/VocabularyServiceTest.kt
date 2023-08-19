@@ -29,6 +29,9 @@ internal class VocabularyServiceTest {
     private lateinit var wordPairRepository: WordPairRepository
 
     @Mock
+    private lateinit var subscriptionService: SubscriptionService
+
+    @Mock
     private lateinit var applicationEventPublisher: ApplicationEventPublisher
 
     @Mock

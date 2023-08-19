@@ -2,6 +2,7 @@ package net.medrag.vocabot.modes
 
 import mu.KotlinLogging
 import net.medrag.vocabot.bot.callbackPrefix
+import net.medrag.vocabot.callback.CallbackExecutionResult
 import net.medrag.vocabot.callback.CallbackExecutor
 import org.springframework.stereotype.Component
 import org.telegram.telegrambots.meta.api.objects.Update
@@ -18,8 +19,8 @@ class DefaultMode(
 
     override fun name(): ModeName = ModeName.DEFAULT
 
-    override fun processNonCommandUpdate(update: Update?) {
-        if (update?.hasCallbackQuery() == true) {
+    override fun processNonCommandUpdate(update: Update?): CallbackExecutionResult? {
+        return if (update?.hasCallbackQuery() == true) {
             callbacks[update.callbackPrefix()]?.executeCallback(update)
         } else {
             update?.message?.let {
@@ -27,6 +28,7 @@ class DefaultMode(
                     logger.info { "User <${it.chat.userName}> sent message <${it.text}>." }
                 }
             }
+            null
         }
     }
 }
