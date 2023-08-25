@@ -1,10 +1,7 @@
 package net.medrag.vocabot.callback
 
 import mu.KotlinLogging
-import net.medrag.vocabot.bot.CALLBACK_PREFIX_ADD_TO_LEARN
-import net.medrag.vocabot.bot.CALLBACK_PREFIX_GET_CHECK
-import net.medrag.vocabot.bot.CALLBACK_PREFIX_GET_LEARN
-import net.medrag.vocabot.bot.CALLBACK_PREFIX_REMOVE_FROM_LEARN
+import net.medrag.vocabot.bot.*
 import net.medrag.vocabot.service.CheckWordsService
 import net.medrag.vocabot.service.SubscriptionService
 import org.springframework.stereotype.Component
@@ -112,6 +109,28 @@ class CheckLearnCandidatesCallbackExecutor(
     }
 
     override fun getCallbackPrefix(): String = CALLBACK_PREFIX_GET_CHECK
+}
+
+@Component
+class AddWordFromQuizCallbackExecutor(
+    private val subscriptionService: SubscriptionService
+) : CallbackExecutor {
+    override fun executeCallback(update: Update): CallbackExecutionResult? {
+        val chatIdentifier = update.callbackQuery.message.chatId.toString()
+        val wordId = extractCallbackPostfix(update).toInt()
+        subscriptionService.addToLearn(chatIdentifier, wordId)
+
+        logger.info { "Word with id <$wordId> has been added for learning for the subscriber with chat id <$chatIdentifier>." }
+
+        return CallbackExecutionResult(
+            listOf(
+                replyCallback(update.callbackQuery.id),
+                deleteMessage(chatIdentifier, update.callbackQuery.message.messageId)
+            )
+        )
+    }
+
+    override fun getCallbackPrefix(): String = CALLBACK_PREFIX_ADD_TO_LEARN_QUIZ
 }
 
 private val logger = KotlinLogging.logger {}

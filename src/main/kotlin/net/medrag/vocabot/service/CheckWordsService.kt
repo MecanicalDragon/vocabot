@@ -79,7 +79,7 @@ class CheckWordsService(
 
     private fun buildCheckMarkup(chat: String, number: Int) = SendMessage().apply {
         chatId = chat
-        text = "Check other $number?"
+        text = "Get other $number?"
         replyMarkup = InlineKeyboardMarkup.builder().keyboardRow(
             listOf(
                 InlineKeyboardButton.builder()

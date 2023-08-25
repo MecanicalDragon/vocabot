@@ -10,6 +10,7 @@ import net.medrag.vocabot.model.events.*
 import net.medrag.vocabot.model.exceptions.PermissionsViolationException
 import net.medrag.vocabot.modes.Mode
 import net.medrag.vocabot.modes.ModeName
+import net.medrag.vocabot.service.CommandExecutor
 import net.medrag.vocabot.service.ServiceFacade
 import net.medrag.vocabot.service.admin.AdminCommandExecutor
 import org.springframework.context.event.EventListener
@@ -17,12 +18,15 @@ import org.springframework.stereotype.Service
 import org.telegram.telegrambots.extensions.bots.commandbot.TelegramLongPollingCommandBot
 import org.telegram.telegrambots.meta.TelegramBotsApi
 import org.telegram.telegrambots.meta.api.methods.AnswerCallbackQuery
+import org.telegram.telegrambots.meta.api.methods.BotApiMethod
 import org.telegram.telegrambots.meta.api.methods.ForwardMessage
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage
 import org.telegram.telegrambots.meta.api.methods.updatingmessages.DeleteMessage
 import org.telegram.telegrambots.meta.api.objects.Message
 import org.telegram.telegrambots.meta.api.objects.Update
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession
+import java.io.Serializable
+import java.util.concurrent.CompletableFuture
 
 /**
  * @author Stanislav Tretyakov
@@ -35,7 +39,7 @@ class VocaBot(
     private val serviceFacade: ServiceFacade,
     _modes: List<Mode>,
     _adminCommands: List<AdminCommandExecutor>
-) : TelegramLongPollingCommandBot() {
+) : TelegramLongPollingCommandBot(), CommandExecutor {
 
     private val modes = _modes.associateBy { it.name() }
     private val adminCommands = _adminCommands.associateBy { it.command() }
@@ -96,21 +100,6 @@ class VocaBot(
         }
     }
 
-    @EventListener(PostQuizEvent::class)
-    fun postQuiz(event: PostQuizEvent) {
-        val quiz = serviceFacade.createQuiz(masterProps.sourceChat)
-        val msg: Message = execute(quiz[0])
-        serviceFacade.getSubscriptions().forEach {
-            executeAsync(
-                ForwardMessage().apply {
-                    chatId = it.subId.toString()
-                    fromChatId = msg.chatId.toString()
-                    messageId = msg.messageId
-                }
-            )
-        }
-    }
-
     @EventListener(NextPersonalQuizEvent::class)
     fun processNextQuizCallback(event: NextPersonalQuizEvent) {
         executeAsync(AnswerCallbackQuery(event.update.callbackQuery.id))
@@ -149,6 +138,10 @@ class VocaBot(
         currentMode = modes[name] ?: throw IllegalStateException("Mode <$name> couldn't be found.")
         logger.info { "Mode <$name> has been set." }
     }
+
+    override fun <T : Serializable?, Method : BotApiMethod<T>?> sendAsync(method: Method?): CompletableFuture<T>? = executeAsync(method)
+
+    override fun <T : Serializable?, Method : BotApiMethod<T>?> send(method: Method?): T = execute(method)
 
     override fun getBotToken(): String = masterProps.token
 

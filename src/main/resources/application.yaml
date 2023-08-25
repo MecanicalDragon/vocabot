@@ -11,8 +11,8 @@ net.medrag.vocabot:
     phrasal-verbs: 5
     idioms: 3
   words-checking:
-    default: 10
-    max: 20
+    default: 5
+    max: 10
   master:
     bot-name: botName
     master: master

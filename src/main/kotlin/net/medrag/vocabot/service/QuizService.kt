@@ -1,8 +1,6 @@
 package net.medrag.vocabot.service
 
-import net.medrag.vocabot.bot.CALLBACK_DELIMITER
-import net.medrag.vocabot.bot.CALLBACK_PREFIX_GET_QUIZ
-import net.medrag.vocabot.bot.toNewLinedString
+import net.medrag.vocabot.bot.*
 import net.medrag.vocabot.model.WordPairWithId
 import net.medrag.vocabot.model.events.NextPersonalQuizEvent
 import org.springframework.stereotype.Service
@@ -20,9 +18,12 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKe
 class QuizService(
     private val vocabularyService: VocabularyService
 ) {
-    fun createQuiz(chatId: String): List<BotApiMethodMessage> = listOf(getThePoll(chatId), getTheProceedQuestion(chatId))
+    fun createQuizPersonal(chatId: String): List<BotApiMethodMessage> = listOf(getThePoll(chatId).first, getTheProceedQuestion(chatId))
+    fun createQuizCommon(chatId: String): List<BotApiMethodMessage> = with(getThePoll(chatId)) {
+        listOf(first, getTheLearningQuestion(chatId, second.id))
+    }
 
-    private fun getThePoll(chat: String): SendPoll {
+    private fun getThePoll(chat: String): Pair<SendPoll, WordPairWithId> {
         val words = vocabularyService.getSome()
         val correct = (Math.random() * words.size).toInt()
         val correctWord = words[correct]
@@ -38,7 +39,7 @@ class QuizService(
             options = words.map {
                 it.word1
             }.toList()
-        }
+        } to correctWord
     }
 
     private fun explanation(word: WordPairWithId): String? {
@@ -62,6 +63,21 @@ class QuizService(
                     InlineKeyboardButton.builder()
                         .text("No")
                         .callbackData(CALLBACK_PREFIX_GET_QUIZ + CALLBACK_DELIMITER + NextPersonalQuizEvent.Answer.NO)
+                        .build()
+                )
+            ).build()
+        }
+
+    private fun getTheLearningQuestion(chat: String, wordId: Int): SendMessage =
+        SendMessage().apply {
+            chatId = chat
+            text = "Add to learning list?"
+            disableNotification = true
+            replyMarkup = InlineKeyboardMarkup.builder().keyboardRow(
+                listOf(
+                    InlineKeyboardButton.builder()
+                        .text("Add to learning")
+                        .callback(CALLBACK_PREFIX_ADD_TO_LEARN_QUIZ, wordId)
                         .build()
                 )
             ).build()

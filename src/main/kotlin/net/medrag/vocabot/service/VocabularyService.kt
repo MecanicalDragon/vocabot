@@ -9,12 +9,9 @@ import net.medrag.vocabot.dao.WordPairRepository
 import net.medrag.vocabot.model.CommanderInfo
 import net.medrag.vocabot.model.WordPairDto
 import net.medrag.vocabot.model.WordPairWithId
-import net.medrag.vocabot.model.events.PostQuizEvent
 import net.medrag.vocabot.model.exceptions.InputFormatException
 import net.medrag.vocabot.model.exceptions.WordAlreadyExistsException
-import org.springframework.context.ApplicationEventPublisher
 import org.springframework.dao.DataIntegrityViolationException
-import org.springframework.scheduling.annotation.Scheduled
 import org.springframework.stereotype.Service
 import org.springframework.transaction.annotation.Transactional
 
@@ -26,15 +23,8 @@ import org.springframework.transaction.annotation.Transactional
 class VocabularyService(
     private val wordRepo: WordPairRepository,
     private val subscriptionService: SubscriptionService,
-    private val publisher: ApplicationEventPublisher,
     private val vocProps: VocProps
 ) {
-
-    @Scheduled(cron = "\${net.medrag.vocabot.post-quiz-cron}")
-    fun sendQuiz() {
-        logger.info { "Batch of words is going to be sent as a quiz." }
-        publisher.publishEvent(PostQuizEvent(this))
-    }
 
     fun getSome(): List<WordPairWithId> {
         return wordRepo.findSome(vocProps.wordsInQuiz).map { WordPairWithId(it.id, it.lang1, it.lang2, it.examples) }.toList()

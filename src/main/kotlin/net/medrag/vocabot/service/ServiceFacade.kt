@@ -15,5 +15,5 @@ class ServiceFacade(
 
     fun getSubscriptions() = subscriptionService.getSubscriptions()
 
-    fun createQuiz(chatId: String): List<BotApiMethodMessage> = quizService.createQuiz(chatId)
+    fun createQuiz(chatId: String): List<BotApiMethodMessage> = quizService.createQuizPersonal(chatId)
 }

@@ -20,7 +20,7 @@ class GetQuizCommand(
 ) {
 
     override fun execute(absSender: AbsSender?, user: User?, chat: Chat?, arguments: Array<out String>?) {
-        quizService.createQuiz(chat.idString()).onEach {
+        quizService.createQuizPersonal(chat.idString()).onEach {
             absSender?.execute(it)
         }
     }

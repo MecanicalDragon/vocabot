@@ -13,7 +13,7 @@ import org.telegram.telegrambots.meta.api.objects.replykeyboard.buttons.InlineKe
 fun addToLearnMarkup(wordId: Int): InlineKeyboardMarkup = InlineKeyboardMarkup.builder().keyboardRow(
     listOf(
         InlineKeyboardButton.builder()
-            .text("Add to learn")
+            .text("Add to learning")
             .callback(CALLBACK_PREFIX_ADD_TO_LEARN, wordId)
             .build()
     )
