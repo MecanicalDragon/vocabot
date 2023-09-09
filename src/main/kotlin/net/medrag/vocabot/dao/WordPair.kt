@@ -16,7 +16,6 @@ data class WordPair(
     val id: Int = 0,
     val lang1: String,
     val lang2: String,
-    val value: Int = 1,
     @Type(JsonBinaryType::class)
     var examples: List<String> = emptyList()
 )
