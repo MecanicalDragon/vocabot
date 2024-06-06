@@ -1,148 +1,149 @@
-1|bet|bet|bet|1|All forms are equal
-2|burst|burst|burst|1|All forms are equal
-3|cast|cast|cast|1|All forms are equal
-4|cost|cost|cost|1|All forms are equal
-5|cut|cut|cut|1|All forms are equal
-6|fit|fit|fit|1|All forms are equal
-7|hit|hit|hit|1|All forms are equal
-8|hurt|hurt|hurt|1|All forms are equal
-9|let|let|let|1|All forms are equal
-10|put|put|put|1|All forms are equal
-11|quit|quit|quit|1|All forms are equal
-12|set|set|set|1|All forms are equal
-13|shut|shut|shut|1|All forms are equal
-14|split|split|split|1|All forms are equal
-15|spread|spread|spread|1|All forms are equal
-87|do|did|done|2|No any similar signs or 1 and 3 forms are equal
-18|run|ran|run|2|No any similar signs or 1 and 3 forms are equal
-17|become|became|become|2|No any similar signs or 1 and 3 forms are equal
-19|break|broke|broken|3|Third form has (-n) ending; second and third form replace wovel with [o]
-20|choose|chose|chosen|3|Third form has (-n) ending; second and third form replace wovel with [o]
-21|forget|forgot|forgotten|3|Third form has (-n) ending; second and third form replace wovel with [o]
-22|freeze|froze|frozen|3|Third form has (-n) ending; second and third form replace wovel with [o]
-23|get|got|gotten|3|Third form has (-n) ending; second and third form replace wovel with [o]
-24|speak|spoke|spoken|3|Third form has (-n) ending; second and third form replace wovel with [o]
-25|steal|stole|stolen|3|Third form has (-n) ending; second and third form replace wovel with [o]
-26|tear|tore|torn|3|Third form has (-n) ending; second and third form replace wovel with [o]
-27|wake|woke|woken|3|Third form has (-n) ending; second and third form replace wovel with [o]
-28|wear|wore|worn|3|Third form has (-n) ending; second and third form replace wovel with [o]
-69|sell|sold|sold|11|Second and third forms are equal; no other similar signs
-70|tell|told|told|11|Second and third forms are equal; no other similar signs
-36|know|knew|known|5|Second form has (-ew) ending; third form has (-own) ending
-37|throw|threw|thrown|5|Second form has (-ew) ending; third form has (-own) ending
-38|bite|bit|bitten|6|Third form has (-n) ending; no other similar features
-39|hide|hid|hidden|6|Third form has (-n) ending; no other similar features
-40|eat|ate|eaten|6|Third form has (-n) ending; no other similar features
-41|fall|fell|fallen|6|Third form has (-n) ending; no other similar features
-42|forbid|forbade|forbidden|6|Third form has (-n) ending; no other similar features
-31|rise|rose|risen|4|Third form has (-n) ending; only second form replaces wovel with [o]
-60|bind|bound|bound|10|(i) replaced with (u) or (ou) in second and third forms
-62|grind|ground|ground|10|(i) replaced with (u) or (ou) in second and third forms
-64|dig|dug|dug|10|(i) replaced with (u) or (ou) in second and third forms
-61|find|found|found|10|(i) replaced with (u) or (ou) in second and third forms
-43|forgive|forgave|forgiven|6|Third form has (-n) ending; no other similar features
-44|give|gave|given|6|Third form has (-n) ending; no other similar features
-45|see|saw|seen|6|Third form has (-n) ending; no other similar features
-46|shake|shook|shaken|6|Third form has (-n) ending; no other similar features
-47|take|took|taken|6|Third form has (-n) ending; no other similar features
-51|bleed|bled|bled|8|[и:] sound is replaced with [э] in 2 and 3 forms, [d] in the end
-53|meet|met|met|7|[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end
-33|blow|blew|blown|5|Second form has (-ew) ending; third form has (-own) ending
-34|fly|flew|flown|5|Second form has (-ew) ending; third form has (-own) ending
-48|keep|kept|kept|7|[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end
-35|grow|grew|grown|5|Second form has (-ew) ending; third form has (-own) ending
-32|write|wrote|written|4|Third form has (-n) ending; only second form replaces wovel with [o]
-71|bring|brought|brought|12|Second and third forms have (-ought) or (-aught) endings
-72|buy|bought|bought|12|Second and third forms have (-ought) or (-aught) endings
-78|begin|began|begun|13|(i-a-u) rotation in 1,2 and 3 forms
-79|drink|drank|drunk|13|(i-a-u) rotation in 1,2 and 3 forms
-80|ring|rang|rung|13|(i-a-u) rotation in 1,2 and 3 forms
-88|go|went|gone|2|No any similar signs or 1 and 3 forms are equal
-16|come|came|come|2|No any similar signs or 1 and 3 forms are equal
-86|be|was/were|been|2|No any similar signs or 1 and 3 forms are equal
-89|show|showed|shown|2|No any similar signs or 1 and 3 forms are equal
-29|drive|drove|driven|4|Third form has (-n) ending; only second form replaces wovel with [o]
-30|ride|rode|ridden|4|Third form has (-n) ending; only second form replaces wovel with [o]
-110|spend|spent|spent|9|2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]
-104|spell|spelt|spelt|9|2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]
-103|smell|smelt|smelt|9|2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]
-105|spoil|spoilt|spoilt|9|2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]
-106|build|built|built|9|2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]
-73|catch|caught|caught|12|Second and third forms have (-ought) or (-aught) endings
-74|fight|fought|fought|12|Second and third forms have (-ought) or (-aught) endings
-75|seek|sought|sought|12|Second and third forms have (-ought) or (-aught) endings
-76|teach|taught|taught|12|Second and third forms have (-ought) or (-aught) endings
-77|think|thought|thought|12|Second and third forms have (-ought) or (-aught) endings
-81|shrink|shrank|shrunk|13|(i-a-u) rotation in 1,2 and 3 forms
-82|sing|sang|sung|13|(i-a-u) rotation in 1,2 and 3 forms
-83|sink|sank|sunk|13|(i-a-u) rotation in 1,2 and 3 forms
-84|spring|sprang|sprung|13|(i-a-u) rotation in 1,2 and 3 forms
-85|swim|swam|swum|13|(i-a-u) rotation in 1,2 and 3 forms
-95|broadcast|broadcast|broadcast|1|All forms are equal
-134|beat|beat|beaten|6|Third form has (-n) ending; no other similar features
-96|creep|crept|crept|7|[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end
-99|breed|bred|bred|8|[и:] sound is replaced with [э] in 2 and 3 forms, [d] in the end
-58|read|read|read|8|[и:] sound is replaced with [э] in 2 and 3 forms, [d] in the end
-55|deal|dealt|dealt|7|[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end
-97|sweep|swept|swept|7|[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end
-49|sleep|slept|slept|7|[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end
-50|feel|felt|felt|7|[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end
-94|lean|leant|leant|7|[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end
-52|feed|fed|fed|8|[и:] sound is replaced with [э] in 2 and 3 forms, [d] in the end
-98|weep|wept|wept|7|[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end
-57|mean|meant|meant|7|[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end
-54|lead|led|led|8|[и:] sound is replaced with [э] in 2 and 3 forms, [d] in the end
-93|leave|left|left|7|[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end
-56|dream|dreamt|dreamt|7|[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end
-100|flee|fled|fled|8|[и:] sound is replaced with [э] in 2 and 3 forms, [d] in the end
-114|lose|lost|lost|11|Second and third forms are equal; no other similar signs
-115|shoot|shot|shot|11|Second and third forms are equal; no other similar signs
-116|strike|struck|struck|11|Second and third forms are equal; no other similar signs
-117|win|won|won|11|Second and third forms are equal; no other similar signs
-118|hang|hung|hung|11|Second and third forms are equal; no other similar signs
-119|light|lit|lit|11|Second and third forms are equal; no other similar signs
-120|slide|slid|slid|11|Second and third forms are equal; no other similar signs
-121|sit|sat|sat|11|Second and third forms are equal; no other similar signs
-122|spit|spat|spat|11|Second and third forms are equal; no other similar signs
-123|kneel|knelt|knelt|11|Second and third forms are equal; no other similar signs
-124|shine|shone|shone|11|Second and third forms are equal; no other similar signs
-125|hold|held|held|11|Second and third forms are equal; no other similar signs
-126|lay|laid|laid|11|Second and third forms are equal; no other similar signs
-127|pay|paid|paid|11|Second and third forms are equal; no other similar signs
-128|say|said|said|11|Second and third forms are equal; no other similar signs
-129|stand|stood|stood|11|Second and third forms are equal; no other similar signs
-130|understand|understood|understood|11|Second and third forms are equal; no other similar signs
-131|hear|heard|heard|11|Second and third forms are equal; no other similar signs
-132|make|made|made|11|Second and third forms are equal; no other similar signs
-133|have|had|had|11|Second and third forms are equal; no other similar signs
-135|lie|lay|lain|6|Third form has (-n) ending; no other similar features
-136|sew|sewed|sewn|6|Third form has (-n) ending; no other similar features
-137|swear|swore|sworn|3|Third form has (-n) ending; second and third form replace wovel with [o]
-111|draw|drew|drawn|5|Second form has (-ew) ending; third form has (-own) ending
-92|sling|slung|slung|10|(i) replaced with (u) or (ou) in second and third forms
-108|lend|lent|lent|9|2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]
-66|spin|spun|spun|10|(i) replaced with (u) or (ou) in second and third forms
-67|sting|stung|stung|10|(i) replaced with (u) or (ou) in second and third forms
-113|stride|strode|stridden|4|Third form has (-n) ending; only second form replaces wovel with [o]
-65|stick|stuck|stuck|10|(i) replaced with (u) or (ou) in second and third forms
-112|arise|arose|arisen|4|Third form has (-n) ending; only second form replaces wovel with [o]
-68|swing|swung|swung|10|(i) replaced with (u) or (ou) in second and third forms
-63|wind|wound|wound|10|(i) replaced with (u) or (ou) in second and third forms
-109|send|sent|sent|9|2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]
-107|bend|bent|bent|9|2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]
-101|burn|burnt|burnt|9|2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]
-102|learn|learnt|learnt|9|2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]
-138|bid|bid|bid|1|All forms are equal
-139|bust|bust|bust|1|All forms are equal
-140|forecast|forecast|forecast|1|All forms are equal
-141|input|input|input|1|All forms are equal
-142|knit|knit|knit|1|All forms are equal
-143|rid|rid|rid|1|All forms are equal
-144|shed|shed|shed|1|All forms are equal
-145|slit|slit|slit|1|All forms are equal
-146|sweat|sweat|sweat|1|All forms are equal
-147|sublet|sublet|sublet|1|All forms are equal
-148|thrust|thrust|thrust|1|All forms are equal
-149|upset|upset|upset|1|All forms are equal
-150|wet|wet|wet|1|All forms are equal
-151|wed|wed|wed|1|All forms are equal
+1, 'bet', 'bet', 'bet', 1, 'All forms are equal'
+2, 'burst', 'burst', 'burst', 1, 'All forms are equal'
+3, 'cast', 'cast', 'cast', 1, 'All forms are equal'
+4, 'cost', 'cost', 'cost', 1, 'All forms are equal'
+5, 'cut', 'cut', 'cut', 1, 'All forms are equal'
+6, 'fit', 'fit', 'fit', 1, 'All forms are equal'
+7, 'hit', 'hit', 'hit', 1, 'All forms are equal'
+8, 'hurt', 'hurt', 'hurt', 1, 'All forms are equal'
+9, 'let', 'let', 'let', 1, 'All forms are equal'
+10, 'put', 'put', 'put', 1, 'All forms are equal'
+11, 'quit', 'quit', 'quit', 1, 'All forms are equal'
+12, 'set', 'set', 'set', 1, 'All forms are equal'
+13, 'shut', 'shut', 'shut', 1, 'All forms are equal'
+14, 'split', 'split', 'split', 1, 'All forms are equal'
+15, 'spread', 'spread', 'spread', 1, 'All forms are equal'
+16, 'come', 'came', 'come', 2, 'No any similar signs or 1 and 3 forms are equal'
+17, 'become', 'became', 'become', 2, 'No any similar signs or 1 and 3 forms are equal'
+18, 'run', 'ran', 'run', 2, 'No any similar signs or 1 and 3 forms are equal'
+19, 'break', 'broke', 'broken', 3, 'Third form has (-n) ending; second and third form replace wovel with [o]'
+20, 'choose', 'chose', 'chosen', 3, 'Third form has (-n) ending; second and third form replace wovel with [o]'
+21, 'forget', 'forgot', 'forgotten', 3, 'Third form has (-n) ending; second and third form replace wovel with [o]'
+22, 'freeze', 'froze', 'frozen', 3, 'Third form has (-n) ending; second and third form replace wovel with [o]'
+23, 'get', 'got', 'gotten', 3, 'Third form has (-n) ending; second and third form replace wovel with [o]'
+24, 'speak', 'spoke', 'spoken', 3, 'Third form has (-n) ending; second and third form replace wovel with [o]'
+25, 'steal', 'stole', 'stolen', 3, 'Third form has (-n) ending; second and third form replace wovel with [o]'
+26, 'tear', 'tore', 'torn', 3, 'Third form has (-n) ending; second and third form replace wovel with [o]'
+27, 'wake', 'woke', 'woken', 3, 'Third form has (-n) ending; second and third form replace wovel with [o]'
+28, 'wear', 'wore', 'worn', 3, 'Third form has (-n) ending; second and third form replace wovel with [o]'
+29, 'drive', 'drove', 'driven', 4, 'Third form has (-n) ending; only second form replaces wovel with [o]'
+30, 'ride', 'rode', 'ridden', 4, 'Third form has (-n) ending; only second form replaces wovel with [o]'
+31, 'rise', 'rose', 'risen', 4, 'Third form has (-n) ending; only second form replaces wovel with [o]'
+32, 'write', 'wrote', 'written', 4, 'Third form has (-n) ending; only second form replaces wovel with [o]'
+33, 'blow', 'blew', 'blown', 5, 'Second form has (-ew) ending; third form has (-own) ending'
+34, 'fly', 'flew', 'flown', 5, 'Second form has (-ew) ending; third form has (-own) ending'
+35, 'grow', 'grew', 'grown', 5, 'Second form has (-ew) ending; third form has (-own) ending'
+36, 'know', 'knew', 'known', 5, 'Second form has (-ew) ending; third form has (-own) ending'
+37, 'throw', 'threw', 'thrown', 5, 'Second form has (-ew) ending; third form has (-own) ending'
+38, 'bite', 'bit', 'bitten', 6, 'Third form has (-n) ending; no other similar features'
+39, 'hide', 'hid', 'hidden', 6, 'Third form has (-n) ending; no other similar features'
+40, 'eat', 'ate', 'eaten', 6, 'Third form has (-n) ending; no other similar features'
+41, 'fall', 'fell', 'fallen', 6, 'Third form has (-n) ending; no other similar features'
+42, 'forbid', 'forbade', 'forbidden', 6, 'Third form has (-n) ending; no other similar features'
+43, 'forgive', 'forgave', 'forgiven', 6, 'Third form has (-n) ending; no other similar features'
+44, 'give', 'gave', 'given', 6, 'Third form has (-n) ending; no other similar features'
+45, 'see', 'saw', 'seen', 6, 'Third form has (-n) ending; no other similar features'
+46, 'shake', 'shook', 'shaken', 6, 'Third form has (-n) ending; no other similar features'
+47, 'take', 'took', 'taken', 6, 'Third form has (-n) ending; no other similar features'
+48, 'keep', 'kept', 'kept', 7, '[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end'
+49, 'sleep', 'slept', 'slept', 7, '[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end'
+50, 'feel', 'felt', 'felt', 7, '[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end'
+51, 'bleed', 'bled', 'bled', 8, '[и:] sound is replaced with [э] in 2 and 3 forms, [d] in the end'
+52, 'feed', 'fed', 'fed', 8, '[и:] sound is replaced with [э] in 2 and 3 forms, [d] in the end'
+53, 'meet', 'met', 'met', 7, '[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end'
+54, 'lead', 'led', 'led', 8, '[и:] sound is replaced with [э] in 2 and 3 forms, [d] in the end'
+55, 'deal', 'dealt', 'dealt', 7, '[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end'
+56, 'dream', 'dreamt', 'dreamt', 7, '[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end'
+57, 'mean', 'meant', 'meant', 7, '[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end'
+58, 'read', 'read', 'read', 8, '[и:] sound is replaced with [э] in 2 and 3 forms, [d] in the end'
+59, 'lie', 'lied', 'lied', 11, 'Second and third forms are equal; no other similar signs'
+60, 'bind', 'bound', 'bound', 10, '(i) replaced with (u) or (ou) in second and third forms'
+61, 'find', 'found', 'found', 10, '(i) replaced with (u) or (ou) in second and third forms'
+62, 'grind', 'ground', 'ground', 10, '(i) replaced with (u) or (ou) in second and third forms'
+63, 'wind', 'wound', 'wound', 10, '(i) replaced with (u) or (ou) in second and third forms'
+64, 'dig', 'dug', 'dug', 10, '(i) replaced with (u) or (ou) in second and third forms'
+65, 'stick', 'stuck', 'stuck', 10, '(i) replaced with (u) or (ou) in second and third forms'
+66, 'spin', 'spun', 'spun', 10, '(i) replaced with (u) or (ou) in second and third forms'
+67, 'sting', 'stung', 'stung', 10, '(i) replaced with (u) or (ou) in second and third forms'
+68, 'swing', 'swung', 'swung', 10, '(i) replaced with (u) or (ou) in second and third forms'
+69, 'sell', 'sold', 'sold', 11, 'Second and third forms are equal; no other similar signs'
+70, 'tell', 'told', 'told', 11, 'Second and third forms are equal; no other similar signs'
+71, 'bring', 'brought', 'brought', 12, 'Second and third forms have (-ought) or (-aught) endings'
+72, 'buy', 'bought', 'bought', 12, 'Second and third forms have (-ought) or (-aught) endings'
+73, 'catch', 'caught', 'caught', 12, 'Second and third forms have (-ought) or (-aught) endings'
+74, 'fight', 'fought', 'fought', 12, 'Second and third forms have (-ought) or (-aught) endings'
+75, 'seek', 'sought', 'sought', 12, 'Second and third forms have (-ought) or (-aught) endings'
+76, 'teach', 'taught', 'taught', 12, 'Second and third forms have (-ought) or (-aught) endings'
+77, 'think', 'thought', 'thought', 12, 'Second and third forms have (-ought) or (-aught) endings'
+78, 'begin', 'began', 'begun', 13, '(i-a-u) rotation in 1,2 and 3 forms'
+79, 'drink', 'drank', 'drunk', 13, '(i-a-u) rotation in 1,2 and 3 forms'
+80, 'ring', 'rang', 'rung', 13, '(i-a-u) rotation in 1,2 and 3 forms'
+81, 'shrink', 'shrank', 'shrunk', 13, '(i-a-u) rotation in 1,2 and 3 forms'
+82, 'sing', 'sang', 'sung', 13, '(i-a-u) rotation in 1,2 and 3 forms'
+83, 'sink', 'sank', 'sunk', 13, '(i-a-u) rotation in 1,2 and 3 forms'
+84, 'spring', 'sprang', 'sprung', 13, '(i-a-u) rotation in 1,2 and 3 forms'
+85, 'swim', 'swam', 'swum', 13, '(i-a-u) rotation in 1,2 and 3 forms'
+86, 'be', 'was/were', 'been', 2, 'No any similar signs or 1 and 3 forms are equal'
+87, 'do', 'did', 'done', 2, 'No any similar signs or 1 and 3 forms are equal'
+88, 'go', 'went', 'gone', 2, 'No any similar signs or 1 and 3 forms are equal'
+89, 'show', 'showed', 'shown', 2, 'No any similar signs or 1 and 3 forms are equal'
+90, 'wed', 'wed', 'wed', 1, 'All forms are equal'
+91, 'wet', 'wet', 'wet', 1, 'All forms are equal'
+92, 'sling', 'slung', 'slung', 10, '(i) replaced with (u) or (ou) in second and third forms'
+93, 'leave', 'left', 'left', 7, '[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end'
+94, 'lean', 'leant', 'leant', 7, '[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end'
+95, 'broadcast', 'broadcast', 'broadcast', 1, 'All forms are equal'
+96, 'creep', 'crept', 'crept', 7, '[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end'
+97, 'sweep', 'swept', 'swept', 7, '[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end'
+98, 'weep', 'wept', 'wept', 7, '[и:] sound is replaced with [э] in 2 and 3 forms, [t] in the end'
+99, 'breed', 'bred', 'bred', 8, '[и:] sound is replaced with [э] in 2 and 3 forms, [d] in the end'
+100, 'flee', 'fled', 'fled', 8, '[и:] sound is replaced with [э] in 2 and 3 forms, [d] in the end'
+101, 'burn', 'burnt', 'burnt', 9, '2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]'
+102, 'learn', 'learnt', 'learnt', 9, '2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]'
+103, 'smell', 'smelt', 'smelt', 9, '2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]'
+104, 'spell', 'spelt', 'spelt', 9, '2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]'
+105, 'spoil', 'spoilt', 'spoilt', 9, '2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]'
+106, 'build', 'built', 'built', 9, '2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]'
+107, 'bend', 'bent', 'bent', 9, '2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]'
+108, 'lend', 'lent', 'lent', 9, '2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]'
+109, 'send', 'sent', 'sent', 9, '2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]'
+110, 'spend', 'spent', 'spent', 9, '2 and 3 forms add [t] in the end reducing doubled letters and replacing [d]'
+111, 'draw', 'drew', 'drawn', 5, 'Second form has (-ew) ending; third form has (-own) ending'
+112, 'arise', 'arose', 'arisen', 4, 'Third form has (-n) ending; only second form replaces wovel with [o]'
+113, 'stride', 'strode', 'stridden', 4, 'Third form has (-n) ending; only second form replaces wovel with [o]'
+114, 'lose', 'lost', 'lost', 11, 'Second and third forms are equal; no other similar signs'
+115, 'shoot', 'shot', 'shot', 11, 'Second and third forms are equal; no other similar signs'
+116, 'strike', 'struck', 'struck', 11, 'Second and third forms are equal; no other similar signs'
+117, 'win', 'won', 'won', 11, 'Second and third forms are equal; no other similar signs'
+118, 'hang', 'hung', 'hung', 11, 'Second and third forms are equal; no other similar signs'
+119, 'light', 'lit', 'lit', 11, 'Second and third forms are equal; no other similar signs'
+120, 'slide', 'slid', 'slid', 11, 'Second and third forms are equal; no other similar signs'
+121, 'sit', 'sat', 'sat', 11, 'Second and third forms are equal; no other similar signs'
+122, 'spit', 'spat', 'spat', 11, 'Second and third forms are equal; no other similar signs'
+123, 'kneel', 'knelt', 'knelt', 11, 'Second and third forms are equal; no other similar signs'
+124, 'shine', 'shone', 'shone', 11, 'Second and third forms are equal; no other similar signs'
+125, 'hold', 'held', 'held', 11, 'Second and third forms are equal; no other similar signs'
+126, 'lay', 'laid', 'laid', 11, 'Second and third forms are equal; no other similar signs'
+127, 'pay', 'paid', 'paid', 11, 'Second and third forms are equal; no other similar signs'
+128, 'say', 'said', 'said', 11, 'Second and third forms are equal; no other similar signs'
+129, 'stand', 'stood', 'stood', 11, 'Second and third forms are equal; no other similar signs'
+130, 'understand', 'understood', 'understood', 11, 'Second and third forms are equal; no other similar signs'
+131, 'hear', 'heard', 'heard', 11, 'Second and third forms are equal; no other similar signs'
+132, 'make', 'made', 'made', 11, 'Second and third forms are equal; no other similar signs'
+133, 'have', 'had', 'had', 11, 'Second and third forms are equal; no other similar signs'
+134, 'beat', 'beat', 'beaten', 6, 'Third form has (-n) ending; no other similar features'
+135, 'lie', 'lay', 'lain', 6, 'Third form has (-n) ending; no other similar features'
+136, 'sew', 'sewed', 'sewn', 6, 'Third form has (-n) ending; no other similar features'
+137, 'swear', 'swore', 'sworn', 3, 'Third form has (-n) ending; second and third form replace wovel with [o]'
+138, 'bid', 'bid', 'bid', 1, 'All forms are equal'
+139, 'bust', 'bust', 'bust', 1, 'All forms are equal'
+140, 'forecast', 'forecast', 'forecast', 1, 'All forms are equal'
+141, 'input', 'input', 'input', 1, 'All forms are equal'
+142, 'knit', 'knit', 'knit', 1, 'All forms are equal'
+143, 'rid', 'rid', 'rid', 1, 'All forms are equal'
+144, 'shed', 'shed', 'shed', 1, 'All forms are equal'
+145, 'slit', 'slit', 'slit', 1, 'All forms are equal'
+146, 'sweat', 'sweat', 'sweat', 1, 'All forms are equal'
+147, 'sublet', 'sublet', 'sublet', 1, 'All forms are equal'
+148, 'thrust', 'thrust', 'thrust', 1, 'All forms are equal'
+149, 'upset', 'upset', 'upset', 1, 'All forms are equal'

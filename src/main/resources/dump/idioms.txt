@@ -1,105 +1,106 @@
-1|Necessity is the mother of invention.|Голь на выдумки хитра.|[]
-2|Put on belt and braces.|Перестраховаться.|[]
-3|Tables have turned.|Ситуация в корне изменилась.|[]
-4|It's water under the bridge.|Совершенно нормальная ситуация, о которой не стоит беспокоиться.|[]
-5|Separate the wheat from the chaff.|Отделить зерна от плевел.|[]
-6|Take my advice with a grain of salt.|Отнесись к этому критически.|[]
-7|Fight fire with fire.|Клин клином вышибают.|[]
-8|Spill your guts.|Выложить всю подноготную.|[]
-9|Hate someone’s guts.|Ненавидеть кого-то всей душой.|[]
-10|Burst your gut.|Лопнуть со смеха.|[]
-12|Something's up in the air.|Вилами по воде писано.|[]
-14|Storm in a teacup.|Раздувать из мухи слона.|[]
-15|Turn heads.|Привлекать большое внимание. |"[""Your new outfit turns heads.""]"
-16|Not my cup of tea.|Не моё|"[""Barhopping is not my cup of tea.""]"
-17|No use crying over spilt milk.|Плакать над пролитым молоком.|[]
-18|In hot water.|Между молотом и наковальней.|[]
-19|Champagne taste on a beer budget.|О ком-то, кто живет не по средствам.|[]
-20|Test the waters.|Прощупывать почву.|[]
-21|Something of the first water.|Что-то высшего качества.|[]
-11|Trust your gut.|Довериться инстинктам, чутью.|[]
-13|Gut feeling, gut reaction.|Чутьё, интуиция, инстинкт.|"[""Don't think too hard about it; just go with your gut feeling.""]"
-22|Be no laughing matter.|Не шутка.|"[""Being arrested by the police is no laughing matter.""]"
-23|Each to his own.|Каждому - своё.|"[""I'm not personally a fan of gachimuchi, but each to their own.""]"
-50|as we go|по мере продвижения|"[""I'll explain as we go."", ""I am spending a lot of time on this as we go.""]"
-25|Break ranks.|Публично критиковать или противоречить официальной позиции некой группы, к которой сам принадлежишь|"[""His medical colleagues advised him not to break ranks by talking about the hospital's problems to the newspapers.""]"
-26|A treat.|Очень хорошо, с хорошими результатами.|"[""To prevent red wine from staining, put some salt on it - it works a treat."", ""That soup went down a treat."", ""I polished that old desk and it came up a treat.""]"
-27|A high time.|Давно пора.|[]
-28|Be of no concern.|Не волнует.|"[""Politicans called the investigation a matter of no concern."", ""Her behaviour should be of no concern to anyone but her parents."", ""It's of little concern to me how she dresses.""]"
-29|Hit the ground running.|На низком старте.|"[""She studied the reports over the weekend so she could hit the ground running when the meeting began.""]"
-30|In a nutshell|В двух словах|[]
-31|Go fly a kite|Иди погуляй (нафиг, но вежливо)|[]
-32|Go nuts|Взбеситься|"[""My sister will go nuts when she finds out I crashed her car.""]"
-34|What's it to you?|Какое тебе до этого дело?|[]
-35|What of it?|И что?|[]
-36|What is it now?|Ну что на этот раз?|[]
-37|What's with you?|Ты что творишь?|[]
-38|How so? How come?|Как так?|[]
-39|What gives? What's up?|В чем дело?|[]
-40|fall short|не оправдать ожиданий, не удовлетворить требованиям или стандартам|[]
-41|saving grace|что-то хорошее, когда все вокруг плохо|"[""She was my saving grace on that boring party.""]"
-42|last straw|последняя капля (терпения)|[]
-43|Come again?|Повтори|[]
-43|sore point|Больная тема|[]
-44|at the end of the day|в конце концов, в конечном счете|[]
-45|drop in|заскочить в гости|[]
-46|fuck around|заниматься херней|[]
-47|chip in|скидываться на покупку|[]
-48|in a best-case scenario|в лучшем случае|[]
-49|as a last resort|в крайнем случае|[]
-33|(big) yikes|(мега)кринж|[]
-24|There's no rest for the wicked.|В гробу отосплюсь.|"[""Said when you must continue with your work or other activity although you are very tired""]"
-51|Dutch courage|храбрость от алкоголя|[]
-52|take a hit|пострадать|"[""Economics will take a hit because of this new law.""]"
-53|be over the moon|быть на седьмом небе от счастья|[]
-54|at your earliest convenience|как можно скорее|[]
-55|be swamped with something|быть заваленым, переполненным чем-то|"[""I'm swamped with work now."", ""Foreign cars have swamped the UK market."", ""Don't let depression swamp you.""]"
-58|be in touch / lose touch / stay in touch / get in touch with|быть на связи, потерять связь, оставаться на связи, связаться|[]
-59|be askING for it / for trouble|напрашиваться на неприятности|[]
-60|be bangING your head against a brick wall|биться головой о стену|[]
-61|be barkING up the wrong tree|слышать звон, да не знать, где он|[]
-62|be bouncING off the walls|быть не в состоянии усидеть на месте|[]
-63|be burstING / itchING to do something|не терпится что-то сделать|[]
-64|be burstING / bulgING / fallING / comING apart at the seams|трещать по швам|[]
-65|be comING up roses|всё идет по плану|[]
-66|be crawlING with|кишеть кем-то или чем-то|[]
-67|be doING well|хорошо поживать|[]
-68|be dyING for sth|страшно хотеть чего-то|[]
-69|be goING places|идти к успеху|[]
-70|be gunnING for somebody|докапываться до кого-то|[]
-71|be gunnING for something|пытаться что-то заполучить|[]
-72|be jumpING up and down|прыгать от злости или от нетерпения|[]
-73|be lookING over your shoulder|нервничать и ожидать подвоха|[]
-74|be lookING to do sth|искать возможность что-то сделать|[]
-75|be pushING 40, 50 etc.|приближаться к сорокету, полтиннику и т.д.|[]
-76|be ridING for a fall|испытывать судьбу|[]
-77|be ridING high|быть успешным и/или уверенным в себе|[]
-78|be rollING in money / in it|купаться в деньгах|[]
-79|be seeING / hearING things|слышать / видеть то, чего нет|[]
-80|be shakING / tremblING with rage|дрожать от ярости|[]
-81|be sittING pretty|хорошо устроиться|[]
-82|be spoilING for a fight|нарываться на драку|[]
-83|be starING somebody in the face|быть очевидным или заметным|[]
-84|be starING something in the face|смотреть чему-то неприятному в глаза|[]
-85|be walkING / skatING on thin ice|ходить по тонкому льду|[]
-86|be workING overtime|переусердствовать|[]
-87|can't be doING with sb / sth|терпеть не могу / не можешь и т.д.|[]
-88|must be slippING|терять навык|[]
-89|not be wearING a stitch|голый до нитки|[]
-90|The thing is...|Суть в том, что...|"[""You say the thing is to introduce an explanation, comment, or opinion that relates to something that has just been said. The thing is is often used to identify a problem relating to what has just been said.""]"
-91|Be into something|Быть увлеченным чем-то|"[""She's really into yoga.""]"
-92|Be keen on something|Увлекаться чем-то|"[""She's keen on playing tennis."", ""He doesn't seem all that keen on being here, honestly.""]"
-93|in the nick of time|в последний момент|"[""I was hanging on the cliff, and they pulled me out in the nick of time.""]"
-94|May...|Надеюсь...|"[""May I finish this work"", ""May you find this helpful.""]"
-95|...(not) that <adj>...|(не) настолько|"[""They're not that smart to discover this.""]"
-96|Now, that|теперь, когда...|"[""Now that they've come, we can proceed.""]"
-57|not in my books|выражение несогласия с чем-либо|[]
-56|make up your mind|Решить, прийти к какому-либо решению|[]
-97|Is it long-term?|Это надолго?|[]
-98|When will <something> be?|Когда будет <что угодно>?|[]
-99|would have had|было бы|"[""If we build communism, everybody would have had their own house."", ""Without localization, we would have had around a hundred downloads for that month.""]"
-100|be fed up, got fed up|испытать что-то в достаточной мере, чтоб это уже надоело. |"[""I'm fed up with my job."", ""He got fed up with all the travelling he had to do.""]"
-101|have a lie-in|валяться в кровати дольше обычного|"[""I worked so much this week, so I had an all-day lie-in on Saturday.""]"
-102|boring as watching paint dry|очень скучно|[]
-103|keep me on my toes|не расслабляться, продолжать концентрироваться на чем-то|"[""I work with people who are half my age so that keeps me on my toes.""]"
-104|on the fence|быть неспособным прийти к решению|"[""We are still on the fence, waiting for a cheaper offer to come along."", ""He's still sitting on the fence, trying to decide which school he wants to go to.""]"
+1, 'Necessity is the mother of invention.', 'Голь на выдумки хитра.', '[]'
+2, 'Put on belt and braces.', 'Перестраховаться.', '[]'
+3, 'Tables have turned.', 'Ситуация в корне изменилась.', '[]'
+4, 'It''s water under the bridge.', 'Совершенно нормальная ситуация, о которой не стоит беспокоиться.', '[]'
+5, 'Separate the wheat from the chaff.', 'Отделить зерна от плевел.', '[]'
+6, 'Take my advice with a grain of salt.', 'Отнесись к этому критически.', '[]'
+7, 'Fight fire with fire.', 'Клин клином вышибают.', '[]'
+8, 'Spill your guts.', 'Выложить всю подноготную.', '[]'
+9, 'Hate someone’s guts.', 'Ненавидеть кого-то всей душой.', '[]'
+10, 'Burst your gut.', 'Лопнуть со смеха.', '[]'
+11, 'Trust your gut.', 'Довериться инстинктам, чутью.', '[]'
+12, 'Something''s up in the air.', 'Вилами по воде писано.', '[]'
+13, 'Gut feeling, gut reaction.', 'Чутьё, интуиция, инстинкт.', '["Don''t think too hard about it; just go with your gut feeling."]'
+14, 'Storm in a teacup.', 'Раздувать из мухи слона.', '[]'
+15, 'Turn heads.', 'Привлекать большое внимание. ', '["Your new outfit turns heads."]'
+16, 'Not my cup of tea.', 'Не моё', '["Barhopping is not my cup of tea."]'
+17, 'No use crying over spilt milk.', 'Плакать над пролитым молоком.', '[]'
+18, 'In hot water.', 'Между молотом и наковальней.', '[]'
+19, 'Champagne taste on a beer budget.', 'О ком-то, кто живет не по средствам.', '[]'
+20, 'Test the waters.', 'Прощупывать почву.', '[]'
+21, 'Something of the first water.', 'Что-то высшего качества.', '[]'
+22, 'Be no laughing matter.', 'Не шутка.', '["Being arrested by the police is no laughing matter."]'
+23, 'Each to his own.', 'Каждому - своё.', '["I''m not personally a fan of gachimuchi, but each to their own."]'
+24, 'There''s no rest for the wicked.', 'В гробу отосплюсь.', '["Said when you must continue with your work or other activity although you are very tired"]'
+25, 'Break ranks.', 'Публично критиковать или противоречить официальной позиции некой группы, к которой сам принадлежишь', '["His medical colleagues advised him not to break ranks by talking about the hospital''s problems to the newspapers."]'
+26, 'A treat.', 'Очень хорошо, с хорошими результатами.', '["To prevent red wine from staining, put some salt on it - it works a treat.", "That soup went down a treat.", "I polished that old desk and it came up a treat."]'
+27, 'A high time.', 'Давно пора.', '[]'
+28, 'Be of no concern.', 'Не волнует.', '["Politicans called the investigation a matter of no concern.", "Her behaviour should be of no concern to anyone but her parents.", "It''s of little concern to me how she dresses."]'
+29, 'Hit the ground running.', 'На низком старте.', '["She studied the reports over the weekend so she could hit the ground running when the meeting began."]'
+30, 'In a nutshell', 'В двух словах', '[]'
+31, 'Go fly a kite', 'Иди погуляй (нафиг, но вежливо)', '[]'
+32, 'Go nuts', 'Взбеситься', '["My sister will go nuts when she finds out I crashed her car."]'
+33, '(big) yikes', '(мега)кринж', '[]'
+34, 'What''s it to you?', 'Какое тебе до этого дело?', '[]'
+35, 'What of it?', 'И что?', '[]'
+36, 'What is it now?', 'Ну что на этот раз?', '[]'
+37, 'What''s with you?', 'Ты что творишь?', '[]'
+38, 'How so? How come?', 'Как так?', '[]'
+39, 'What gives? What''s up?', 'В чем дело?', '[]'
+40, 'fall short', 'не оправдать ожиданий, не удовлетворить требованиям или стандартам', '[]'
+41, 'saving grace', 'что-то хорошее, когда все вокруг плохо', '["She was my saving grace on that boring party."]'
+42, 'last straw', 'последняя капля (терпения)', '[]'
+43, 'sore point', 'Больная тема', '[]'
+44, 'at the end of the day', 'в конце концов, в конечном счете', '[]'
+45, 'drop in', 'заскочить в гости', '[]'
+46, 'fuck around', 'заниматься херней', '[]'
+47, 'chip in', 'скидываться на покупку', '[]'
+48, 'in a best-case scenario', 'в лучшем случае', '[]'
+49, 'as a last resort', 'в крайнем случае', '[]'
+50, 'as we go', 'по мере продвижения', '["I''ll explain as we go.", "I am spending a lot of time on this as we go."]'
+51, 'Dutch courage', 'храбрость от алкоголя', '[]'
+52, 'take a hit', 'пострадать', '["Economics will take a hit because of this new law."]'
+53, 'be over the moon', 'быть на седьмом небе от счастья', '[]'
+54, 'at your earliest convenience', 'как можно скорее', '[]'
+55, 'be swamped with something', 'быть заваленым, переполненным чем-то', '["I''m swamped with work now.", "Foreign cars have swamped the UK market.", "Don''t let depression swamp you."]'
+56, 'make up your mind', 'Решить, прийти к какому-либо решению', '[]'
+57, 'not in my books', 'выражение несогласия с чем-либо', '[]'
+58, 'be in touch / lose touch / stay in touch / get in touch with', 'быть на связи, потерять связь, оставаться на связи, связаться', '[]'
+59, 'be askING for it / for trouble', 'напрашиваться на неприятности', '[]'
+60, 'be bangING your head against a brick wall', 'биться головой о стену', '[]'
+61, 'be barkING up the wrong tree', 'слышать звон, да не знать, где он', '[]'
+62, 'be bouncING off the walls', 'быть не в состоянии усидеть на месте', '[]'
+63, 'be burstING / itchING to do something', 'не терпится что-то сделать', '[]'
+64, 'be burstING / bulgING / fallING / comING apart at the seams', 'трещать по швам', '[]'
+65, 'be comING up roses', 'всё идет по плану', '[]'
+66, 'be crawlING with', 'кишеть кем-то или чем-то', '[]'
+67, 'be doING well', 'хорошо поживать', '[]'
+68, 'be dyING for sth', 'страшно хотеть чего-то', '[]'
+69, 'be goING places', 'идти к успеху', '[]'
+70, 'be gunnING for somebody', 'докапываться до кого-то', '[]'
+71, 'be gunnING for something', 'пытаться что-то заполучить', '[]'
+72, 'be jumpING up and down', 'прыгать от злости или от нетерпения', '[]'
+73, 'be lookING over your shoulder', 'нервничать и ожидать подвоха', '[]'
+74, 'be lookING to do sth', 'искать возможность что-то сделать', '[]'
+75, 'be pushING 40, 50 etc.', 'приближаться к сорокету, полтиннику и т.д.', '[]'
+76, 'be ridING for a fall', 'испытывать судьбу', '[]'
+77, 'be ridING high', 'быть успешным и/или уверенным в себе', '[]'
+78, 'be rollING in money / in it', 'купаться в деньгах', '[]'
+79, 'be seeING / hearING things', 'слышать / видеть то, чего нет', '[]'
+80, 'be shakING / tremblING with rage', 'дрожать от ярости', '[]'
+81, 'be sittING pretty', 'хорошо устроиться', '[]'
+82, 'be spoilING for a fight', 'нарываться на драку', '[]'
+83, 'be starING somebody in the face', 'быть очевидным или заметным', '[]'
+84, 'be starING something in the face', 'смотреть чему-то неприятному в глаза', '[]'
+85, 'be walkING / skatING on thin ice', 'ходить по тонкому льду', '[]'
+86, 'be workING overtime', 'переусердствовать', '[]'
+87, 'can''t be doING with sb / sth', 'терпеть не могу / не можешь и т.д.', '[]'
+88, 'must be slippING', 'терять навык', '[]'
+89, 'not be wearING a stitch', 'голый до нитки', '[]'
+90, 'The thing is...', 'Суть в том, что...', '["You say the thing is to introduce an explanation, comment, or opinion that relates to something that has just been said. The thing is is often used to identify a problem relating to what has just been said."]'
+91, 'Be into something', 'Быть увлеченным чем-то', '["She''s really into yoga."]'
+92, 'Be keen on something', 'Увлекаться чем-то', '["She''s keen on playing tennis.", "He doesn''t seem all that keen on being here, honestly."]'
+93, 'in the nick of time', 'в последний момент', '["I was hanging on the cliff, and they pulled me out in the nick of time."]'
+94, 'May...', 'Надеюсь...', '["May I finish this work", "May you find this helpful."]'
+95, '...(not) that <adj>...', '(не) настолько', '["They''re not that smart to discover this."]'
+96, 'Now, that', 'теперь, когда...', '["Now that they''ve come, we can proceed."]'
+97, 'Is it long-term?', 'Это надолго?', '[]'
+98, 'When will <something> be?', 'Когда будет <что угодно>?', '[]'
+99, 'would have had', 'было бы', '["If we build communism, everybody would have had their own house.", "Without localization, we would have had around a hundred downloads for that month."]'
+100, 'be fed up, got fed up', 'испытать что-то в достаточной мере, чтоб это уже надоело. ', '["I''m fed up with my job.", "He got fed up with all the travelling he had to do."]'
+101, 'have a lie-in', 'валяться в кровати дольше обычного', '["I worked so much this week, so I had an all-day lie-in on Saturday."]'
+102, 'boring as watching paint dry', 'очень скучно', '[]'
+103, 'keep me on my toes', 'не расслабляться, продолжать концентрироваться на чем-то', '["I work with people who are half my age so that keeps me on my toes."]'
+104, 'on the fence', 'быть неспособным прийти к решению', '["We are still on the fence, waiting for a cheaper offer to come along.", "He''s still sitting on the fence, trying to decide which school he wants to go to."]'
+105, 'toot one''s own horn', 'хвастаться', '[]'
+106, 'Come again?', 'Повтори', '[]'

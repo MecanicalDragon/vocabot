@@ -1,1016 +1,1044 @@
-1|interact|взаимодействовать|"[""Our service is supposed to interact with customers.""]"
-2|kernel|ядро, зерно, суть|"[""The kernel of this whole idea is simplicity of user interaction."", ""The nut finally cracks and exposes a rich, oily kernel.""]"
-3|schedule|планировать, расписание|"[""I scheduled our meetings on Fridays."", ""My schedule is very dense today.""]"
-4|attempt|попытка, предпринимать попытку|"[""Your pitiful attempt at revolution has failed."", ""I wasn't sure so didn't attempt anything.""]"
-5|ensure|гарантировать, обеспечивать|"[""We must ensure successful elections."", ""We can't ensure the safety of the hostages.""]"
-6|permission|разрешение|"[""I don't really need your permission to do that.""]"
-7|ad hoc|придуманный специально для этого, по необходимости|"[""We deal with problems on an ad hoc basis (= as they happen)."", ""We have created ad hoc committees for this purpose."", ""This ad hoc mechanism has not been effective in global scope.""]"
-8|passion|страсть, азарт|"[""Gambling is my passion."", ""He has it all: speed, passion, team tactics."", ""We had a short but passionate love affair.""]"
-9|sane|здравый (человек, рассудок, решение, мысль)|"[""I never claimed to be sane."", ""That was a sane decision.""]"
-10|chunk|кусок, ломоть, часть|"[""Big chunk of my work was delegated to him."", ""Data has been received chunked.""]"
-11|involve|вовлекать, предусматривать, задействовать|"[""I don't want to involve you in this."", ""Police involved me in investigation."", ""Additional supporting measures were involved by our company.""]"
-12|assume|предполагать, допускать, брать на себя (ответственность, роль)|"[""I can assume two possible outcomes."", ""You should assume leadership and responsibility.""]"
-13|toil|усердно работать|"[""You need to toil if you want to succeed.""]"
-14|intrinsic, inherent|свойственный, присущий, неотъемлемый, внутренний, врожденный|"[""Immutability is an intrinsic feature of data transfer objects."", ""You must reveal your intrinsic potential."", ""Risk is inherent aspect of our job.""]"
-15|deception|обман, ложь, хитрость|"[""The deception would have been uncovered the moment anyone saw her.""]"
-16|expire|терять силу, истекать|"[""Auth token expires in an hour after creation.""]"
-17|inspire|вдохновлять|"[""Music inspires me to action.""]"
-18|proficiency|умение, опытность, навык, знание, квалификация|"[""Language proficiency is required for that job"", ""Our test is your proficiency check."", ""His proficiency in this area is higher than mine.""]"
-19|arcana|тайны, загадки, таинственные силы|"[""Federal budget distribution is arcana for people.""]"
-20|insight|понимание, проницательность|"[""His insight was eventually used in research"", ""A gentlemen takes his ire and turns it into insight.""]"
-21|intimidate|запугивать|"[""Intimidation is another way to save power when you're dictator.""]"
-22|investigate|расследовать|"[""To resolve a bug you need to investigate the way it happens.""]"
-23|perception|восприятие|"[""Your perception of reality is perverse.""]"
-24|persuade, persuasion, persuasive|убеждать, убеждение, убедительный|"[""It took a lot of persuasion to convince them."", ""Your arguments are very persuasive.""]"
-25|sleight of hand|ловкость рук|"[""Most of these conjuring tricks depend on sleight of hand.""]"
-26|ploy|уловка|"[""These discounts are just a marketing ploy.""]"
-27|affinity|сродство, близость|"[""She seems to have a natural affinity with water."", ""There are several close affinities between the two paintings.""]"
-28|ferret|выискивать, хорек|"[""She has the ability to ferret out hidden facts.""]"
-29|due|должное, должный, в связи|"[""You should devote due attention to this task."", ""He attracts more criticism than is his due."", ""She couldn't graduate due to her stupidity.""]"
-30|carapace|хитиновый панцирь|[]
-31|blister|волдырь, пузырь|[]
-32|former|бывший|[]
-33|recepient|получатель|[]
-34|towel|полотенце|[]
-35|broom|веник|[]
-36|pan|кастрюля, сковорода|[]
-37|hose|шланг|[]
-38|attitude|отношение|[]
-39|dispatch|отправка|[]
-40|steep|крутой, отвесный|"[""This slope is very steep for me.""]"
-41|suspect|подозревать, подозреваемый|"[""I suspect you in crime."", ""He's a suspect in this case.""]"
-42|accustomed|привыкший|"[""I am a man accustomed to injustice."", ""You are not accustomed to watch things like that.""]"
-43|disaster|катастрофа, бедствие|[]
-44|urge|сильное неконтролируемое желание, советовать, убеждать|"[""The two of them seem unable to control their sexual urges."", ""Lawyers will urge the parents to take further legal action.""]"
-45|embed|встраивать|[]
-46|awful|страшный|[]
-47|mutual|взаимный|[]
-48|radiance|сияние|[]
-49|insufferable|невыносимый|[]
-50|purpose, objective|цель, задание|[]
-51|plot|сюжет, заговор, график, чертеж|[]
-52|scale|масштаб, шкала|[]
-53|evaluate, estimate, assess|оценивать|[]
-54|exact, accurate, precise|точный|[]
-55|rural|сельский|[]
-56|divide|делить|[]
-57|shrug|пожать плечами|[]
-58|at the same time|заодно|[]
-59|hinder|мешать|"[""High winds have hindered firefighters in their efforts to put out the blaze."", ""Often his training has proved a hindrance rather than a help.""]"
-60|versatile|многозадачный, многофункциональный|[]
-61|foe, rival|противник, соперник|"[""They were bitter foes for many years."", ""The two countries have united against their common foe."", ""He beat his closest rival by 20 marks."", ""The companies produce rival versions of the toy.""]"
-62|survey|опрос, осмотр|[]
-63|lane|дорожная полоса, переулок|[]
-64|substitution|замена|[]
-65|how many of you|как много вас|[]
-66|approximately|примерно|[]
-67|rude|грубый, резкий|[]
-68|one by one, in rotation|поочереди|[]
-69|premise|предпосылка|[]
-70|amusement, entertainment|развлечение|[]
-71|stiff|жесткий, суровый|"[""This helmet combines stiff and soft materials."", ""You was too stiff with her.""]"
-72|legislation|законодательство|"[""Neither of these developments entailed amending legislation."", ""We need stricter legislation on both corruption and money-laundering.""]"
-73|negotiations|переговоры|"[""Our negotiations was interrupted."", ""They said, they wouldn't negotiate with occupants.""]"
-74|necessary|необходимый|[]
-75|measure|мера|[]
-76|intent|намерение|[]
-77|familiar|знакомый|[]
-78|sole|подошва, единственный|[]
-79|obligatory, mandatory|обязательный|[]
-80|consent|согласие|[]
-81|absence, lack|отсутствие, недостача|[]
-82|valuable|ценный|[]
-83|bid|ставка, делать ставку, заявлять цену на аукционе|[]
-84|rely|полагаться|[]
-85|commitment, obligation|обещание, обязательство|[]
-86|sign up|подписаться|[]
-87|comply|соблюдать|"[""I do not comply with the rules."", ""There are serious penalties for failure to comply with the regulations.""]"
-88|as for|что касается|[]
-89|kickoff|начало|[]
-90|itemized|детализированный|[]
-91|loan|займ|[]
-92|carry|нести|[]
-93|suggest, propose|предлагать|[]
-94|seldom|редко|[]
-95|by the time|ко времени|[]
-96|capable|способный|[]
-97|approach|подход|[]
-98|extensive, broad|обширный|[]
-99|adopt|принять, утвердить|[]
-100|robust|крепкий (человек, предмет, система, вкус)|[]
-101|thorough, rigorous|подробный, тщательный|[]
-102|poll|опрос|[]
-103|clarify|прояснить|[]
-104|currently|в настоящее время|[]
-105|as far as i understand|насколько я понимаю|[]
-106|permit|разрешать|[]
-107|excess|избыток, лишний|[]
-108|threshold|предел|[]
-109|distract|отвлекать|[]
-110|divine|божественный|[]
-111|reflection|отражение|[]
-112|furnace|печь|[]
-113|morass|трясина|[]
-114|lullaby|колыбельная|[]
-115|obliteration|уничтожение|[]
-116|bliss|блаженство|[]
-117|phenomenon|явление|[]
-118|attend|присутствовать, посещать|[]
-119|gather|собирать|[]
-120|boast|хвастать, хвастовство|"[""I wish you could boast just half her kindness."", ""Your boast is annoying.""]"
-121|quarrel|ссориться|[]
-122|hassle|стычка|[]
-123|lash|плеть|[]
-124|purge, prune|чистка, вычищать, избавляться от лишнего|"[""They purged the senior ranks of the department."", ""I'm going to do a purge in my documents."", ""Your essay needs a little pruning."", ""Prune also means a cutting off branches from a tree, bush, or plant.""]"
-125|credible|заслуживающий доверия|[]
-126|chock up|загромождать|[]
-127|errand|поручение|[]
-128|agenda|повестка дня|[]
-129|pronunciation|произношение|[]
-130|lean|опираться, облокачиваться|[]
-131|entire|весь|[]
-132|trade-off|компромисс|[]
-133|take into account|принять к сведению|[]
-134|meadow|луг|[]
-135|hike|поход, взбираться|[]
-136|obscure|безвестный, смутный|[]
-137|shatter|разбить вдребезги, нарушить, оборвать, закончить что-то|"[""The glass shattered into a thousand tiny pieces."", ""The book shattered all her illusions."", ""Noisy motorbikes shattered the silence.""]"
-138|alias|псевдоним|[]
-139|convenient|удобный|[]
-140|frown|хмуриться, морщиться|"[""She said me to leave her with a frown."", ""She frowned at me, clearly annoyed.""]"
-141|eager|нетерпеливый|[]
-142|dedication|самоотверженность, преданность|[]
-143|diligence|усердие|[]
-144|perseverance|упорство|[]
-145|misery, adversity|беда, несчастье|[]
-146|successively, sequentially|последовательно|[]
-147|miracle|чудо|[]
-148|rough|грубый, черновой|[]
-149|fold|складка|[]
-150|perceive|воспринимать|[]
-151|deaf|глухой|[]
-152|impair, deteriorate, decline|ухудшать, ухудшаться, уменьшаться|"[""She went into the hospital when her condition began to deteriorate."", "" Situation in the region has deteriorated rapidly.""]"
-153|magnifier|лупа|[]
-154|refugee|беженец|[]
-155|enhance|усиливать, совершенствовать|[]
-156|opportunity|возможность, случай|[]
-157|possibility|возможность, вероятность|[]
-158|according to, in accordance with|согласно, в соответствии|"[""According to the documentation we should ull that level.""]"
-159|on behalf|от имени|"[""On my father's behalf I ask you."", ""This is an application on your behalf."", ""I kneel on her behalf.""]"
-160|although|хотя|[]
-161|essential|существенный|[]
-162|convey|передавать, сообщать|[]
-163|rather|скорее, вернее, довольно|[]
-164|comprehensible|понятный|[]
-165|adjust, tweak|скорректировать, исправление|[]
-166|bypass|обход|[]
-167|preserve, retain|сохранять на будущее, сохранить как удержать|"[""We must preserve the environment."", ""We must retain the control of the company.""]"
-168|obsolete|устаревший|[]
-169|clutter, cluttered|беспорядок, создавать беспорядок/суматоху/помехи, загроможденный |[]
-170|predict, forecast|предсказывать, прогнозировать, прогноз|[]
-171|appropriate, pertinent|соответствующий, подходящий, уместный|[]
-172|awareness|осведомленность|[]
-173|reliably|надежно|[]
-174|famine|голод|[]
-175|determination|определение|[]
-176|revenue|доход|[]
-177|ancestor, predecessor|предок, предшественник|[]
-178|descendant|потомок|[]
-179|sibling|родной брат или сестра|[]
-180|dare|сметь|[]
-181|contradict|противоречить|[]
-182|rummage|рыться, копаться|[]
-183|nonetheless, nevertheless|тем не менее|[]
-184|by no means|ни в коем случае|[]
-185|vigilant|бдительный|[]
-186|blanket|плед, покрывало, покрыть, охватывающий всё|"[""The fields were blanketed in fog."", ""The bank does not have a blanket policy of charging for duplicate statements.""]"
-187|gratitude|благодарность, признательность|"[""Man, we helped, expressed his gratitude with a few coins.""]"
-188|bestow, confer|даровать|[]
-189|cozy|уютный|[]
-190|urgent|срочный|[]
-191|up to you|на твое усмотрение|[]
-192|definitely|определенно|[]
-193|arrange|организовывать, договариваться|"[""The meeting has been arranged for Wednesday."", ""We arranged to meet at the cinema.""]"
-194|marvelous|чудесный|[]
-195|look forward|ждать с нетерпением|[]
-196|stick|придерживаться чего-либо|"[""Let's stick to the plan.""]"
-197|ambient|окружающий|[]
-198|stash|копить|[]
-199|exceed|превышать|[]
-200|duration|продолжительность|[]
-201|precept|заповедь|[]
-202|behavior|поведение|[]
-203|harm|вред|[]
-204|regarding|относительно|"[""The company is being questioned regarding its employment policy.""]"
-205|precision|точность|[]
-206|handle, tackle|справляться с чем-то, заниматься каким-то делом|"[""The first thing the new government must do is to tackle inflation.""]"
-207|fluent|беглый (в языке)|"[""He's fluent in English""]"
-208|instead|вместо|[]
-209|vouch|ручаться|[]
-210|authenticity|подлинность|[]
-211|instantiate|иллюстрировать примерами|[]
-212|appoint|назначать на должность, ответственным за что-то|"[""We've appointed three new teachers this year."", ""He's been appointed as director of the division."", ""A commission has been appointed to investigate fraud claims.""]"
-213|take offense|обижаться|[]
-214|vendor|продавец|[]
-215|bend|изгиб, гнуть|[]
-216|glance|беглый взгляд|[]
-217|glow|пылать, жар, свечение|[]
-218|shaft|стержень, ось, вал, рукоять|[]
-219|drool|сочиться, течь, пороть чушь, млеть от счастья, пускать слюни|[]
-220|seize|схватить, захватить, воспользоваться|"[""She seized his arm"", ""He seized the chance, the opportunity of a free flight with both hands"", ""Troops yesterday seized control of the broadcasting station.""]"
-221|fuzzy|нечеткий, ворсистый, плохо различимый|[]
-222|snout|морда, рыло|[]
-223|squirm|извиваться|[]
-224|wiggle|покачиваться, ерзать|[]
-225|tip|кончик|[]
-226|vicinity|окрестности|[]
-227|pervert|извращенец|[]
-228|nuzzle|прижаться, уткнуться носом|[]
-229|pounce, lash out|внезапно атаковать, набрасываться|[]
-230|bulge|выпуклость, выступ, выпячивать, оттопыривать|"[""German attack made a bulge in the line."", ""That ice bulge can help you climb this rock."", ""That babe bulges her ass properly.""]"
-231|rub|тереться, тереть|[]
-232|flap, wag|махать, вилять|[]
-233|distinct|отчетливый|[]
-234|overlap|накладываться, перекрывать|[]
-235|in a way|в некотором отношении|[]
-236|mastermind|вдохновитель, мозговой центр, тайно руководить|"[""I'm the mastermind of this project."", ""Vizier masterminds the country.""]"
-237|tense|напряженный, напрягаться|"[""I feel so tense today."", ""I'll try not to tense up next time.""]"
-238|gratification|удовлетворение, вознаграждение|"[""Customer expressed his gratification."", ""Gratitude is best gratification.""]"
-239|lawsuit, sue|иск, предъявлять иск, возбуждать дело|[]
-240|household|домашнее хозяйство|[]
-241|literal|буквальный, дословный|[]
-242|conjure|волшебным образом заставить появиться|"[""He had conjured a dove from his sleeve."", ""His words conjured images of far-away lands.""]"
-243|species|вид, порода|[]
-244|luggage|багаж|[]
-245|slight|легкий, незначительный|[]
-246|inebriate|алкоголик|[]
-247|hangover|похмелье|[]
-248|patient|терпеливый|[]
-249|slippery|скользкий|[]
-250|slope|склон|[]
-251|likewise|аналогично|[]
-252|flourish|процветать|[]
-253|throughout|на протяжении|[]
-254|plaque|табличка, бляшка (медицина)|"[""There is a plaque on the wall of a house that shows that someone famous once lived there."", ""The growth of fatty plaque is linked to heart attacks and strokes.""]"
-255|prone|склонный|[]
-256|make sense|иметь смысл|[]
-257|beforehand|заранее|[]
-258|choke|задыхаться, душить|[]
-259|infer|делать вывод|[]
-260|caption|подпись|[]
-261|mention|упомянуть|[]
-262|cuisine|кухня, стряпня|[]
-263|weird, bizarre|странный, непонятный, эксцентричный|[]
-264|in general, overall, by and large, on the whole|в общем и целом|[]
-265|fine|штрафовать|[]
-266|frustrate|срывать, расстраивать, затруднять (планы, работу, процесс)|"[""New bugs frustrate our release."", ""Your chatting frustrates my work.""]"
-267|shy, bashful|застенчивый|[]
-268|empathetic|чуткий|[]
-269|generous|щедрый|[]
-270|compassion|сострадание|[]
-271|attractive|привлекательный|[]
-272|odds|шансы|[]
-273|frankly|откровенно|"[""Quite frankly, I think this whole situation is ridiculous.""]"
-274|nitpick|придираться|[]
-275|grumble|ворчать|[]
-276|disheveled|взъерошенный, растрепанный|[]
-277|effort|усилие|[]
-278|treat|угощать, лечить, особое удовольствие, относиться к кому-то определенным образом |"[""It was a real treat seeing my old friends last weekend."", ""We're going to Italy for the weekend - it's my birthday treat."", ""As a special treat, I'll take you to my favourite restaurant."", ""He treated his wife very badly."", ""It's wrong to treat animals as if they had no feelings.""]"
-279|steer|управлять транспортом, вести кого-то|[]
-280|puddle|лужа|[]
-281|demand, in demand|требовать, быть востребованным|[]
-282|fraud, scam|мошенничество|[]
-283|far-fetched|притянутый, надуманный|[]
-284|fee|плата|[]
-285|voluntarily|добровольно|[]
-286|witty|остроумный|[]
-287|neat, tidy|аккуратный, опрятный|[]
-288|bribe|взятка, давать взятку|[]
-289|bias|предвзятость, необъективность, предубеждение|"[""Reporters must be impartial and not show political bias."", ""There was clear evidence of a strong bias against her.""]"
-290|abroad|за рубежом|[]
-291|fickle|непостоянный, переменчивый|[]
-292|pivot|стержень|[]
-293|blink|моргать|"[""He stared at us without blinking.""]"
-294|hesitate|колебаться|[]
-295|insist|настаивать|[]
-296|precedence|старшинство, первенство|[]
-297|nested|вложенный|[]
-298|participate|участвовать|[]
-299|postpone, defer|откладывать|[]
-300|mess, disorder, clutter|беспорядок|[]
-301|attentive|внимательный|[]
-302|intently, attentively|пристально, внимательно|[]
-303|disgusting|отвратительный|[]
-304|confluence|слияние, пересечение, впадение|[]
-305|burst|взрыв, вспышка, лопнуть, разрывать|[]
-306|sprinkle|посыпать, брызгать|[]
-307|straw|солома|[]
-308|log|бревно|[]
-309|high time|пора|[]
-310|poke|тыкать|[]
-311|appreciation|признательность, высокая оценка, уважение|"[""I appreciate your care."", ""Still so little appreciation after all I've done for you.""]"
-312|recently|недавно|[]
-313|concern|касаться, беспокоиться, беспокойство, дело, забота|"[""The state of my father's health concerns us greatly."", ""My business doesn't concern you."", ""Charity is not our company's concern.""]"
-314|out of curiosity|чисто из любопытства|[]
-315|out of|сделанный из|[]
-316|plausibly|правдоподобно|[]
-317|stroll|прогулка, гулять|[]
-318|impression|впечатление|[]
-319|regardless of, despite|несмотря на, независимо от|"[""I still enjoyed the weekend despite the weather."", ""This job is open to all, regardless of previous experience.""]"
-320|salmon|лосось|[]
-321|excruciating, tormenting|мучительно|[]
-322|misuse|злоупотреблять|[]
-323|imply|подразумевать, означать|[]
-324|indent|отступ|[]
-325|notch|паз, выемка, зубец|[]
-326|regret|сожалеть|"[""You will regret it."", ""I have no regrets about it."", ""The council regrets that the money are no longer available.""]"
-327|remorse|раскаяние|[]
-328|pending|в ожидании|[]
-329|circumstance|обстоятельство|[]
-330|wallow|валяться, барахтаться, купаться|[]
-331|perverse|извращенный, ошибочный, упрямый, неправильный|[]
-332|diversity|разнообразие|[]
-333|revoke|аннулировать|[]
-334|whim|каприз|[]
-335|contemptuous, arrogant|презрительный, высокомерный, пренебрежительный|[]
-336|despise|презирать|"[""She despised him for the way he treated her sister."", ""He despised himself for being such a coward.""]"
-337|affect|влиять|[]
-338|proceed|продолжать, действовать|[]
-339|resort|курорт|[]
-340|familiarize [T], acquaint [T]|ознакамливать|"[""Take time to acquaint yourself with the rules."", ""Teachers needed to familiarize themselves with the new software.""]"
-341|as a matter of fact|на самом деле|[]
-342|rob, plunder|грабить, разбойничать|[]
-343|beneath|ниже, под, недостаточно хорош|"[""He hid the letter beneath a pile of papers."", ""She looked out of the window at the children playing beneath."", ""He considered office work as something beneath him.""]"
-344|oppress|угнетать, притеснять|[]
-345|relevant|соответствующий, значимый, уместный, актуальный|[]
-346|distinguish|различать|[]
-347|collaborate|сотрудничать|[]
-348|retire|уходить в отставку, изымать из использования|[]
-349|insurance|страховка, гарантия, страхование|"[""My insurance covers this.""]"
-350|belay|страховать (скалолаза)|"[""The leader will then belay and instruct the second climber to follow.""]"
-351|disease|болезнь|[]
-352|justify|оправдывать, обосновывать|[]
-353|deed|поступок, деяние|[]
-354|accuse|обвинять|[]
-355|conspire|сговариваться|[]
-356|abduct|угрозами или насилием заставить пойти с собой|"[""The company director was abducted from his car by terrorists.""]"
-357|heir|наследник, преемник|[]
-358|ridge|горный хребет|[]
-359|sewer|сточная труба, коллектор|[]
-360|slug|слизень|[]
-361|interrogate|допрашивать|[]
-362|muffle|заглушать|[]
-363|torture|пытать, пытка|[]
-364|utmost|все возможное|[]
-365|conduct|проводить, поведение|[]
-366|inclination|наклонность|[]
-367|cliff|утес|[]
-368|elaborate|разрабатывать|[]
-369|leak|утечка, просачиваться|[]
-370|surreptitious|тайный, сделанный изподтишка|"[""She seemed to be listening to what I was saying, but I had noticed her surreptitious glances at the clock.""]"
-371|penultimate|предпоследний|[]
-372|respectively|соответственно|[]
-373|foresee, anticipate|предвидеть|[]
-374|hedge|живая изгородь|[]
-375|preface|предисловие|[]
-376|willingly|охотно|[]
-377|endorse|одобрять|[]
-378|gain, obtain, receive, fetch|получать|[]
-379|allow|допускать|[]
-380|achieve|достигнуть, добиться|[]
-381|long ago|давно|[]
-382|abruptly|резко|[]
-383|annoy, irritate|раздражать, досаждать|[]
-384|bother|наскучивать, надоедать|[]
-385|covenant|завет, соглашение, пакт|[]
-386|staff|персонал, посох|[]
-387|stuff|материал, вещи, имущество|[]
-388|keep an eye|приглядеть|[]
-389|embarrass, abash|смущать|[]
-390|conscience|совесть|[]
-391|whose|чей|[]
-392|whenever|когда угодно|[]
-393|admire|восхищаться|"[""I admire mechanisms made by dwarfs.""]"
-394|confidence|уверенность|[]
-395|decent|порядочный, приличный|[]
-396|batch|партия, пакет, серия|[]
-397|bunch|гроздь, группа, стадо|[]
-398|pale|бледный|[]
-399|faint|слабо заметный, обморок, падать в обморок|[]
-400|saturate|заполнять пространство, увлажнять, мочить|"[""The grass had been saturated by overnight rain."", ""He had cut his leg, and his trousers were saturated with blood."", ""The police saturated the area.""]"
-401|hence, consequently, therefore|следовательно|[]
-402|fence|забор, ограда|[]
-403|i dont mind|я не против|"[""I don't mind if you help me.""]"
-404|ambiguous|двусмысленный|[]
-405|dangle|болтаться, свисать|[]
-406|kink|причуда, чудить|[]
-407|pat|трепать, похлопывать|[]
-408|cherish|лелеять|"[""The art market is as fickle and hard to predict as any other."", ""She's so fickle - she's never been interested in the same man for more than a week.""]"
-409|possess|обладать|[]
-410|complain|жаловаться|[]
-411|compatible|совместимый|[]
-412|favorable|благоприятный|[]
-413|praise|похвала|[]
-414|patience|терпение|[]
-415|awkward|неловкий|[]
-416|sew|шить|[]
-417|spit|плевать|[]
-418|reassure, soothe, placate|успокаивать, успокаивать от злости|[]
-419|claim|заявлять, заявлять о собственности на что-то, заявление, требование чего-то|"[""The company claims it is not responsible for the pollution in the river."", ""The police said that if no one claims the watch, you can keep it."", ""When King Richard III died, Henry VII claimed the English throne.""]"
-420|crop, clip|обрезать|[]
-421|tend|как правило, иметь тенденцию|"[""Our winters tend to be cold.""]"
-422|acquisition|получение|[]
-423|convince, assure|убеждать, успокаивать|[]
-424|aptitude|способность|"[""He has little aptitude for sport.""]"
-425|obvious, evident|очевидный|[]
-426|enormous, enormously|огромный, чрезвычайно|[]
-427|anniversary|годовщина, юбилей, ежегодный|[]
-428|neglect|пренебрегать, пренебрежение|[]
-429|advance|продвижение|[]
-430|flaunt|щеголять|[]
-431|dedicate|посвящать|[]
-432|harsh|суровый|[]
-433|severity|серьезность, суровость|[]
-434|incline|наклон, наклонять, склонять|[]
-435|negligent, sloppy|небрежный|[]
-436|eloquent|красноречивый|[]
-437|groggy|непрочный|[]
-438|hoof|копыто|[]
-439|collar|воротник, ошейник|[]
-440|in the meantime|тем временем, пока что|"[""Rick wants to be an actor, but in the meantime he’s working as a waiter."", ""Your computer won't arrive till Thursday. In the meantime, you can use Jude's.""]"
-441|chapter|глава|[]
-442|scrutinise|исследовать, испытывать|[]
-443|hatch|люк, вылупляться|[]
-444|adversity|трудная, сложная ситуация|[]
-445|adverse|неблагоприятный|[]
-446|stare|пялиться, глазеть|[]
-447|beckon|манить, подзывать, маяк|[]
-448|admit|признавать|[]
-449|mutiny|бунт|[]
-450|subdue|подчинять, укрощать|[]
-451|snapper|окунь|[]
-452|swirl|водоворот, завихрение, закручивать, вихриться|[]
-453|ignorant|невежественный|[]
-454|mold|плесень|[]
-455|retract|убирать, отзывать (заявление, предложение)|"[""The cat retracted its claws."", ""When questioned on TV, he retracted his allegations.""]"
-456|groan, moan|стон, стонать|[]
-457|haul|буксировать, тащить|[]
-458|flabbergasted|ошеломленный|[]
-459|rival|конкурент|[]
-460|loom|маячить, неясно вырисовываться|[]
-461|vessel|судно, сосуд|[]
-462|which is why|вот почему, именно поэтому|[]
-463|reek|вонь, вонять|[]
-464|shove|пихать, совать|[]
-465|anxiety|беспокойство, тревога, страх, опасения|"[""Doctor diagnosed her with anxiety leading to sleeplessness.""]"
-466|forsake, abandon|покидать, забивать, забрасывать|[]
-467|lurk|таиться, скрываться, подстерегать|"[""Something lurks in the shadows."", "" Fleas can lurk in pet hair.""]"
-468|colon|двоеточие|[]
-469|semicolon|точка с запятой|[]
-470|dash|тире, быстрое движение, быстро двигаться куда-то|[]
-471|adjective|прилагательное|[]
-472|adverb|наречие|[]
-473|participle|причастие|[]
-474|resilient|жизнерадостный, упругий|[]
-475|outstanding|выдающийся|[]
-476|catch up|наверстать|[]
-477|savvy|подкованный, сообразительный, смекалка, здравый смысл|"[""Any savvy investor can see this great opportunity.""]"
-478|barely|едва|[]
-479|simultaneously|одновременно|[]
-480|feast|пир, праздник|[]
-481|funeral|похороны|[]
-482|coffin|гроб|[]
-483|tranquility|спокойствие|[]
-484|dense|плотный, густой, дремучий|[]
-485|quiver|колчан, трепет, дрожь, дрожать|[]
-486|notched|зазубренный|[]
-487|onward, further|далее|[]
-488|brittle|ломкий|[]
-489|toll|дань, пошлина, сбор, потери|[]
-490|depict|изображать, описывать|[]
-491|ladder, stairway|лестница|[]
-492|vast majority|подавляющее большинство|[]
-493|taint, spoil|заражать, портить|[]
-494|proverb|поговорка|[]
-495|grasp|понять, крепко сжать, осознать|[]
-496|haze|дымка|[]
-497|devote|уделять|[]
-498|insurmountable|непреодолимый|[]
-499|realize|понимать, осознавать|[]
-500|intrude|вторгаться, навязываться|[]
-501|distress, woe|беда, горе, скорбь|[]
-502|facility|объект, сооружение, установка, завод|[]
-503|fierce|свирепый, неистовый|[]
-504|sincere|искренний|[]
-505|escalate|нагнетать|[]
-506|superstitious|суеверный|[]
-507|gossip|сплетни|[]
-508|certain|определенный|[]
-509|artisan|ремесленник|[]
-510|afford|позволять, предоставлять возможность, позволять себе|"[""I don’t know how he can afford a new car."", ""The hut afforded little protection from the rain."", ""We can afford to wait."", ""Her seat afforded her an uninterrupted view of the stage.""]"
-511|tenured|штатный|[]
-512|defile|осквернять|[]
-513|dwell, reside|обитать, находиться|[]
-514|probation|испытательный срок|[]
-515|impose|навязывать, налагать, облагать (налогом)|"[""Very high taxes have been imposed on cigarettes.""]"
-516|diverge|расходиться, отклоняться|[]
-517|colloquial|разговорный|[]
-518|arbitrary|произвольный, незаконный, случайный|"[""Distributed system must stay alive regardless arbitrary number of connection breaks."", ""Meeting on central square was arbitrary.""]"
-519|custody|хранение, опека|[]
-520|slightly|немного, слегка|[]
-521|allocate|распределять, выделить|[]
-522|verbose|многословный|[]
-523|pathetic|жалкий|[]
-524|singlet|майка|[]
-525|afterwards|впоследствии|[]
-526|amend|вносить поправки|[]
-527|wovel|гласный|[]
-528|consonant|согласный|[]
-529|wind|виться|[]
-530|swing|раскачиваться|[]
-531|spin|вертеться|[]
-532|cast|отбрасывать (тень, свет, взгляд, сомнения), отливать, литьё|[]
-533|quit|увольняться|[]
-534|in a word, in short, in brief|в двух словах, вкратце|[]
-535|vice versa|наоборот|"[""The president must serve the people, not vice versa""]"
-536|either way|так или иначе|[]
-537|most likely|скорее всего|[]
-538|polite|вежливый|[]
-539|midget|карлик|[]
-540|kindly|любезно|[]
-541|fluke|счастливая случайность, камбала, палтус|[]
-542|obfuscate|затемнять, сбивать с толку|[]
-543|transparent|прозрачный|[]
-544|opaque|непрозрачный|[]
-545|connotation|смысловой оттенок, значение|[]
-546|shade|оттенок цвета|[]
-547|stray, astray|плутать, заблудиться, сбиться с пути|[]
-548|boundary|граница|[]
-549|causeway|приподнятая, особенно над водой, дорога|[]
-550|rag, ragged|тряпка, рваный, ободранный|[]
-551|doubtful|сомнительный|[]
-552|tie|связывать|[]
-553|glimpse|проблеск, намек|[]
-554|altitude|высота|[]
-555|furle|сворачивать|[]
-556|dizzy|головокружительный|[]
-557|encumber|обременять|[]
-558|weary|усталый, утомленный|[]
-559|evidence, proof|улика, свидетельство, доказательство|[]
-560|adulation, flatter|лесть, льстить|[]
-561|spanner|гаечный ключ|[]
-562|gutter|желоб|[]
-563|irreversible|необратимый|[]
-564|resurface|всплывать|[]
-565|noose|петля|[]
-566|gust|порыв|[]
-567|scorn|презрение, выражать презрение|"[""She has nothing but scorn for the new generation of politicians."", ""Why do you always pour/heap scorn on my suggestions?""]"
-568|consolidate|укреплять|[]
-569|compound|сложный, составной, состав, смесь, соединение|[]
-570|singular and plural|единственное и множественное числа|[]
-571|ascertain, find out|выяснять|[]
-572|accommodate|приспособить, вместить|[]
-573|decommission|вывод из эксплуатации|[]
-574|preemptive|упреждающий|[]
-575|acquaintance|знакомый, контакт, знакомство с чем-либо|"[""He lost contact with all his old acquaintances."", ""My acquaintance with Spanish literature is rather limited."", ""She is my business acquaintance.""]"
-576|snatch|вырывать, хватать, отбирать|[]
-577|collocutor|собеседник|[]
-578|reconcile|согласовывать, мирить|[]
-579|exempt|освобождать|[]
-580|snappy|резкий, энергичный, быстро|[]
-581|huddle|съеживаться, сбиваться в кучу|[]
-582|clench|стискивать, сжимать|[]
-583|ostentatious|показушный|"[""His bravery is ostentatious.""]"
-584|embark|вступать в дело, грузиться|[]
-585|drip|капать|[]
-586|shiver|дрожь, дрожать|[]
-587|composure|самообладание, хладнокровие|[]
-588|inlet|вход|[]
-589|crumble|рассыпаться|[]
-590|damp, dampen|влажный, сырой, отсыревать, становиться влажным|[]
-591|stilt|ходуля, свая|[]
-592|seep|просачиваться|[]
-593|capeside|мыс|[]
-594|crowd|толпа, толпиться, теснить|"[""People were crowding in the hall"", ""I don't mean to crowd you, but this elevator is too small""]"
-595|shudder|содрогаться|[]
-596|hide|шкура|[]
-597|tar|деготь, смола, гудрон|[]
-598|protude|выступать, торчать|[]
-599|canopy|навес, тент|[]
-600|malevolent|угрожающий, злобный|[]
-601|ominous, sinister|зловещий|[]
-602|swell|вздуваться, волнение (моря)|[]
-603|assumption|предположение|[]
-604|slurp|чавкать, хлебать|[]
-605|throb|пульсировать|[]
-606|wander|блуждать, скитаться, странствовать|[]
-607|poste restante|до востребования|[]
-608|contest|испытание|[]
-609|brat, jerk|сопляк|[]
-610|remittance|денежный перевод|[]
-611|supplement|дополнение, дополнить|[]
-612|crucial|ключевой, основной|[]
-613|velocity|скорость|[]
-614|someday|когда-нибудь|[]
-615|ponder|обдумывать|"[""She sat back for a minute to ponder her next move in the game.""]"
-616|prior to the something|до чего-то по времени|[]
-617|complient|послушный|[]
-618|feign|притворяться (симулировать)|[]
-619|overhead|накладные расходы|[]
-620|fascinate|увлекать, притягивать|"[""Science has always fascinated me.""]"
-621|sullen|угрюмый|[]
-622|deplete, exhaust|истощать|[]
-623|extinct|вымирать|[]
-624|precaution|предосторожность|[]
-625|motto|девиз|[]
-626|trousers|брюки|[]
-627|janitor|дворник|[]
-628|dank|промозглый, сырой, холодный|[]
-629|apparently|по-видимому|[]
-630|jumble|ворох, мешанина, перемешивать|[]
-631|festive|праздничный|[]
-632|well|колодец|[]
-633|stain|пятно, красящее вещество|[]
-634|accomplish|достичь, преуспеть|"[""The students accomplished the task in less than ten minutes."", ""I feel as if I've accomplished nothing since I left my job.""]"
-635|constellation|созвездие|[]
-636|vital|жизненно, критически важный|[]
-637|crook|мошенник, жулик|[]
-638|spooky|пугающий, жуткий|[]
-639|wrist|запястье|[]
-640|borrow, lend|брать в долг (у кого-то), одалживать (кому-то)|"[""I lend him my car."", ""I borrowed some money in the bank.""]"
-641|volition|воля, желание|"[""He said he resigned of his own volition, but I believe he was forced to.""]"
-642|decimation|истребление, казнь, взымание десятины|[]
-643|endure|терпеть|[]
-644|underlying|истинный (о причине)|"[""The investigation focused on the underlying causes of the fire.""]"
-645|shrink|сокращаться|[]
-646|snooze, take a nap|вздремнуть|[]
-647|glide, slip|скользить, соскальзывать|[]
-648|jolly, breezy|веселый|[]
-649|irritable|раздражительный|[]
-650|buckle|пряжка, хомут, скоба|[]
-651|interfere|вмешиваться|[]
-652|gaze|долгий взгляд, долго смотреть|"[""He spends hours gazing out of the window.""]"
-653|suit yourself|делай что хочешь|[]
-654|statement|утверждение, заявление, высказывание|[]
-655|inevitable|неизбежный|[]
-656|pace|темп|[]
-657|spare|запасной, жалеть, щадить|[]
-658|scarcity|дефицит|[]
-659|contradictory|противоречивый|[]
-660|drawback|недостаток|[]
-661|due to, owing to|из-за|"[""I can not go the club due to my sickness."", ""We can not go to vacation owing to the war.""]"
-662|necessity|необходимость|[]
-663|insolent|наглый, высокомерный|[]
-664|nuisance|неприятность, досада|[]
-665|humiliate|унижать|[]
-666|caress, fondle|ласкать, гладить|[]
-667|adore|обожать|[]
-668|uncurtain, push apart|раздвинуть|[]
-669|perineum|промежность|[]
-670|smudge|мазаться, пачкаться|[]
-671|pour|сливать, переливать|[]
-672|nates|ягодицы|[]
-673|lap|лакать|[]
-674|thigh|бедро|[]
-675|stale|несвежий, протухший, надоевший, наскучивший|[]
-676|waiter|официант|[]
-677|perish|погибнуть|[]
-678|scrape|соскребать|"[""Emily scraped away the dead leaves to reveal the tiny shoot of a new plant."", ""We'll have to scrape the snow off the car before we go.""]"
-679|firm|твердый|[]
-680|scarcely|едва, еле, вряд ли|[]
-681|retaliate|отомстить|[]
-682|oblivion|забвение|[]
-683|tolerable|терпимо, допустимо|[]
-684|retention|удержание, сохранение|[]
-685|malform, malformed|уродство, дефектный|[]
-686|vague|расплывчатый, смутный, неопределенный|"[""I find that answer vague and unconvincing"", ""I didn't see a person in the fog, vague outline only""]"
-687|rod|стержень, прут|[]
-688|aspire, strive|стремиться|[]
-689|reign|царство, царить|[]
-690|obsession|навязчивая идея, одержимость|[]
-691|vanish|исчезнуть|[]
-692|inanely|бессмысленно|[]
-693|deliberately, intentionally|умышленно, нарочно|[]
-694|labour|работа (которая делается), рабочий|[]
-695|decline|отклонить, спад, спадать|[]
-696|sober|трезвый|[]
-697|passionate|страстный, пылкий|[]
-698|snare|ловушка, силок|"[""The legal system is full of snares for those who are not wary.""]"
-699|intangible|неуловимый, неосязаемый, непостижимый|"[""She has that intangible quality which you might call charisma."", ""Creativity is an intangible we're looking for in an employee.""]"
-700|discrepancy|несоответствие, расхождение|[]
-701|inequity|несправедливость|[]
-702|dignity|достоинство|[]
-703|disrupt|нарушать|[]
-704|moat|ров|[]
-705|vapid|тупой, бестолковый|"[""This show is vapid""]"
-706|condemn|осуждать|[]
-707|subtleties|тонкости|[]
-708|timespan|промежуток времени|[]
-709|soil|почва, грунт, пачкать|[]
-710|fine-grained|мелкозернистый|[]
-711|coarse-grained|крупнозернистый|[]
-712|deviate|отклоняться|[]
-713|graduate|оканчивать учебное заведение|[]
-714|recall|отзыв, воспоминание, вспоминать|[]
-715|mitigate|смягчать (последствия, риски)|[]
-716|misery|невзгоды, несчастья|[]
-717|burden|бремя|[]
-718|dispose|располагать, размещать|[]
-719|misfit|неудачник|[]
-720|conviction|убеждение, убежденность|[]
-721|prospective|ожидаемый, будущий|[]
-722|toddler|младенец|[]
-723|beg|просить, умолять|[]
-724|plethora|избыток|"[""The plethora of regulations is both contradictory and confusing.""]"
-725|discombobulate, bemuse|вводить в замешательство|[]
-726|disposable|одноразовый|[]
-727|no matter what|во что бы то ни стало|[]
-728|landlord and tenant|арендодатель и арендатор|[]
-729|exaggerate|преувеличивать|"[""The threat of attack has been greatly exaggerated.""]"
-730|saliva|слюна|[]
-731|settle|решить, прийти к решению, договориться|[]
-732|diapers|подгузники|[]
-733|jointly|совместно|"[""The tenants are all jointly responsible for the rent.""]"
-734|deceptive|обманчивый|[]
-735|bask|греться|[]
-736|spill|проливать, наливать, рассыпать|[]
-737|culprit|преступник, виновник|[]
-738|fugitive|беглец|[]
-739|entrancing|очаровывающий, пленительный|[]
-740|besides|кроме того|[]
-741|exhibit|выставлять напоказ, демонстрировать|[]
-742|regard|рассматривать, относиться|"[""Her parents always regarded her as the smartest of their children."", ""The bird regarded me with suspicion as I walked up to its nest.""]"
-743|reify|материализовать|[]
-744|emit|испускать, излучать, выделять|[]
-745|sustain|поддерживать, выдерживать|"[""It's difficult for him to sustain relationships with women."", ""The soil is not rich enough to sustain a large population."", ""Dreadnought can sustain a lot of damage.""]"
-746|humble|скромный|[]
-747|submerge, plunge, dip|погружаться под воду|[]
-748|cane|трость|[]
-749|correspond|соответствовать, согласовываться, совпадать|[]
-750|arise, occur|возникать, случаться|"[""Problems arise when the payment is late."", ""A strange accident has occurred in the conpany.""]"
-751|fiend|изверг, злодей|"[""My father was an inebriate and a fiend.""]"
-752|make out, discern, recognize|разглядеть, разобрать, распознать, различить|[]
-753|circuit|схема, цепь, контур|[]
-754|intestine|кишечник|[]
-755|worn-out|изношенный|[]
-756|spokesman|представитель|"[""You know that guy with funny mustache, who's a spokesman of our president""]"
-757|on the contrary|напротив, наоборот, с другой стороны|"[""Of course, you help with your advise, but on the contrary, you deprive him of opportunity to learn a lesson""]"
-758|deprive of|лишать чего-либо|"[""Tyrant deprived us of our homeland""]"
-759|preceding, predecessor|предшествующий, предшественник|"[""Preceding book of this saga was more interesting.""]"
-760|derive|выводить, извлекать, получать|"[""Knowing this information you easily can derive a rule""]"
-761|caveat|оговорка, условие|"[""He agreed to the interview, with the caveat that he could approve the final article."", ""Behind every set of statistics there's always a caveat.""]"
-762|interleave|чередовать|"[""My shower interleaves cold and hot water."", ""Lessons are interleaved sequences of videos and exercises."", ""Burger is several buns, interleaved with cutlet or cheese."", ""Cheese in sandwich is an interleave between two loafs of bread.""]"
-763|hilarious|уморительно, очень смешно|"[""It's hilarious to hear our government's statements knowing real situation""]"
-764|affair|роман, дело, дела|"[""I had an office affair on my previous job."", ""She organizes her financial affairs very efficiently."", ""He's always meddling in other people's affairs.""]"
-765|daunting|устрашающий|"[""Mafia boss had a daunting speech.""]"
-766|refuge|убежище, укрытие, приют|"[""You had accommodation troubles and we provided a temporary refuge."", ""We gave them refuge within the city walls.""]"
-767|draw attention|привлечь внимание|"[""I want to draw your attention to this issue.""]"
-768|pay attention|обращать внимание|"[""You should pay attention to that fact.""]"
-769|ire|гнев, злость, ярость|"[""I don't want to invoke the ire of my parents.""]"
-770|skew, distort|искажать|[]
-771|pastry|выпечка, кондитерские изделия|[]
-772|prescribe|предписывать|[]
-773|inflate|раздувать, накачивать|[]
-774|clump|комок, глыба|[]
-775|selfsame, identical|тот же самый|[]
-776|full-fledged|полноценный|"[""This class looks like a full-fledged bean.""]"
-777|plenty|достаточно, в избытке|"[""We've got plenty of time before we need to leave for the airport.""]"
-778|onerously|затруднительно, обременительно|[]
-779|kneel|стоять на коленях, становиться на колени|"[""Ukraine will not kneel to negotiate.""]"
-780|hyphen|дефис|[]
-781|essentially|по сути, по существу|[]
-782|concise|краткий, сжатый, четкий|[]
-783|hut|шалаш|[]
-784|beak|клюв|[]
-785|up-to-date|актуальный, новейший, уточненный|[]
-786|dread|страх, боязнь, опасения|[]
-787|on my own|сам по себе, самостоятельно|[]
-788|subconsciously|подсознательно|[]
-789|thus|таким образом|"[""They planned to reduce staff and thus to cut costs.""]"
-790|premature|преждевременный|"[""Burst of requests in the beginning of the test may be a cause of premature application fail.""]"
-791|gradual|постепенный|[]
-792|sneer|насмехаться|[]
-793|folly|глупость|[]
-794|expound|излагать|[]
-795|designated to|предназначен для|[]
-796|vestige|пережиток, останки чего-то былого|"[""Vestiges of ancient settlements can be found in the valley.""]"
-797|cunning|хитрый, коварный, ушлый|"[""He won't miss opportunity to gain a profit - he's pretty cunning businessman.""]"
-798|crave|жаждать|"[""Big Boss craved for revenge."", ""My body craves for morning exercises.""]"
-799|mend|заживать, поправляться, латать|"[""Your wound has mended.""]"
-800|surpass|превзойти|"[""The studend surpassed his teacher.""]"
-801|frivolous|легкомысленный|"[""I see her as a frivolous young woman."", ""I'm sorry to be so frivolous.""]"
-802|weigh|взвешивать|"[""Typical Georgian business is sitting on a street with scales and propose passerby to weigh.""]"
-803|nonchalant, careless|беспечный, беззаботный|"[""Georgian lifestyle is pretty nonchalant.""]"
-804|wheat|пшеница|[]
-805|set apart, separate, detach|отделять|[]
-806|besmirch|пятнать (репутацию)|"[""His accusations were false, but they served to besmirch her reputation.""]"
-807|guinea pig|подопытный кролик|"[""We deemed ourselves guinea pigs when they did that research on us.""]"
-808|ellipsis|многоточие|[]
-809|immerse|погружаться в активность или тему|"[""I'm not immersed deeply in this technology.""]"
-810|satiate|насыщать (утолять нужду)|"[""He drank greedily until his thirst was satiated.""]"
-811|quench|утолять жажду, желание|"[""I quench my thirst with gasoline.""]"
-812|consider|рассматривать (возможность)|"[""Consider my offer.""]"
-813|deem|рассматривать (считать)|"[""We deemed ourselves guinea pigs when they did that research on us.""]"
-814|malt|солод|[]
-815|accusation|обвинение|"[""Your accusations are groundless.""]"
-816|passerby|прохожий|[]
-817|reckless|безрассудный, опрометчивый, безответственный, неосмотрительный|"[""Reckless driving.""]"
-818|endemic|свойственный местности или виду|"[""Marsupials are endemic to Australia.""]"
-819|omission|упущение, оплошность|[]
-820|valiant|доблестный|[]
-821|cowardice|трусость, малодушие|[]
-822|addendum|слагаемое|[]
-823|minuend and subtrahend|уменьшаемое и вычитаемое|[]
-824|numerator and denumenator|числитель и знаменатель|[]
-825|divident and divisor|делимое и делитель|[]
-826|preliminary|предварительный|[]
-827|matter|дело, нюанс, момент|"[""What's the matter with your hand?"", ""Baking a cake is just a matter of following the recipe."", ""Could I talk to you about a personal matter?"", ""I'm not immersed in this matter."", ""Don't make matters worse.""]"
-828|objective|задача, цель|[]
-829|yearning, anguish|тоска|[]
-830|ought to|стоило бы|"[""If there's any doubt about the rocket's engines, we ought to cancel the launch."", ""We ought not to have agreed without knowing what it would cost.""]"
-831|worship|поклоняться, поклонение|[]
-832|obey|подчиняться, повиноваться|[]
-833|viable|жизнеспособный, целесообразный, возможный|"[""I am afraid your plan is not commercially viable.""]"
-834|trout|форель|[]
-835|conjunction and preposition|союз и предлог|[]
-836|clause|словосочетание, часть предложения, пункт|[]
-837|collocation|устойчивое словосочетание|[]
-838|feisty|дерзкий, отчаянный, отважный|[]
-839|emphasis|акцент, особое внимание|"[""Schools here put (place, lay) great emphasis on written work and grammar.""]"
-840|rapport|взаимопонимание|[]
-841|tempted|искушенный|[]
-842|stub, stump|обрубок|[]
-843|painstakingly|тщательно|[]
-844|likelihood, probability|вероятность|[]
-845|inflict|причинять (боль, страдания)|[]
-846|juxtapose|сопоставлять|[]
-847|resemble|быть похожим, напоминать|"[""You resemble your mother very closely."", ""After the earthquake, the city resembles a battlefield.""]"
-848|sheath|ножны|[]
-849|hypocritical|лицемерный|[]
-850|sought-after|востребованный|[]
-851|occasionally|иногда, время от времени, по случаю|"[""I occasionally watch TV."", ""Occasionally I'll have a piece of chocolate, but it's very rare.""]"
-852|cod|треска|[]
-853|disdain|пренебрежение, выражать пренебрежение|[]
-854|stride|широкий шаг, шаг в развитии чего-либо|"[""This invention is an important stride in space colonization.""]"
-855|trait|черта, особенность|[]
-856|rack|стойка, стеллаж|[]
-857|drawer|ящик стола|[]
-858|comprise|включать в себя, состоять из|"[""The course comprises a class book, a practice book, and a CD.""]"
-859|scrutiny|тщательное изучение, исследование|[]
-860|vigorous|сильный, энергичный, интенсивный|[]
-861|genuine|подлинный|[]
-862|spurious|ложный, поддельный|[]
-863|adjacent, contiguous|смежный, прилегающий, соседний|[]
-864|abscond|сбежать, скрыться|[]
-865|notion|идея, мысль, представление, мнение|[]
-866|conceal|скрывать, прятать|[]
-867|long-term|долгосрочный|[]
-868|towards|в направлении, рядом, по отношению к, чтоб достичь чего-то|"[""She stood up and walked towards him."", ""Our seats were towards the toilet."", ""They've always been very friendly towards me."", ""I'm saving up to buy a car, and Dad has given me some money towards it.""]"
-869|appear|появляться, казаться, публично засветиться|"[""It appears (that) she left the party alone."", ""She appears briefly in that film.""]"
-870|appearance|появление, представление, внешность|[]
-871|drastic|значительный, разительный, ощутимый (об изменениях, решениях, действиях)|[]
-872|ingest, swallow|глотать|[]
-873|alleviate|облегчать|"[""The drugs did nothing to alleviate her pain or suffering.""]"
-874|exacerbate, aggravate|усугублять|[]
-875|feasable|достижимо(ый), осуществимо(ый)|"[""With extra resources your project seems feasible.""]"
-876|aperture|отверстие, диафрагма|[]
-877|defenestrate|выкинуть кого-нибудь из окна, отстранить от работы|[]
-878|shallow|мелкий (о глубине)|[]
-879|revel|тусить, кутить|[]
-880|suspenseful|ожидающий в возбуждении|[]
-881|upward and downward|наверх и вниз|[]
-882|in sooth|в действительности|"[""In sooth, I know not why I am sad.""]"
-883|deafening|очень громкий|[]
-884|ashen|бесцветный|"[""She was thin and her face was ashen.""]"
-885|destitute|без денег, еды, дома и средств к существованию|"[""The floods left thousands of people destitute.""]"
-886|compelling|убедительный (аргумент, повод)|[]
-887|frightened, terrified, petrified|напуган (слабо-сильно)|[]
-888|timid|робкий|[]
-889|twinkle|мерцать|[]
-890|shine, gleam|сиять|[]
-891|keen|сильный (о чувствах или умениях), любезный, поспешный (в исполнении чего-либо)|"[""She's a keen tennis player."", ""He's got a keen sense of smell."", ""She was very keen to help.""]"
-892|endeavor|пытаться сделать что-то, попытка|"[""Engineers are endeavoring to locate the source of the problem.""]"
-893|extinguish|тушить (свет, огонь)|[]
-894|conclude|подытожить|[]
-895|intermittent|прерывающийся, нестабильный|"[""Intermittent rain."", ""Intermittent connection.""]"
-896|exert|задействовать (связи, черты, влияние)|"[""If you were to exert your influence they might change their decision."", ""Some managers exert considerable pressure on their staff to work extra hours.""]"
-897|sultry|душный (о погоде), горячий (о сексуально привлекательном человеке)|[]
-898|syllable|слог|[]
-899|lever|рычаг, средство для достижения цели|"[""Using trade or other economic tools as a lever of diplomacy is not new.""]"
-900|leverage|задействовать что-то, что ты имеешь, чтоб получить какую-либо выгоду|"[""This new strategy is about leveraging the relationships we have with our customers."", ""It should be possible to leverage your temporary assignment into a full-time job.""]"
-901|nonfungible|невзаимозаменяемый|[]
-902|precipice|обрыв, пропасть|[]
-903|stir|размешивать, возбуждать, заставить что-то или самому шевелиться или колыхаться|"[""A light breeze stirred the leaves lying on the path."", ""He stirred in his sleep as I kissed him."", ""The speech stirred the crowd to take action.""]"
-904|protract|затягивать (по времени)|[]
-905|rehearse|репетировать|[]
-906|yank, tug|дёргать|"[""Tom tugged at his mother's arm."", ""She felt a tug at her sleeve.""]"
-907|inferior|худший по сравнению с чем-то еще|"[""These products are inferior to those we bought last year."", ""He regarded most men as his social, moral, and intellectual inferiors.""]"
-908|cite|приводить в качестве доказательства, ссылаться на, цитировать|"[""She cited three reasons why people get into debt."", ""She cites both T.S."", ""Eliot and Virginia Woolf in her article.""]"
-909|snore|храпеть|[]
-910|vain|тщеславный|[]
-911|catty|злобный|[]
-912|carve|вырезать из дерева, камня, выгравировывать|[]
-913|rustle|шорох|[]
-914|slush|слякоть|[]
-915|let|не говоря уже о|"[""Some people never even read a newspaper, let alone a book.""]"
-916|have yet to|еще предстоит|"[""They have yet to make a decision."", ""In January I had yet to learn programming.""]"
-917|auspicious|многообещающий, благоприятный|"[""Winning her first seven cases was an auspicious beginning for the young lawyer.""]"
-918|galvanize|побуждать (к действию)|"[""Western charities were galvanized by TV pictures of starving people.""]"
-919|charity|благотворительная организация|[]
-920|gregarious|общительный, коммуникабельный|[]
-921|amenable|податливый|[]
-922|tenacious|цепкий|[]
-923|suppose, reckon|считать, полагать|[]
-924|amaze|удивлять, поражать|"[""I’m amazed at how well your little girl can read.""]"
-925|dimly|тусклый|[]
-926|roam|бродить, слоняться|[]
-927|comprehensive|исчерпывающий, всеобъемлющий|"[""We offer you a comprehensive training in all aspects of the business."", ""Is this list comprehensive or are there some names missing?"", ""He has written a fully comprehensive guide to Rome.""]"
-928|insomnia|бессонница|[]
-929|stubborn|упрямый|[]
-930|humid|влажный (о погоде)|[]
-931|storm, tempest, gale|буря|[]
-932|abolish|официально заканчивать, прекращать|[]
-933|blunt|тупой, затуплять, грубый|"[""I'll be blunt that last piece of work you did was terrible."", ""A blunt pencil, knife.""]"
-934|cease|прекратить|"[""The company has decided to cease all UK operations after this year.""]"
-935|exhaustive|исчерпывающий|[]
-936|aforementioned|вышеупомянутый|[]
-937|lure|приманка, заманивать, уговаривать|[]
-938|jeopardize|подвергать планы или систему опасности|"[""She knew that by failing her finals she could jeopardize her whole future.""]"
-939|adorn|украшать|[]
-940|solemn|торжественный|[]
-941|sensible|разумный|[]
-942|thoughtful|вдумчивый|[]
-943|evasive|уклончивый|[]
-944|placid|безмятежный|[]
-945|courteous|учтивый, почтительный|[]
-946|gullible|доверчивый|[]
-947|cautious|осторожный|[]
-948|slender|стройный|[]
-949|mesmerizing|завораживающий|[]
-950|groom|жених|[]
-951|look alike|быть похожим|[]
-952|spacious|просторный|[]
-953|congest|загромождать, заполнять, забивать|[]
-954|insipid, bland|пресный, безвкусный, вялый, скучный|[]
-955|soak|мочить сильно|[]
-956|detest|ненавидеть|[]
-957|cheeky|дерзкий, резкий, грубоватый|[]
-958|astonish|изумить|[]
-959|content|удовлетворение, удовлетворять, быть удовлетворенным, довольным чем-то|"[""He seems fairly content with his life."", ""My explanation seemed to content him.""]"
-960|worth|заслуживающий, стоящий|"[""My bag is worth a hundred dollars."", ""This matter is worth our attention."", ""If you are a driver, it is worth having insurance.""]"
-961|sheer|выдающийся (о качествах и чувствах), отвесный (склон), чистый (неразбавленный) |"[""The suggestion is sheer nonsense."", ""His success was due to sheer willpower/determination."", """"]"
-962|outskirts|окраины|"[""The factory is in/on the outskirts of New Delhi.""]"
-963|coat check|гардероб (комната в заведении)|[]
-964|shabby|потрепанный, поношенный, бесчестный|"[""He wore a shabby old overcoat."", ""Her home is in a shabby part of town."", ""The company's treatment of women was shabby.""]"
-965|yield|произвести выгоду, уступить полномочия, уступить|"[""Favourable weather yielded a good crop."", ""They were forced to yield their land."", ""If you're going downhill, you need to yield to bikers going uphill.""]"
-966|crop|урожай, поставка, выборка|"[""The main crops grown for export are coffee and rice."", ""The judges will select the best from this year's crop of first novels.""]"
-967|allege, allegation|бездоказательно утверждать, бездоказательное обвинение|"[""The allegations of corruption were not true.""]"
-968|oblige|обязать, удовлетворить просьбу|"[""Circumstances obliged him to leave the town."", ""We only went to the party to oblige some old friends who asked us to be there."", ""We needed a guide and he was only too happy to oblige.""]"
-969|mutilate|калечить, уродовать|"[""Self-hatred apparently drove her to mutilate her own face.""]"
-970|straggle|отставать|"[""The players straggled in for the morning practice session."", ""This host of course is not normal and shows straggling.""]"
-971|rowdy|шумный (о человеке или мероприятии)|[]
-972|mellow|мягкий, спокойный, приятный (о вкусах, звуках, видах)|[]
-973|assertive|уверенный в себе|[]
-974|indulge|позволять себе что-то, возможно, сверх меры|"[""We took a deliberate decision to indulge in a little nostalgia."", ""The soccer fans indulged their patriotism, waving flags and singing songs."", ""I love champagne but I don't often indulge myself.""]"
-975|astute|проницательный, быстро соображающий|[]
-976|chubby, plump|полный (слегка толстый)|[]
-977|coherent|логичный, четкий, ясный (идея, план)|[]
-978|commence|начать что-либо|"[""We will commence building work in August of next year."", ""Shall we let the meeting commence?""]"
-979|insoluble|неразрешимый|"[""Traffic congestion in large cities seems to be an insoluble problem.""]"
-980|discreet|тактичный, осторожный|[]
-981|eradicate|избавиться от чего-то плохого|[]
-982|imminent|грядущий|[]
-983|(in)eligible|(не)удовлетворяющий требованиям, (не)подходящий по параметрам|[]
-984|inundate|заваливать (работой, вещами)|[]
-985|nag|задалбывать чем-либо, нытик|"[""My mum's always naggING me to get my hair cut."", ""If you stop naggING at me, I might actually do it.""]"
-986|peel|чистить (фрукты)|[]
-987|perennial|продолжительный, часто повторяющийся|[]
-988|perplex|озадачивать|"[""The disease has continued to perplex doctors."", ""You look perplexed.""]"
-989|perspire|потеть|[]
-990|pledge|серьезное или формальное обещание, обещать|"[""We are asking people to pledge their support for our campaign."", ""Thousands of people made pledges to the charity campaign.""]"
-991|predominantly|преимущественно|"[""She is predominantly a dancer, but she also sings.""]"
-992|prosecute|преследовать по суду, осуждать|[]
-993|prosperous|успешный, процветающий|[]
-994|prudent|благоразумный, осмысленный|[]
-995|pungent|насыщенный (вкус), сильный (запах)|[]
-996|repel|отражать (атаку, нападение), защищать от чего-либо|[]
-997|ramshackle|в очень плохом состоянии|"[""There's a ramshackle old shed at the bottom of the garden.""]"
-998|rattle|греметь, трещать, стучать|[]
-999|rumble|гудеть, грохотать|[]
-1000|scatter|разбрасывать|[]
-1001|screech|визг, визжать|[]
-1002|skid|скользить, входить в занос|[]
-1003|skim|передвигаться почти не касаясь поверхности, бегло просматривать|"[""The birds skimmed across the tops of the waves."", ""We watched a child skimming stones across the lake.""]"
-1004|slam|хлопнуть, резко ударить во что-то|"[""He slammed the brakes on.""]"
-1005|sluggish|вялый, малоподвижный|[]
-1006|snarl|скалиться, рычать|[]
-1007|squander|транжирить|[]
-1008|squeak|скрипеть, пищать|[]
-1009|squelch|хлюпать|[]
-1010|stagger|идти шатаясь, ошарашивать|[]
-1011|suffocate|задыхаться|[]
-1012|stifle|подавлять, сдерживать что-либо|[]
-1013|strenuous|ресурсоемкий|[]
-1014|superficial|поверхностный|[]
-1015|unanimous|единогласный|[]
-1016|vile|мерзкий, неприятный, аморальный|[]
+1, 'interact', 'взаимодействовать', '["Our service is supposed to interact with customers."]'
+2, 'kernel', 'ядро, зерно, суть', '["The kernel of this whole idea is simplicity of user interaction.", "The nut finally cracks and exposes a rich, oily kernel."]'
+3, 'schedule', 'планировать, расписание', '["I scheduled our meetings on Fridays.", "My schedule is very dense today."]'
+4, 'attempt', 'попытка, предпринимать попытку', '["Your pitiful attempt at revolution has failed.", "I wasn''t sure so didn''t attempt anything."]'
+5, 'ensure', 'гарантировать, обеспечивать', '["We must ensure successful elections.", "We can''t ensure the safety of the hostages."]'
+6, 'permission', 'разрешение', '["I don''t really need your permission to do that."]'
+7, 'ad hoc', 'придуманный специально для этого, по необходимости', '["We deal with problems on an ad hoc basis (= as they happen).", "We have created ad hoc committees for this purpose.", "This ad hoc mechanism has not been effective in global scope."]'
+8, 'passion', 'страсть, азарт', '["Gambling is my passion.", "He has it all: speed, passion, team tactics.", "We had a short but passionate love affair."]'
+9, 'sane', 'здравый (человек, рассудок, решение, мысль)', '["I never claimed to be sane.", "That was a sane decision."]'
+10, 'chunk', 'кусок, ломоть, часть', '["Big chunk of my work was delegated to him.", "Data has been received chunked."]'
+11, 'involve', 'вовлекать, предусматривать, задействовать', '["I don''t want to involve you in this.", "Police involved me in investigation.", "Additional supporting measures were involved by our company."]'
+12, 'assume', 'предполагать, допускать, брать на себя (ответственность, роль)', '["I can assume two possible outcomes.", "You should assume leadership and responsibility."]'
+13, 'toil', 'усердно работать', '["You need to toil if you want to succeed."]'
+14, 'intrinsic, inherent', 'свойственный, присущий, неотъемлемый, внутренний, врожденный', '["Immutability is an intrinsic feature of data transfer objects.", "You must reveal your intrinsic potential.", "Risk is inherent aspect of our job."]'
+15, 'deception', 'обман, ложь, хитрость', '["The deception would have been uncovered the moment anyone saw her."]'
+16, 'expire', 'терять силу, истекать', '["Auth token expires in an hour after creation."]'
+17, 'inspire', 'вдохновлять', '["Music inspires me to action."]'
+18, 'proficiency', 'умение, опытность, навык, знание, квалификация', '["Language proficiency is required for that job", "Our test is your proficiency check.", "His proficiency in this area is higher than mine."]'
+19, 'arcana', 'тайны, загадки, таинственные силы', '["Federal budget distribution is arcana for people."]'
+20, 'insight', 'понимание, проницательность', '["His insight was eventually used in research", "A gentlemen takes his ire and turns it into insight."]'
+21, 'intimidate', 'запугивать', '["Intimidation is another way to save power when you''re dictator."]'
+22, 'investigate', 'расследовать', '["To resolve a bug you need to investigate the way it happens."]'
+23, 'perception', 'восприятие', '["Your perception of reality is perverse."]'
+24, 'persuade, persuasion, persuasive', 'убеждать, убеждение, убедительный', '["It took a lot of persuasion to convince them.", "Your arguments are very persuasive."]'
+25, 'sleight of hand', 'ловкость рук', '["Most of these conjuring tricks depend on sleight of hand."]'
+26, 'ploy', 'уловка', '["These discounts are just a marketing ploy."]'
+27, 'affinity', 'сродство, близость', '["She seems to have a natural affinity with water.", "There are several close affinities between the two paintings."]'
+28, 'ferret', 'выискивать, хорек', '["She has the ability to ferret out hidden facts."]'
+29, 'due', 'должное, должный, в связи', '["You should devote due attention to this task.", "He attracts more criticism than is his due.", "She couldn''t graduate due to her stupidity."]'
+30, 'carapace', 'хитиновый панцирь', '[]'
+31, 'blister', 'волдырь, пузырь', '[]'
+32, 'former', 'бывший', '[]'
+33, 'recepient', 'получатель', '[]'
+34, 'towel', 'полотенце', '[]'
+35, 'broom', 'веник', '[]'
+36, 'pan', 'кастрюля, сковорода', '[]'
+37, 'hose', 'шланг', '[]'
+38, 'attitude', 'отношение', '[]'
+39, 'dispatch', 'отправка', '[]'
+40, 'steep', 'крутой, отвесный', '["This slope is very steep for me."]'
+41, 'suspect', 'подозревать, подозреваемый', '["I suspect you in crime.", "He''s a suspect in this case."]'
+42, 'accustomed', 'привыкший', '["I am a man accustomed to injustice.", "You are not accustomed to watch things like that."]'
+43, 'disaster', 'катастрофа, бедствие', '[]'
+44, 'urge', 'сильное неконтролируемое желание, советовать, убеждать', '["The two of them seem unable to control their sexual urges.", "Lawyers will urge the parents to take further legal action."]'
+45, 'embed', 'встраивать', '[]'
+46, 'awful', 'страшный', '[]'
+47, 'mutual', 'взаимный', '[]'
+48, 'radiance', 'сияние', '[]'
+49, 'insufferable', 'невыносимый', '[]'
+50, 'purpose, objective', 'цель, задание', '[]'
+51, 'plot', 'сюжет, заговор, график, чертеж', '[]'
+52, 'scale', 'масштаб, шкала', '[]'
+53, 'evaluate, estimate, assess', 'оценивать', '[]'
+54, 'exact, accurate, precise', 'точный', '[]'
+55, 'rural', 'сельский', '[]'
+56, 'divide', 'делить', '[]'
+57, 'shrug', 'пожать плечами', '[]'
+58, 'at the same time', 'заодно', '[]'
+59, 'hinder', 'мешать', '["High winds have hindered firefighters in their efforts to put out the blaze.", "Often his training has proved a hindrance rather than a help."]'
+60, 'versatile', 'многозадачный, многофункциональный', '[]'
+61, 'foe, rival', 'противник, соперник', '["They were bitter foes for many years.", "The two countries have united against their common foe.", "He beat his closest rival by 20 marks.", "The companies produce rival versions of the toy."]'
+62, 'survey', 'опрос, осмотр', '[]'
+63, 'lane', 'дорожная полоса, переулок', '[]'
+64, 'substitution', 'замена', '[]'
+65, 'how many of you', 'как много вас', '[]'
+66, 'approximately', 'примерно', '[]'
+67, 'rude', 'грубый, резкий', '[]'
+68, 'one by one, in rotation', 'поочереди', '[]'
+69, 'premise', 'предпосылка', '[]'
+70, 'amusement, entertainment', 'развлечение', '[]'
+71, 'stiff', 'жесткий, суровый', '["This helmet combines stiff and soft materials.", "You was too stiff with her."]'
+72, 'legislation', 'законодательство', '["Neither of these developments entailed amending legislation.", "We need stricter legislation on both corruption and money-laundering."]'
+73, 'negotiations', 'переговоры', '["Our negotiations was interrupted.", "They said, they wouldn''t negotiate with occupants."]'
+74, 'necessary', 'необходимый', '[]'
+75, 'measure', 'мера', '[]'
+76, 'intent', 'намерение', '[]'
+77, 'familiar', 'знакомый', '[]'
+78, 'sole', 'подошва, единственный', '[]'
+79, 'obligatory, mandatory', 'обязательный', '[]'
+80, 'consent', 'согласие', '[]'
+81, 'absence, lack', 'отсутствие, недостача', '[]'
+82, 'valuable', 'ценный', '[]'
+83, 'bid', 'ставка, делать ставку, заявлять цену на аукционе', '[]'
+84, 'rely', 'полагаться', '[]'
+85, 'commitment, obligation', 'обещание, обязательство', '[]'
+86, 'sign up', 'подписаться', '[]'
+87, 'comply', 'соблюдать', '["I do not comply with the rules.", "There are serious penalties for failure to comply with the regulations."]'
+88, 'as for', 'что касается', '[]'
+89, 'kickoff', 'начало', '[]'
+90, 'itemized', 'детализированный', '[]'
+91, 'loan', 'займ', '[]'
+92, 'carry', 'нести', '[]'
+93, 'suggest, propose', 'предлагать', '[]'
+94, 'seldom', 'редко', '[]'
+95, 'by the time', 'ко времени', '[]'
+96, 'capable', 'способный', '[]'
+97, 'approach', 'подход', '[]'
+98, 'extensive, broad', 'обширный', '[]'
+99, 'adopt', 'принять, утвердить', '[]'
+100, 'robust', 'крепкий (человек, предмет, система, вкус)', '[]'
+101, 'thorough, rigorous', 'подробный, тщательный', '[]'
+102, 'poll', 'опрос', '[]'
+103, 'clarify', 'прояснить', '[]'
+104, 'currently', 'в настоящее время', '[]'
+105, 'as far as i understand', 'насколько я понимаю', '[]'
+106, 'permit', 'разрешать', '[]'
+107, 'excess', 'избыток, лишний', '[]'
+108, 'threshold', 'предел', '[]'
+109, 'distract', 'отвлекать', '[]'
+110, 'divine', 'божественный', '[]'
+111, 'reflect', 'отражать', '[]'
+112, 'furnace', 'печь', '[]'
+113, 'morass', 'трясина', '[]'
+114, 'lullaby', 'колыбельная', '[]'
+115, 'obliteration', 'уничтожение', '[]'
+116, 'bliss', 'блаженство', '[]'
+117, 'phenomenon', 'явление', '[]'
+118, 'attend', 'присутствовать, посещать', '[]'
+119, 'gather', 'собирать', '[]'
+120, 'boast, brag', 'хвастать, хвастовство', '["I wish you could boast just half her kindness.", "Your boast is annoying."]'
+121, 'quarrel', 'ссориться', '[]'
+122, 'hassle', 'стычка', '[]'
+123, 'lash', 'плеть', '[]'
+124, 'purge, prune', 'чистка, вычищать, избавляться от лишнего', '["They purged the senior ranks of the department.", "I''m going to do a purge in my documents.", "Your essay needs a little pruning.", "Prune also means a cutting off branches from a tree, bush, or plant."]'
+125, 'credible', 'заслуживающий доверия', '[]'
+126, 'chock up', 'загромождать', '[]'
+127, 'errand', 'поручение', '[]'
+128, 'agenda', 'повестка дня', '[]'
+129, 'pronunciation', 'произношение', '[]'
+130, 'lean', 'опираться, облокачиваться', '[]'
+131, 'entire', 'весь', '[]'
+132, 'trade-off', 'компромисс', '[]'
+133, 'take into account', 'принять к сведению', '[]'
+134, 'meadow', 'луг', '[]'
+135, 'hike', 'поход, взбираться', '[]'
+136, 'obscure', 'безвестный, смутный', '[]'
+137, 'shatter', 'разбить вдребезги, нарушить, оборвать, закончить что-то', '["The glass shattered into a thousand tiny pieces.", "The book shattered all her illusions.", "Noisy motorbikes shattered the silence."]'
+138, 'alias', 'псевдоним', '[]'
+139, 'convenient', 'удобный', '[]'
+140, 'frown', 'хмуриться, морщиться', '["She said me to leave her with a frown.", "She frowned at me, clearly annoyed."]'
+141, 'eager', 'нетерпеливый', '[]'
+142, 'dedication', 'самоотверженность, преданность', '[]'
+143, 'diligence', 'усердие', '[]'
+144, 'perseverance', 'упорство', '[]'
+145, 'misery, adversity', 'беда, несчастье', '[]'
+146, 'successively, sequentially', 'последовательно', '[]'
+147, 'miracle', 'чудо', '[]'
+148, 'rough', 'грубый, черновой', '[]'
+149, 'fold', 'складка', '[]'
+150, 'perceive', 'воспринимать', '[]'
+151, 'deaf', 'глухой', '[]'
+152, 'impair, deteriorate, decline', 'ухудшать, ухудшаться, уменьшаться', '["She went into the hospital when her condition began to deteriorate.", " Situation in the region has deteriorated rapidly."]'
+153, 'magnifier', 'лупа', '[]'
+154, 'refugee', 'беженец', '[]'
+155, 'enhance', 'усиливать, совершенствовать', '[]'
+156, 'opportunity', 'возможность, случай', '[]'
+157, 'possibility', 'возможность, вероятность', '[]'
+158, 'according to, in accordance with', 'согласно, в соответствии', '["According to the documentation we should ull that level."]'
+159, 'on behalf', 'от имени', '["On my father''s behalf I ask you.", "This is an application on your behalf.", "I kneel on her behalf."]'
+160, 'although', 'хотя', '[]'
+161, 'essential', 'существенный', '[]'
+162, 'convey', 'передавать, сообщать', '[]'
+163, 'rather', 'скорее, вернее, довольно', '[]'
+164, 'comprehensible', 'понятный', '[]'
+165, 'adjust, tweak', 'скорректировать, исправление', '[]'
+166, 'bypass', 'обход', '[]'
+167, 'preserve, retain', 'сохранять на будущее, сохранить как удержать', '["We must preserve the environment.", "We must retain the control of the company."]'
+168, 'obsolete', 'устаревший', '[]'
+169, 'clutter, cluttered', 'беспорядок, создавать беспорядок/суматоху/помехи, загроможденный ', '[]'
+170, 'predict, forecast', 'предсказывать, прогнозировать, прогноз', '[]'
+171, 'appropriate, pertinent', 'соответствующий, подходящий, уместный', '[]'
+172, 'awareness', 'осведомленность', '[]'
+173, 'reliably', 'надежно', '[]'
+174, 'famine', 'голод', '[]'
+175, 'determine', 'определить', '[]'
+176, 'revenue', 'доход', '[]'
+177, 'ancestor, predecessor', 'предок, предшественник', '[]'
+178, 'descendant', 'потомок', '[]'
+179, 'sibling', 'родной брат или сестра', '[]'
+180, 'dare', 'сметь', '[]'
+181, 'contradict', 'противоречить', '[]'
+182, 'rummage', 'рыться, копаться', '[]'
+183, 'nonetheless, nevertheless', 'тем не менее', '[]'
+184, 'by no means', 'ни в коем случае', '[]'
+185, 'vigilant', 'бдительный', '[]'
+186, 'blanket', 'плед, покрывало, покрыть, охватывающий всё', '["The fields were blanketed in fog.", "The bank does not have a blanket policy of charging for duplicate statements."]'
+187, 'gratitude', 'благодарность, признательность', '["Man, we helped, expressed his gratitude with a few coins."]'
+188, 'bestow, confer', 'даровать', '[]'
+189, 'cozy', 'уютный', '[]'
+190, 'urgent', 'срочный', '[]'
+191, 'up to you', 'на твое усмотрение', '[]'
+192, 'definitely', 'определенно', '[]'
+193, 'arrange', 'организовывать, договариваться', '["The meeting has been arranged for Wednesday.", "We arranged to meet at the cinema."]'
+194, 'marvelous', 'чудесный', '[]'
+195, 'look forward', 'ждать с нетерпением', '[]'
+196, 'stick', 'придерживаться чего-либо', '["Let''s stick to the plan."]'
+197, 'ambient', 'окружающий', '[]'
+198, 'stash', 'копить', '[]'
+199, 'exceed', 'превышать', '[]'
+200, 'duration', 'продолжительность', '[]'
+201, 'precept', 'заповедь', '[]'
+202, 'behavior', 'поведение', '[]'
+203, 'harm', 'вред', '[]'
+204, 'regarding', 'относительно', '["The company is being questioned regarding its employment policy."]'
+205, 'precision', 'точность', '[]'
+206, 'handle, tackle', 'справляться с чем-то, заниматься каким-то делом', '["The first thing the new government must do is to tackle inflation."]'
+207, 'fluent', 'беглый (в языке)', '["He''s fluent in English"]'
+208, 'instead', 'вместо', '[]'
+209, 'vouch', 'ручаться', '[]'
+210, 'authenticity', 'подлинность', '[]'
+211, 'instantiate', 'иллюстрировать примерами', '[]'
+212, 'appoint', 'назначать на должность, ответственным за что-то', '["We''ve appointed three new teachers this year.", "He''s been appointed as director of the division.", "A commission has been appointed to investigate fraud claims."]'
+213, 'take offense', 'обижаться', '[]'
+214, 'vendor', 'продавец', '[]'
+215, 'bend', 'изгиб, гнуть', '[]'
+216, 'glance', 'беглый взгляд', '[]'
+217, 'glow', 'пылать, жар, свечение', '[]'
+218, 'shaft', 'стержень, ось, вал, рукоять', '[]'
+219, 'drool', 'сочиться, течь, пороть чушь, млеть от счастья, пускать слюни', '[]'
+220, 'seize', 'схватить, захватить, воспользоваться', '["She seized his arm", "He seized the chance, the opportunity of a free flight with both hands", "Troops yesterday seized control of the broadcasting station."]'
+221, 'fuzzy', 'нечеткий, ворсистый, плохо различимый', '[]'
+222, 'snout', 'морда, рыло', '[]'
+223, 'squirm', 'извиваться', '[]'
+224, 'wiggle', 'покачиваться, ерзать', '[]'
+225, 'tip', 'кончик', '[]'
+226, 'vicinity', 'окрестности', '[]'
+227, 'pervert', 'извращенец', '[]'
+228, 'nuzzle', 'прижаться, уткнуться носом', '[]'
+229, 'pounce, lash out', 'внезапно атаковать, набрасываться', '[]'
+230, 'bulge', 'выпуклость, выступ, выпячивать, оттопыривать', '["German attack made a bulge in the line.", "That ice bulge can help you climb this rock.", "That babe bulges her ass properly."]'
+231, 'rub', 'тереться, тереть', '[]'
+232, 'flap, wag', 'махать, вилять', '[]'
+233, 'distinct', 'отчетливый', '[]'
+234, 'overlap', 'накладываться, перекрывать', '[]'
+235, 'in a way', 'в некотором отношении', '[]'
+236, 'mastermind', 'вдохновитель, мозговой центр, тайно руководить', '["I''m the mastermind of this project.", "Vizier masterminds the country."]'
+237, 'tense', 'напряженный, напрягаться', '["I feel so tense today.", "I''ll try not to tense up next time."]'
+238, 'gratification', 'удовлетворение, вознаграждение', '["Customer expressed his gratification.", "Gratitude is best gratification."]'
+239, 'lawsuit, sue', 'иск, предъявлять иск, возбуждать дело', '[]'
+240, 'household', 'домашнее хозяйство', '[]'
+241, 'literal', 'буквальный, дословный', '[]'
+242, 'conjure', 'волшебным образом заставить появиться', '["He had conjured a dove from his sleeve.", "His words conjured images of far-away lands."]'
+243, 'species', 'вид, порода', '[]'
+244, 'luggage', 'багаж', '[]'
+245, 'slight', 'легкий, незначительный', '[]'
+246, 'inebriate', 'алкоголик', '[]'
+247, 'hangover', 'похмелье', '[]'
+248, 'patient', 'терпеливый', '[]'
+249, 'slippery', 'скользкий', '[]'
+250, 'slope', 'склон', '[]'
+251, 'likewise', 'аналогично', '[]'
+252, 'flourish', 'процветать', '[]'
+253, 'throughout', 'на протяжении', '[]'
+254, 'plaque', 'табличка, бляшка (медицина)', '["There is a plaque on the wall of a house that shows that someone famous once lived there.", "The growth of fatty plaque is linked to heart attacks and strokes."]'
+255, 'prone', 'склонный', '[]'
+256, 'make sense', 'иметь смысл', '[]'
+257, 'beforehand', 'заранее', '[]'
+258, 'choke', 'задыхаться, душить', '[]'
+259, 'infer', 'делать вывод', '[]'
+260, 'caption', 'подпись', '[]'
+261, 'mention', 'упомянуть', '[]'
+262, 'cuisine', 'кухня, стряпня', '[]'
+263, 'weird, bizarre', 'странный, непонятный, эксцентричный', '[]'
+264, 'in general, overall, by and large, on the whole', 'в общем и целом', '[]'
+265, 'fine', 'штрафовать', '[]'
+266, 'frustrate', 'срывать, расстраивать, затруднять (планы, работу, процесс)', '["New bugs frustrate our release.", "Your chatting frustrates my work."]'
+267, 'shy, bashful', 'застенчивый', '[]'
+268, 'empathetic', 'чуткий', '[]'
+269, 'generous', 'щедрый', '[]'
+270, 'compassion', 'сострадание', '[]'
+271, 'attractive', 'привлекательный', '[]'
+272, 'odds', 'шансы', '[]'
+273, 'frankly', 'откровенно', '["Quite frankly, I think this whole situation is ridiculous."]'
+274, 'nitpick', 'придираться', '[]'
+275, 'grumble', 'ворчать', '[]'
+276, 'disheveled', 'взъерошенный, растрепанный', '[]'
+277, 'effort', 'усилие', '[]'
+278, 'treat', 'угощать, лечить, особое удовольствие, относиться к кому-то определенным образом ', '["It was a real treat seeing my old friends last weekend.", "We''re going to Italy for the weekend - it''s my birthday treat.", "As a special treat, I''ll take you to my favourite restaurant.", "He treated his wife very badly.", "It''s wrong to treat animals as if they had no feelings."]'
+279, 'steer', 'управлять транспортом, вести кого-то', '[]'
+280, 'puddle', 'лужа', '[]'
+281, 'demand, in demand', 'требовать, быть востребованным', '[]'
+282, 'fraud, scam', 'мошенничество', '[]'
+283, 'far-fetched', 'притянутый, надуманный', '[]'
+284, 'fee', 'плата', '[]'
+285, 'voluntarily', 'добровольно', '[]'
+286, 'witty', 'остроумный', '[]'
+287, 'neat, tidy', 'аккуратный, опрятный', '[]'
+288, 'bribe', 'взятка, давать взятку', '[]'
+289, 'bias', 'предвзятость, необъективность, предубеждение', '["Reporters must be impartial and not show political bias.", "There was clear evidence of a strong bias against her."]'
+290, 'abroad', 'за рубежом', '[]'
+291, 'fickle', 'непостоянный, переменчивый', '[]'
+292, 'pivot', 'стержень, точка опоры', '[]'
+293, 'blink', 'моргать', '["He stared at us without blinking."]'
+294, 'hesitate', 'колебаться', '[]'
+295, 'insist', 'настаивать', '[]'
+296, 'precedence', 'старшинство, первенство', '[]'
+297, 'nested', 'вложенный', '[]'
+298, 'participate', 'участвовать', '[]'
+299, 'postpone, defer', 'откладывать', '[]'
+300, 'mess, disorder, clutter', 'беспорядок', '[]'
+301, 'attentive', 'внимательный', '[]'
+302, 'intently, attentively', 'пристально, внимательно', '[]'
+303, 'disgusting', 'отвратительный', '[]'
+304, 'confluence', 'слияние, пересечение, впадение', '[]'
+305, 'burst', 'взрыв, вспышка, лопнуть, разрывать', '[]'
+306, 'sprinkle', 'посыпать, брызгать', '[]'
+307, 'straw', 'солома', '[]'
+308, 'log', 'бревно', '[]'
+309, 'high time', 'пора', '[]'
+310, 'poke', 'тыкать', '[]'
+311, 'appreciation', 'признательность, высокая оценка, уважение', '["I appreciate your care.", "Still so little appreciation after all I''ve done for you."]'
+312, 'recently', 'недавно', '[]'
+313, 'concern', 'касаться, беспокоиться, беспокойство, дело, забота', '["The state of my father''s health concerns us greatly.", "My business doesn''t concern you.", "Charity is not our company''s concern."]'
+314, 'out of curiosity', 'чисто из любопытства', '[]'
+315, 'out of', 'сделанный из', '[]'
+316, 'plausibly', 'правдоподобно', '[]'
+317, 'stroll', 'прогулка, гулять', '[]'
+318, 'impression', 'впечатление', '[]'
+319, 'regardless of, despite', 'несмотря на, независимо от', '["I still enjoyed the weekend despite the weather.", "This job is open to all, regardless of previous experience."]'
+320, 'salmon', 'лосось', '[]'
+321, 'excruciating, tormenting', 'мучительно', '[]'
+322, 'misuse', 'злоупотреблять', '[]'
+323, 'imply', 'подразумевать, означать', '[]'
+324, 'indent', 'отступ', '[]'
+325, 'notch', 'паз, выемка, зубец', '[]'
+326, 'regret', 'сожалеть', '["You will regret it.", "I have no regrets about it.", "The council regrets that the money are no longer available."]'
+327, 'remorse', 'раскаяние', '[]'
+328, 'pending', 'в ожидании', '[]'
+329, 'circumstance', 'обстоятельство', '[]'
+330, 'wallow', 'валяться, барахтаться, купаться', '[]'
+331, 'perverse', 'извращенный, ошибочный, упрямый, неправильный', '[]'
+332, 'diversity', 'разнообразие', '[]'
+333, 'revoke', 'аннулировать', '[]'
+334, 'whim', 'каприз', '[]'
+335, 'contemptuous, arrogant', 'презрительный, высокомерный, пренебрежительный', '[]'
+336, 'despise', 'презирать', '["She despised him for the way he treated her sister.", "He despised himself for being such a coward."]'
+337, 'affect', 'влиять', '[]'
+338, 'proceed', 'продолжать, действовать', '[]'
+339, 'resort', 'курорт', '[]'
+340, 'familiarize [T], acquaint [T]', 'ознакамливать', '["Take time to acquaint yourself with the rules.", "Teachers needed to familiarize themselves with the new software."]'
+341, 'as a matter of fact', 'на самом деле', '[]'
+342, 'rob, plunder', 'грабить, разбойничать', '[]'
+343, 'beneath', 'ниже, под, недостаточно хорош', '["He hid the letter beneath a pile of papers.", "She looked out of the window at the children playing beneath.", "He considered office work as something beneath him."]'
+344, 'oppress', 'угнетать, притеснять', '[]'
+345, 'relevant', 'соответствующий, значимый, уместный, актуальный', '[]'
+346, 'distinguish', 'различать', '[]'
+347, 'collaborate', 'сотрудничать', '[]'
+348, 'retire', 'уходить в отставку, изымать из использования', '[]'
+349, 'insurance', 'страховка, гарантия, страхование', '["My insurance covers this."]'
+350, 'belay', 'страховать (скалолаза)', '["The leader will then belay and instruct the second climber to follow."]'
+351, 'disease', 'болезнь', '[]'
+352, 'justify', 'оправдывать, обосновывать', '[]'
+353, 'deed', 'поступок, деяние', '[]'
+354, 'accuse', 'обвинять', '[]'
+355, 'conspire', 'сговариваться', '[]'
+356, 'abduct', 'угрозами или насилием заставить пойти с собой', '["The company director was abducted from his car by terrorists."]'
+357, 'heir', 'наследник, преемник', '[]'
+358, 'ridge', 'горный хребет', '[]'
+359, 'sewer', 'сточная труба, коллектор', '[]'
+360, 'slug', 'слизень', '[]'
+361, 'interrogate', 'допрашивать', '[]'
+362, 'muffle', 'заглушать', '[]'
+363, 'torture', 'пытать, пытка', '[]'
+364, 'utmost', 'все возможное', '[]'
+365, 'conduct', 'проводить, поведение', '[]'
+366, 'inclination', 'наклонность', '[]'
+367, 'cliff', 'утес', '[]'
+368, 'elaborate', 'подробный, объяснять', '[]'
+369, 'leak', 'утечка, просачиваться', '[]'
+370, 'surreptitious', 'тайный, сделанный изподтишка', '["She seemed to be listening to what I was saying, but I had noticed her surreptitious glances at the clock."]'
+371, 'penultimate', 'предпоследний', '[]'
+372, 'respectively', 'соответственно', '[]'
+373, 'foresee, anticipate', 'предвидеть', '[]'
+374, 'hedge', 'живая изгородь', '[]'
+375, 'preface', 'предисловие', '[]'
+376, 'willingly', 'охотно', '[]'
+377, 'endorse', 'одобрять', '[]'
+378, 'gain, obtain, receive, fetch', 'получать', '[]'
+379, 'allow', 'допускать', '[]'
+380, 'achieve', 'достигнуть, добиться', '[]'
+381, 'long ago', 'давно', '[]'
+382, 'abruptly', 'резко', '[]'
+383, 'annoy, irritate', 'раздражать, досаждать', '[]'
+384, 'bother', 'наскучивать, надоедать', '[]'
+385, 'covenant', 'завет, соглашение, пакт', '[]'
+386, 'staff', 'персонал, посох', '[]'
+387, 'stuff', 'материал, вещи, имущество', '[]'
+388, 'keep an eye', 'приглядеть', '[]'
+389, 'embarrass, abash', 'смущать', '[]'
+390, 'conscience', 'совесть', '[]'
+391, 'whose', 'чей', '[]'
+392, 'whenever', 'когда угодно', '[]'
+393, 'admire', 'восхищаться', '["I admire mechanisms made by dwarfs."]'
+394, 'confidence', 'уверенность', '[]'
+395, 'decent', 'порядочный, приличный', '[]'
+396, 'batch', 'партия, пакет, серия', '[]'
+397, 'bunch', 'гроздь, группа, стадо', '[]'
+398, 'pale', 'бледный', '[]'
+399, 'faint', 'слабо заметный, обморок, падать в обморок', '[]'
+400, 'saturate', 'заполнять пространство, увлажнять, мочить', '["The grass had been saturated by overnight rain.", "He had cut his leg, and his trousers were saturated with blood.", "The police saturated the area."]'
+401, 'hence, consequently, therefore', 'следовательно', '[]'
+402, 'fence', 'забор, ограда', '[]'
+403, 'i dont mind', 'я не против', '["I don''t mind if you help me."]'
+404, 'ambiguous', 'двусмысленный', '[]'
+405, 'dangle', 'болтаться, свисать', '[]'
+406, 'kink', 'причуда, чудить', '[]'
+407, 'pat', 'трепать, похлопывать', '[]'
+408, 'cherish', 'лелеять', '["The art market is as fickle and hard to predict as any other.", "She''s so fickle - she''s never been interested in the same man for more than a week."]'
+409, 'possess', 'обладать', '[]'
+410, 'complain', 'жаловаться', '[]'
+411, 'compatible', 'совместимый', '[]'
+412, 'favorable', 'благоприятный', '[]'
+413, 'praise', 'похвала', '[]'
+414, 'patience', 'терпение', '[]'
+415, 'awkward', 'неловкий', '[]'
+416, 'sew', 'шить', '[]'
+417, 'spit', 'плевать', '[]'
+418, 'reassure, soothe, placate', 'успокаивать, успокаивать от злости', '[]'
+419, 'claim', 'заявлять, заявлять о собственности на что-то, заявление, требование чего-то', '["The company claims it is not responsible for the pollution in the river.", "The police said that if no one claims the watch, you can keep it.", "When King Richard III died, Henry VII claimed the English throne."]'
+420, 'crop, clip', 'обрезать', '[]'
+421, 'tend', 'как правило, иметь тенденцию', '["Our winters tend to be cold."]'
+422, 'acquisition', 'получение', '[]'
+423, 'convince, assure', 'убеждать, успокаивать', '[]'
+424, 'aptitude', 'способность', '["He has little aptitude for sport."]'
+425, 'obvious, evident', 'очевидный', '[]'
+426, 'enormous, enormously', 'огромный, чрезвычайно', '[]'
+427, 'anniversary', 'годовщина, юбилей, ежегодный', '[]'
+428, 'neglect', 'пренебрегать, пренебрежение', '[]'
+429, 'advance', 'продвижение', '[]'
+430, 'flaunt', 'щеголять', '[]'
+431, 'dedicate', 'посвящать', '[]'
+432, 'harsh', 'суровый', '[]'
+433, 'severity', 'серьезность, суровость', '[]'
+434, 'incline', 'наклон, наклонять, склонять', '[]'
+435, 'negligent, sloppy', 'небрежный', '[]'
+436, 'eloquent', 'красноречивый', '[]'
+437, 'groggy', 'непрочный', '[]'
+438, 'hoof', 'копыто', '[]'
+439, 'collar', 'воротник, ошейник', '[]'
+440, 'in the meantime', 'тем временем, пока что', '["Rick wants to be an actor, but in the meantime he’s working as a waiter.", "Your computer won''t arrive till Thursday. In the meantime, you can use Jude''s."]'
+441, 'chapter', 'глава', '[]'
+442, 'scrutinise', 'исследовать, испытывать', '[]'
+443, 'hatch', 'люк, вылупляться', '[]'
+444, 'adversity', 'трудная, сложная ситуация', '[]'
+445, 'adverse', 'неблагоприятный', '[]'
+446, 'stare', 'пялиться, глазеть', '[]'
+447, 'beckon', 'манить, подзывать, маяк', '[]'
+448, 'admit', 'признавать', '[]'
+449, 'mutiny', 'бунт', '[]'
+450, 'subdue', 'подчинять, укрощать', '[]'
+451, 'snapper', 'окунь', '[]'
+452, 'swirl', 'водоворот, завихрение, закручивать, вихриться', '[]'
+453, 'ignorant', 'невежественный', '[]'
+454, 'mold', 'плесень', '[]'
+455, 'retract', 'убирать, отзывать (заявление, предложение)', '["The cat retracted its claws.", "When questioned on TV, he retracted his allegations."]'
+456, 'groan, moan', 'стон, стонать', '[]'
+457, 'haul', 'буксировать, тащить', '[]'
+458, 'flabbergasted', 'ошеломленный', '[]'
+459, 'rival', 'конкурент', '[]'
+460, 'loom', 'маячить, неясно вырисовываться', '[]'
+461, 'vessel', 'судно, сосуд', '[]'
+462, 'which is why', 'вот почему, именно поэтому', '[]'
+463, 'reek', 'вонь, вонять', '[]'
+464, 'shove', 'пихать, совать', '[]'
+465, 'anxiety', 'беспокойство, тревога, страх, опасения', '["Doctor diagnosed her with anxiety leading to sleeplessness."]'
+466, 'forsake, abandon', 'покидать, забивать, забрасывать', '[]'
+467, 'lurk', 'таиться, скрываться, подстерегать', '["Something lurks in the shadows.", " Fleas can lurk in pet hair."]'
+468, 'colon', 'двоеточие', '[]'
+469, 'semicolon', 'точка с запятой', '[]'
+470, 'dash', 'тире, быстрое движение, быстро двигаться куда-то', '[]'
+471, 'adjective', 'прилагательное', '[]'
+472, 'adverb', 'наречие', '[]'
+473, 'participle', 'причастие', '[]'
+474, 'resilient', 'жизнерадостный, упругий', '[]'
+475, 'outstanding', 'выдающийся', '[]'
+476, 'catch up', 'наверстать', '[]'
+477, 'savvy', 'подкованный, сообразительный, смекалка, здравый смысл', '["Any savvy investor can see this great opportunity."]'
+478, 'barely', 'едва', '[]'
+479, 'simultaneously', 'одновременно', '[]'
+480, 'feast', 'пир, праздник', '[]'
+481, 'funeral', 'похороны', '[]'
+482, 'coffin', 'гроб', '[]'
+483, 'tranquility', 'спокойствие', '[]'
+484, 'dense', 'плотный, густой, дремучий', '[]'
+485, 'quiver', 'колчан, трепет, дрожь, дрожать', '[]'
+486, 'notched', 'зазубренный', '[]'
+487, 'onward, further', 'далее', '[]'
+488, 'brittle', 'ломкий', '[]'
+489, 'toll', 'дань, пошлина, сбор, потери', '[]'
+490, 'depict', 'изображать, описывать', '[]'
+491, 'ladder, stairway', 'лестница', '[]'
+492, 'vast majority', 'подавляющее большинство', '[]'
+493, 'taint, spoil', 'заражать, портить', '[]'
+494, 'proverb', 'поговорка', '[]'
+495, 'grasp', 'понять, крепко сжать, осознать', '[]'
+496, 'haze', 'дымка', '[]'
+497, 'devote', 'уделять', '[]'
+498, 'insurmountable', 'непреодолимый', '[]'
+499, 'realize', 'понимать, осознавать', '[]'
+500, 'intrude', 'вторгаться, навязываться', '[]'
+501, 'distress, woe', 'беда, горе, скорбь', '[]'
+502, 'facility', 'объект, сооружение, установка, завод', '[]'
+503, 'fierce', 'свирепый, неистовый', '[]'
+504, 'sincere', 'искренний', '[]'
+505, 'escalate', 'нагнетать', '[]'
+506, 'superstitious', 'суеверный', '[]'
+507, 'gossip', 'сплетни', '[]'
+508, 'certain', 'определенный', '[]'
+509, 'artisan', 'ремесленник', '[]'
+510, 'afford', 'позволять, предоставлять возможность, позволять себе', '["I don’t know how he can afford a new car.", "The hut afforded little protection from the rain.", "We can afford to wait.", "Her seat afforded her an uninterrupted view of the stage."]'
+511, 'tenured', 'штатный', '[]'
+512, 'defile', 'осквернять', '[]'
+513, 'dwell, reside', 'обитать, находиться', '[]'
+514, 'probation', 'испытательный срок', '[]'
+515, 'impose', 'навязывать, налагать, облагать (налогом)', '["Very high taxes have been imposed on cigarettes."]'
+516, 'diverge', 'расходиться, отклоняться', '[]'
+517, 'colloquial', 'разговорный', '[]'
+518, 'arbitrary', 'произвольный, незаконный, случайный', '["Distributed system must stay alive regardless arbitrary number of connection breaks.", "Meeting on central square was arbitrary."]'
+519, 'custody', 'хранение, опека', '[]'
+520, 'slightly', 'немного, слегка', '[]'
+521, 'allocate', 'распределять, выделить', '[]'
+522, 'verbose', 'многословный', '[]'
+523, 'pathetic', 'жалкий', '[]'
+524, 'singlet', 'майка', '[]'
+525, 'afterwards', 'впоследствии', '[]'
+526, 'amend', 'вносить поправки', '[]'
+527, 'wovel', 'гласный', '[]'
+528, 'consonant', 'согласный', '[]'
+529, 'wind', 'виться', '[]'
+530, 'swing', 'раскачиваться', '[]'
+531, 'spin', 'вертеться', '[]'
+532, 'cast', 'отбрасывать (тень, свет, взгляд, сомнения), отливать, литьё', '[]'
+533, 'quit', 'увольняться', '[]'
+534, 'in a word, in short, in brief', 'в двух словах, вкратце', '[]'
+535, 'vice versa', 'наоборот', '["The president must serve the people, not vice versa"]'
+536, 'either way', 'так или иначе', '[]'
+537, 'most likely', 'скорее всего', '[]'
+538, 'polite', 'вежливый', '[]'
+539, 'midget', 'карлик', '[]'
+540, 'kindly', 'любезно', '[]'
+541, 'fluke', 'счастливая случайность, камбала, палтус', '[]'
+542, 'obfuscate', 'затемнять, сбивать с толку', '[]'
+543, 'transparent', 'прозрачный', '[]'
+544, 'opaque', 'непрозрачный', '[]'
+545, 'connotation', 'смысловой оттенок, значение', '[]'
+546, 'shade', 'оттенок цвета', '[]'
+547, 'stray, astray', 'плутать, заблудиться, сбиться с пути', '[]'
+548, 'boundary', 'граница', '[]'
+549, 'causeway', 'приподнятая, особенно над водой, дорога', '[]'
+550, 'rag, ragged', 'тряпка, рваный, ободранный', '[]'
+551, 'doubtful', 'сомнительный', '[]'
+552, 'tie', 'связывать', '[]'
+553, 'glimpse', 'проблеск, намек', '[]'
+554, 'altitude', 'высота', '[]'
+555, 'furle', 'сворачивать', '[]'
+556, 'dizzy', 'головокружительный', '[]'
+557, 'encumber', 'обременять', '[]'
+558, 'weary', 'усталый, утомленный', '[]'
+559, 'evidence, proof', 'улика, свидетельство, доказательство', '[]'
+560, 'adulation, flatter', 'лесть, льстить', '[]'
+561, 'spanner', 'гаечный ключ', '[]'
+562, 'gutter', 'желоб', '[]'
+563, 'irreversible', 'необратимый', '[]'
+564, 'resurface', 'всплывать', '[]'
+565, 'noose', 'петля', '[]'
+566, 'gust', 'порыв', '[]'
+567, 'scorn', 'презрение, выражать презрение', '["She has nothing but scorn for the new generation of politicians.", "Why do you always pour/heap scorn on my suggestions?"]'
+568, 'consolidate', 'укреплять', '[]'
+569, 'compound', 'сложный, составной, состав, смесь, соединение', '[]'
+570, 'singular and plural', 'единственное и множественное числа', '[]'
+571, 'ascertain, find out', 'выяснять', '[]'
+572, 'accommodate', 'приспособить, вместить', '[]'
+573, 'decommission', 'вывод из эксплуатации', '[]'
+574, 'preemptive', 'упреждающий', '[]'
+575, 'acquaintance', 'знакомый, контакт, знакомство с чем-либо', '["He lost contact with all his old acquaintances.", "My acquaintance with Spanish literature is rather limited.", "She is my business acquaintance."]'
+576, 'snatch', 'вырывать, хватать, отбирать', '[]'
+577, 'collocutor', 'собеседник', '[]'
+578, 'reconcile', 'согласовывать, мирить', '[]'
+579, 'exempt', 'освобождать', '[]'
+580, 'snappy', 'резкий, энергичный, быстро', '[]'
+581, 'huddle', 'съеживаться, сбиваться в кучу', '[]'
+582, 'clench', 'стискивать, сжимать', '[]'
+583, 'ostentatious', 'показушный', '["His bravery is ostentatious."]'
+584, 'embark', 'вступать в дело, грузиться', '[]'
+585, 'drip', 'капать', '[]'
+586, 'shiver', 'дрожь, дрожать', '[]'
+587, 'composure', 'самообладание, хладнокровие', '[]'
+588, 'inlet', 'вход', '[]'
+589, 'crumble', 'рассыпаться', '[]'
+590, 'damp, dampen', 'влажный, сырой, отсыревать, становиться влажным', '[]'
+591, 'stilt', 'ходуля, свая', '[]'
+592, 'seep', 'просачиваться', '[]'
+593, 'capeside', 'мыс', '[]'
+594, 'crowd', 'толпа, толпиться, теснить', '["People were crowding in the hall", "I don''t mean to crowd you, but this elevator is too small"]'
+595, 'shudder', 'содрогаться', '[]'
+596, 'hide', 'шкура', '[]'
+597, 'tar', 'деготь, смола, гудрон', '[]'
+598, 'protude', 'выступать, торчать', '[]'
+599, 'canopy', 'навес, тент', '[]'
+600, 'malevolent', 'угрожающий, злобный', '[]'
+601, 'ominous, sinister', 'зловещий', '[]'
+602, 'swell', 'вздуваться, волнение (моря)', '[]'
+603, 'assumption', 'предположение', '[]'
+604, 'slurp', 'чавкать, хлебать', '[]'
+605, 'throb', 'пульсировать', '[]'
+606, 'wander', 'блуждать, скитаться, странствовать', '[]'
+607, 'poste restante', 'до востребования', '[]'
+608, 'contest', 'испытание', '[]'
+609, 'brat, jerk', 'сопляк', '[]'
+610, 'remittance', 'денежный перевод', '[]'
+611, 'supplement', 'дополнение, дополнить', '[]'
+612, 'crucial', 'ключевой, основной', '[]'
+613, 'velocity', 'скорость', '[]'
+614, 'someday', 'когда-нибудь', '[]'
+615, 'ponder', 'обдумывать', '["She sat back for a minute to ponder her next move in the game."]'
+616, 'prior to the something', 'до чего-то по времени', '[]'
+617, 'complient', 'послушный', '[]'
+618, 'feign', 'притворяться (симулировать)', '[]'
+619, 'overhead', 'накладные расходы', '[]'
+620, 'fascinate', 'увлекать, притягивать', '["Science has always fascinated me."]'
+621, 'sullen', 'угрюмый', '[]'
+622, 'deplete, exhaust', 'истощать', '[]'
+623, 'extinct', 'вымирать', '[]'
+624, 'precaution', 'предосторожность', '[]'
+625, 'motto', 'девиз', '[]'
+626, 'trousers', 'брюки', '[]'
+627, 'janitor', 'дворник', '[]'
+628, 'dank', 'промозглый, сырой, холодный', '[]'
+629, 'apparently', 'по-видимому', '[]'
+630, 'jumble', 'ворох, мешанина, перемешивать', '[]'
+631, 'festive', 'праздничный', '[]'
+632, 'well', 'колодец', '[]'
+633, 'stain', 'пятно, красящее вещество', '[]'
+634, 'accomplish', 'достичь, преуспеть', '["The students accomplished the task in less than ten minutes.", "I feel as if I''ve accomplished nothing since I left my job."]'
+635, 'constellation', 'созвездие', '[]'
+636, 'vital', 'жизненно, критически важный', '[]'
+637, 'crook', 'мошенник, жулик', '[]'
+638, 'spooky', 'пугающий, жуткий', '[]'
+639, 'wrist', 'запястье', '[]'
+640, 'borrow, lend', 'брать в долг (у кого-то), одалживать (кому-то)', '["I lend him my car.", "I borrowed some money in the bank."]'
+641, 'volition', 'воля, желание', '["He said he resigned of his own volition, but I believe he was forced to."]'
+642, 'decimation', 'истребление, казнь, взымание десятины', '[]'
+643, 'endure', 'терпеть', '[]'
+644, 'underlying', 'истинный (о причине)', '["The investigation focused on the underlying causes of the fire."]'
+645, 'shrink', 'сокращаться', '[]'
+646, 'snooze, take a nap', 'вздремнуть', '[]'
+647, 'glide, slip', 'скользить, соскальзывать', '[]'
+648, 'jolly, breezy', 'веселый', '[]'
+649, 'irritable', 'раздражительный', '[]'
+650, 'buckle', 'пряжка, хомут, скоба', '[]'
+651, 'interfere', 'вмешиваться', '[]'
+652, 'gaze', 'долгий взгляд, долго смотреть', '["He spends hours gazing out of the window."]'
+653, 'suit yourself', 'делай что хочешь', '[]'
+654, 'statement', 'утверждение, заявление, высказывание', '[]'
+655, 'inevitable', 'неизбежный', '[]'
+656, 'pace', 'темп', '[]'
+657, 'spare', 'запасной, жалеть, щадить', '[]'
+658, 'scarcity', 'дефицит', '[]'
+659, 'contradictory', 'противоречивый', '[]'
+660, 'drawback', 'недостаток', '[]'
+661, 'due to, owing to', 'из-за', '["I can not go the club due to my sickness.", "We can not go to vacation owing to the war."]'
+662, 'necessity', 'необходимость', '[]'
+663, 'insolent', 'наглый, высокомерный', '[]'
+664, 'nuisance', 'неприятность, досада', '[]'
+665, 'humiliate', 'унижать', '[]'
+666, 'caress, fondle', 'ласкать, гладить', '[]'
+667, 'adore', 'обожать', '[]'
+668, 'uncurtain, push apart', 'раздвинуть', '[]'
+669, 'perineum', 'промежность', '[]'
+670, 'smudge', 'мазаться, пачкаться', '[]'
+671, 'pour', 'сливать, переливать', '[]'
+672, 'nates', 'ягодицы', '[]'
+673, 'lap', 'лакать', '[]'
+674, 'thigh', 'бедро', '[]'
+675, 'stale', 'несвежий, протухший, надоевший, наскучивший', '[]'
+676, 'waiter', 'официант', '[]'
+677, 'perish', 'погибнуть', '[]'
+678, 'scrape', 'соскребать', '["Emily scraped away the dead leaves to reveal the tiny shoot of a new plant.", "We''ll have to scrape the snow off the car before we go."]'
+679, 'firm', 'твердый', '[]'
+680, 'scarcely', 'едва, еле, вряд ли', '[]'
+681, 'retaliate', 'отомстить', '[]'
+682, 'oblivion', 'забвение', '[]'
+683, 'tolerable', 'терпимо, допустимо', '[]'
+684, 'retention', 'удержание, сохранение', '[]'
+685, 'malform, malformed', 'уродство, дефектный', '[]'
+686, 'vague', 'расплывчатый, смутный, неопределенный', '["I find that answer vague and unconvincing", "I didn''t see a person in the fog, vague outline only"]'
+687, 'rod', 'стержень, прут', '[]'
+688, 'aspire, strive', 'стремиться', '[]'
+689, 'reign', 'царство, царить', '[]'
+690, 'obsession', 'навязчивая идея, одержимость', '[]'
+691, 'vanish', 'исчезнуть', '[]'
+692, 'inanely', 'бессмысленно', '[]'
+693, 'deliberately, intentionally', 'умышленно, нарочно', '[]'
+694, 'labour', 'работа (которая делается), рабочий', '[]'
+695, 'decline', 'отклонить, спад, спадать', '[]'
+696, 'sober', 'трезвый', '[]'
+697, 'passionate', 'страстный, пылкий', '[]'
+698, 'snare', 'ловушка, силок', '["The legal system is full of snares for those who are not wary."]'
+699, 'intangible', 'неуловимый, неосязаемый, непостижимый', '["She has that intangible quality which you might call charisma.", "Creativity is an intangible we''re looking for in an employee."]'
+700, 'discrepancy', 'несоответствие, расхождение', '[]'
+701, 'inequity', 'несправедливость', '[]'
+702, 'dignity', 'достоинство', '[]'
+703, 'disrupt', 'нарушать', '[]'
+704, 'moat', 'ров', '[]'
+705, 'vapid', 'тупой, бестолковый', '["This show is vapid"]'
+706, 'condemn', 'осуждать', '[]'
+707, 'subtleties', 'тонкости', '[]'
+708, 'timespan', 'промежуток времени', '[]'
+709, 'soil', 'почва, грунт, пачкать', '[]'
+710, 'fine-grained', 'мелкозернистый', '[]'
+711, 'coarse-grained', 'крупнозернистый', '[]'
+712, 'deviate', 'отклоняться', '[]'
+713, 'graduate', 'оканчивать учебное заведение', '[]'
+714, 'recall', 'отзыв, воспоминание, вспоминать', '[]'
+715, 'mitigate', 'смягчать (последствия, риски)', '[]'
+716, 'misery', 'невзгоды, несчастья', '[]'
+717, 'burden', 'бремя', '[]'
+718, 'dispose', 'располагать, размещать', '[]'
+719, 'misfit', 'неудачник', '[]'
+720, 'conviction', 'убеждение, убежденность', '[]'
+721, 'prospective', 'ожидаемый, будущий', '[]'
+722, 'toddler', 'младенец', '[]'
+723, 'beg', 'просить, умолять', '[]'
+724, 'plethora', 'избыток', '["The plethora of regulations is both contradictory and confusing."]'
+725, 'discombobulate, bemuse', 'вводить в замешательство', '[]'
+726, 'disposable', 'одноразовый', '[]'
+727, 'no matter what', 'во что бы то ни стало', '[]'
+728, 'landlord and tenant', 'арендодатель и арендатор', '[]'
+729, 'exaggerate', 'преувеличивать', '["The threat of attack has been greatly exaggerated."]'
+730, 'saliva', 'слюна', '[]'
+731, 'settle', 'решить, прийти к решению, договориться', '[]'
+732, 'diapers', 'подгузники', '[]'
+733, 'jointly', 'совместно', '["The tenants are all jointly responsible for the rent."]'
+734, 'deceptive', 'обманчивый', '[]'
+735, 'bask', 'греться', '[]'
+736, 'spill', 'проливать, наливать, рассыпать', '[]'
+737, 'culprit', 'преступник, виновник', '[]'
+738, 'fugitive', 'беглец', '[]'
+739, 'entrancing', 'очаровывающий, пленительный', '[]'
+740, 'besides', 'кроме того', '[]'
+741, 'exhibit', 'выставлять напоказ, демонстрировать', '[]'
+742, 'regard', 'рассматривать, относиться', '["Her parents always regarded her as the smartest of their children.", "The bird regarded me with suspicion as I walked up to its nest."]'
+743, 'reify', 'материализовать', '[]'
+744, 'emit', 'испускать, излучать, выделять', '[]'
+745, 'sustain', 'поддерживать, выдерживать', '["It''s difficult for him to sustain relationships with women.", "The soil is not rich enough to sustain a large population.", "Dreadnought can sustain a lot of damage."]'
+746, 'humble', 'скромный', '[]'
+747, 'submerge, plunge, dip', 'погружаться под воду', '[]'
+748, 'cane', 'трость', '[]'
+749, 'correspond', 'соответствовать, согласовываться, совпадать', '[]'
+750, 'arise, occur', 'возникать, случаться', '["Problems arise when the payment is late.", "A strange accident has occurred in the conpany."]'
+751, 'fiend', 'изверг, злодей', '["My father was an inebriate and a fiend."]'
+752, 'make out, discern, recognize', 'разглядеть, разобрать, распознать, различить', '[]'
+753, 'circuit', 'схема, цепь, контур', '[]'
+754, 'intestine', 'кишечник', '[]'
+755, 'worn-out', 'изношенный', '[]'
+756, 'spokesman', 'представитель', '["You know that guy with funny mustache, who''s a spokesman of our president"]'
+757, 'on the contrary', 'напротив, наоборот, с другой стороны', '["Of course, you help with your advise, but on the contrary, you deprive him of opportunity to learn a lesson"]'
+758, 'deprive of', 'лишать чего-либо', '["Tyrant deprived us of our homeland"]'
+759, 'preceding, predecessor', 'предшествующий, предшественник', '["Preceding book of this saga was more interesting."]'
+760, 'derive', 'выводить, извлекать, получать', '["Knowing this information you easily can derive a rule"]'
+761, 'caveat', 'оговорка, условие', '["He agreed to the interview, with the caveat that he could approve the final article.", "Behind every set of statistics there''s always a caveat."]'
+762, 'interleave', 'чередовать', '["My shower interleaves cold and hot water.", "Lessons are interleaved sequences of videos and exercises.", "Burger is several buns, interleaved with cutlet or cheese.", "Cheese in sandwich is an interleave between two loafs of bread."]'
+763, 'hilarious', 'уморительно, очень смешно', '["It''s hilarious to hear our government''s statements knowing real situation"]'
+764, 'affair', 'роман, дело, дела', '["I had an office affair on my previous job.", "She organizes her financial affairs very efficiently.", "He''s always meddling in other people''s affairs."]'
+765, 'daunting', 'устрашающий', '["Mafia boss had a daunting speech."]'
+766, 'refuge', 'убежище, укрытие, приют', '["You had accommodation troubles and we provided a temporary refuge.", "We gave them refuge within the city walls."]'
+767, 'draw attention', 'привлечь внимание', '["I want to draw your attention to this issue."]'
+768, 'pay attention', 'обращать внимание', '["You should pay attention to that fact."]'
+769, 'ire', 'гнев, злость, ярость', '["I don''t want to invoke the ire of my parents."]'
+770, 'skew, distort', 'искажать', '[]'
+771, 'pastry', 'выпечка, кондитерские изделия', '[]'
+772, 'prescribe', 'предписывать', '[]'
+773, 'inflate', 'раздувать, накачивать', '[]'
+774, 'clump', 'комок, глыба', '[]'
+775, 'selfsame, identical', 'тот же самый', '[]'
+776, 'full-fledged', 'полноценный', '["This class looks like a full-fledged bean."]'
+777, 'plenty', 'достаточно, в избытке', '["We''ve got plenty of time before we need to leave for the airport."]'
+778, 'onerously', 'затруднительно, обременительно', '[]'
+779, 'kneel', 'стоять на коленях, становиться на колени', '["Ukraine will not kneel to negotiate."]'
+780, 'hyphen', 'дефис', '[]'
+781, 'essentially', 'по сути, по существу', '[]'
+782, 'concise', 'краткий, сжатый, четкий', '[]'
+783, 'hut', 'шалаш', '[]'
+784, 'beak', 'клюв', '[]'
+785, 'up-to-date', 'актуальный, новейший, уточненный', '[]'
+786, 'dread', 'страх, боязнь, опасения', '[]'
+787, 'on my own', 'сам по себе, самостоятельно', '[]'
+788, 'subconsciously', 'подсознательно', '[]'
+789, 'thus', 'таким образом', '["They planned to reduce staff and thus to cut costs."]'
+790, 'premature', 'преждевременный', '["Burst of requests in the beginning of the test may be a cause of premature application fail."]'
+791, 'gradual', 'постепенный', '[]'
+792, 'sneer', 'насмехаться', '[]'
+793, 'folly', 'глупость', '[]'
+794, 'expound', 'излагать', '[]'
+795, 'designated to', 'предназначен для', '[]'
+796, 'vestige', 'пережиток, останки чего-то былого', '["Vestiges of ancient settlements can be found in the valley."]'
+797, 'cunning', 'хитрый, коварный, ушлый', '["He won''t miss opportunity to gain a profit - he''s pretty cunning businessman."]'
+798, 'crave', 'жаждать', '["Big Boss craved for revenge.", "My body craves for morning exercises."]'
+799, 'mend', 'заживать, поправляться, латать', '["Your wound has mended."]'
+800, 'surpass', 'превзойти', '["The studend surpassed his teacher."]'
+801, 'frivolous', 'легкомысленный', '["I see her as a frivolous young woman.", "I''m sorry to be so frivolous."]'
+802, 'weigh', 'взвешивать', '["Typical Georgian business is sitting on a street with scales and propose passerby to weigh."]'
+803, 'nonchalant, careless', 'беспечный, беззаботный', '["Georgian lifestyle is pretty nonchalant."]'
+804, 'wheat', 'пшеница', '[]'
+805, 'set apart, separate, detach', 'отделять', '[]'
+806, 'besmirch', 'пятнать (репутацию)', '["His accusations were false, but they served to besmirch her reputation."]'
+807, 'guinea pig', 'подопытный кролик', '["We deemed ourselves guinea pigs when they did that research on us."]'
+808, 'ellipsis', 'многоточие', '[]'
+809, 'immerse', 'погружаться в активность или тему', '["I''m not immersed deeply in this technology."]'
+810, 'satiate', 'насыщать (утолять нужду)', '["He drank greedily until his thirst was satiated."]'
+811, 'quench', 'утолять жажду, желание', '["I quench my thirst with gasoline."]'
+812, 'consider', 'рассматривать (возможность)', '["Consider my offer."]'
+813, 'deem', 'рассматривать (считать)', '["We deemed ourselves guinea pigs when they did that research on us."]'
+814, 'malt', 'солод', '[]'
+815, 'accusation', 'обвинение', '["Your accusations are groundless."]'
+816, 'passerby', 'прохожий', '[]'
+817, 'reckless', 'безрассудный, опрометчивый, безответственный, неосмотрительный', '["Reckless driving."]'
+818, 'endemic', 'свойственный местности или виду', '["Marsupials are endemic to Australia."]'
+819, 'omission', 'упущение, оплошность', '[]'
+820, 'valiant', 'доблестный', '[]'
+821, 'cowardice', 'трусость, малодушие', '[]'
+822, 'addendum', 'слагаемое', '[]'
+823, 'minuend and subtrahend', 'уменьшаемое и вычитаемое', '[]'
+824, 'numerator and denumenator', 'числитель и знаменатель', '[]'
+825, 'divident and divisor', 'делимое и делитель', '[]'
+826, 'preliminary', 'предварительный', '[]'
+827, 'matter', 'дело, нюанс, момент', '["What''s the matter with your hand?", "Baking a cake is just a matter of following the recipe.", "Could I talk to you about a personal matter?", "I''m not immersed in this matter.", "Don''t make matters worse."]'
+828, 'objective', 'задача, цель', '[]'
+829, 'yearning, anguish', 'тоска', '[]'
+830, 'ought to', 'стоило бы', '["If there''s any doubt about the rocket''s engines, we ought to cancel the launch.", "We ought not to have agreed without knowing what it would cost."]'
+831, 'worship', 'поклоняться, поклонение', '[]'
+832, 'obey', 'подчиняться, повиноваться', '[]'
+833, 'viable', 'жизнеспособный, целесообразный, возможный', '["I am afraid your plan is not commercially viable."]'
+834, 'trout', 'форель', '[]'
+835, 'conjunction and preposition', 'союз и предлог', '[]'
+836, 'clause', 'словосочетание, часть предложения, пункт', '[]'
+837, 'collocation', 'устойчивое словосочетание', '[]'
+838, 'feisty', 'дерзкий, отчаянный, отважный', '[]'
+839, 'emphasis', 'акцент, особое внимание', '["Schools here put (place, lay) great emphasis on written work and grammar."]'
+840, 'rapport', 'взаимопонимание', '[]'
+841, 'tempted', 'искушенный', '[]'
+842, 'stub, stump', 'обрубок', '[]'
+843, 'painstakingly', 'тщательно', '[]'
+844, 'likelihood, probability', 'вероятность', '[]'
+845, 'inflict', 'причинять (боль, страдания)', '[]'
+846, 'juxtapose', 'сопоставлять', '[]'
+847, 'resemble', 'быть похожим, напоминать', '["You resemble your mother very closely.", "After the earthquake, the city resembles a battlefield."]'
+848, 'sheath', 'ножны', '[]'
+849, 'hypocritical', 'лицемерный', '[]'
+850, 'sought-after', 'востребованный', '[]'
+851, 'occasionally', 'иногда, время от времени, по случаю', '["I occasionally watch TV.", "Occasionally I''ll have a piece of chocolate, but it''s very rare."]'
+852, 'cod', 'треска', '[]'
+853, 'disdain', 'пренебрежение, выражать пренебрежение', '[]'
+854, 'stride', 'широкий шаг, шаг в развитии чего-либо', '["This invention is an important stride in space colonization."]'
+855, 'trait', 'черта, особенность', '[]'
+856, 'rack', 'стойка, стеллаж', '[]'
+857, 'drawer', 'ящик стола', '[]'
+858, 'comprise', 'включать в себя, состоять из', '["The course comprises a class book, a practice book, and a CD."]'
+859, 'scrutiny', 'тщательное изучение, исследование', '[]'
+860, 'vigorous', 'сильный, энергичный, интенсивный', '[]'
+861, 'genuine', 'подлинный', '[]'
+862, 'spurious', 'ложный, поддельный', '[]'
+863, 'adjacent, contiguous', 'смежный, прилегающий, соседний', '[]'
+864, 'abscond', 'сбежать, скрыться', '[]'
+865, 'notion', 'идея, мысль, представление, мнение', '[]'
+866, 'conceal', 'скрывать, прятать', '[]'
+867, 'long-term', 'долгосрочный', '[]'
+868, 'towards', 'в направлении, рядом, по отношению к, чтоб достичь чего-то', '["She stood up and walked towards him.", "Our seats were towards the toilet.", "They''ve always been very friendly towards me.", "I''m saving up to buy a car, and Dad has given me some money towards it."]'
+869, 'appear', 'появляться, казаться, публично засветиться', '["It appears (that) she left the party alone.", "She appears briefly in that film."]'
+870, 'appearance', 'появление, представление, внешность', '[]'
+871, 'drastic', 'значительный, разительный, ощутимый (об изменениях, решениях, действиях)', '[]'
+872, 'ingest, swallow', 'глотать', '[]'
+873, 'alleviate', 'облегчать', '["The drugs did nothing to alleviate her pain or suffering."]'
+874, 'exacerbate, aggravate', 'усугублять', '[]'
+875, 'feasable', 'достижимо(ый), осуществимо(ый)', '["With extra resources your project seems feasible."]'
+876, 'aperture', 'отверстие, диафрагма', '[]'
+877, 'defenestrate', 'выкинуть кого-нибудь из окна, отстранить от работы', '[]'
+878, 'shallow', 'мелкий (о глубине)', '[]'
+879, 'revel', 'тусить, кутить', '[]'
+880, 'suspenseful', 'ожидающий в возбуждении', '[]'
+881, 'upward and downward', 'наверх и вниз', '[]'
+882, 'in sooth', 'в действительности', '["In sooth, I know not why I am sad."]'
+883, 'deafening', 'очень громкий', '[]'
+884, 'ashen', 'бесцветный', '["She was thin and her face was ashen."]'
+885, 'destitute', 'без денег, еды, дома и средств к существованию', '["The floods left thousands of people destitute."]'
+886, 'compelling', 'убедительный, веский (аргумент, повод), впечатляющий (искусство)', '[]'
+887, 'frightened, terrified, petrified', 'напуган (слабо-сильно)', '[]'
+888, 'timid', 'робкий', '[]'
+889, 'twinkle', 'мерцать', '[]'
+890, 'shine, gleam', 'сиять', '[]'
+891, 'keen', 'сильный (о чувствах или умениях), любезный, поспешный (в исполнении чего-либо)', '["She''s a keen tennis player.", "He''s got a keen sense of smell.", "She was very keen to help."]'
+892, 'endeavor', 'пытаться сделать что-то, попытка', '["Engineers are endeavoring to locate the source of the problem."]'
+893, 'extinguish', 'тушить (свет, огонь)', '[]'
+894, 'conclude', 'подытожить', '[]'
+895, 'intermittent', 'прерывающийся, нестабильный', '["Intermittent rain.", "Intermittent connection."]'
+896, 'exert', 'задействовать (связи, черты, влияние)', '["If you were to exert your influence they might change their decision.", "Some managers exert considerable pressure on their staff to work extra hours."]'
+897, 'sultry', 'душный (о погоде), горячий (о сексуально привлекательном человеке)', '[]'
+898, 'syllable', 'слог', '[]'
+899, 'lever', 'рычаг, средство для достижения цели', '["Using trade or other economic tools as a lever of diplomacy is not new."]'
+900, 'leverage', 'задействовать что-то, что ты имеешь, чтоб получить какую-либо выгоду', '["This new strategy is about leveraging the relationships we have with our customers.", "It should be possible to leverage your temporary assignment into a full-time job."]'
+901, 'nonfungible', 'невзаимозаменяемый', '[]'
+902, 'precipice', 'обрыв, пропасть', '[]'
+903, 'stir', 'размешивать, возбуждать, заставить что-то или самому шевелиться или колыхаться', '["A light breeze stirred the leaves lying on the path.", "He stirred in his sleep as I kissed him.", "The speech stirred the crowd to take action."]'
+904, 'protract', 'затягивать (по времени)', '[]'
+905, 'rehearse', 'репетировать', '[]'
+906, 'yank, tug', 'дёргать', '["Tom tugged at his mother''s arm.", "She felt a tug at her sleeve."]'
+907, 'inferior', 'худший по сравнению с чем-то еще', '["These products are inferior to those we bought last year.", "He regarded most men as his social, moral, and intellectual inferiors."]'
+908, 'cite', 'приводить в качестве доказательства, ссылаться на, цитировать', '["She cited three reasons why people get into debt.", "She cites both T.S.", "Eliot and Virginia Woolf in her article."]'
+909, 'snore', 'храпеть', '[]'
+910, 'vain', 'тщеславный', '[]'
+911, 'catty', 'злобный', '[]'
+912, 'carve', 'вырезать из дерева, камня, выгравировывать', '[]'
+913, 'rustle', 'шорох', '[]'
+914, 'slush', 'слякоть', '[]'
+915, 'let', 'не говоря уже о', '["Some people never even read a newspaper, let alone a book."]'
+916, 'have yet to', 'еще предстоит', '["They have yet to make a decision.", "In January I had yet to learn programming."]'
+917, 'auspicious', 'многообещающий, благоприятный', '["Winning her first seven cases was an auspicious beginning for the young lawyer."]'
+918, 'galvanize', 'побуждать (к действию)', '["Western charities were galvanized by TV pictures of starving people."]'
+919, 'charity', 'благотворительная организация', '[]'
+920, 'gregarious', 'общительный, коммуникабельный', '[]'
+921, 'amenable', 'податливый', '[]'
+922, 'tenacious', 'цепкий', '[]'
+923, 'suppose, reckon', 'считать, полагать', '[]'
+924, 'amaze', 'удивлять, поражать', '["I’m amazed at how well your little girl can read."]'
+925, 'dimly', 'тусклый', '[]'
+926, 'roam', 'бродить, слоняться', '[]'
+927, 'comprehensive', 'исчерпывающий, всеобъемлющий', '["We offer you a comprehensive training in all aspects of the business.", "Is this list comprehensive or are there some names missing?", "He has written a fully comprehensive guide to Rome."]'
+928, 'insomnia', 'бессонница', '[]'
+929, 'stubborn', 'упрямый', '[]'
+930, 'humid', 'влажный (о погоде)', '[]'
+931, 'storm, tempest, gale', 'буря', '[]'
+932, 'abolish', 'официально заканчивать, прекращать', '[]'
+933, 'blunt', 'тупой, затуплять, грубый', '["I''ll be blunt that last piece of work you did was terrible.", "A blunt pencil, knife."]'
+934, 'cease', 'прекратить', '["The company has decided to cease all UK operations after this year."]'
+935, 'exhaustive', 'исчерпывающий', '[]'
+936, 'aforementioned', 'вышеупомянутый', '[]'
+937, 'lure', 'приманка, заманивать, уговаривать', '[]'
+938, 'jeopardize', 'подвергать планы или систему опасности', '["She knew that by failing her finals she could jeopardize her whole future."]'
+939, 'adorn', 'украшать', '[]'
+940, 'solemn', 'торжественный', '[]'
+941, 'sensible', 'разумный', '[]'
+942, 'thoughtful', 'вдумчивый', '[]'
+943, 'evasive', 'уклончивый', '[]'
+944, 'placid', 'безмятежный', '[]'
+945, 'courteous', 'учтивый, почтительный', '[]'
+946, 'gullible', 'доверчивый', '[]'
+947, 'cautious', 'осторожный', '[]'
+948, 'slender', 'стройный', '[]'
+949, 'mesmerizing', 'завораживающий', '[]'
+950, 'groom', 'жених', '[]'
+951, 'look alike', 'быть похожим', '[]'
+952, 'spacious', 'просторный', '[]'
+953, 'congest', 'загромождать, заполнять, забивать', '[]'
+954, 'insipid, bland', 'пресный, безвкусный, вялый, скучный', '[]'
+955, 'soak', 'мочить сильно', '[]'
+956, 'detest', 'ненавидеть', '[]'
+957, 'cheeky', 'дерзкий, резкий, грубоватый', '[]'
+958, 'astonish', 'изумить', '[]'
+959, 'content', 'удовлетворение, удовлетворять, быть удовлетворенным, довольным чем-то', '["He seems fairly content with his life.", "My explanation seemed to content him."]'
+960, 'worth', 'заслуживающий, стоящий', '["My bag is worth a hundred dollars.", "This matter is worth our attention.", "If you are a driver, it is worth having insurance."]'
+961, 'sheer', 'выдающийся (о качествах и чувствах), отвесный (склон), чистый (неразбавленный) ', '["The suggestion is sheer nonsense.", "His success was due to sheer willpower/determination.", ""]'
+962, 'outskirts', 'окраины', '["The factory is in/on the outskirts of New Delhi."]'
+963, 'coat check', 'гардероб (комната в заведении)', '[]'
+964, 'shabby', 'потрепанный, поношенный, бесчестный', '["He wore a shabby old overcoat.", "Her home is in a shabby part of town.", "The company''s treatment of women was shabby."]'
+965, 'yield', 'произвести выгоду, уступить полномочия, уступить', '["Favourable weather yielded a good crop.", "They were forced to yield their land.", "If you''re going downhill, you need to yield to bikers going uphill."]'
+966, 'crop', 'урожай, поставка, выборка', '["The main crops grown for export are coffee and rice.", "The judges will select the best from this year''s crop of first novels."]'
+967, 'allege, allegation', 'бездоказательно утверждать, бездоказательное обвинение', '["The allegations of corruption were not true."]'
+968, 'oblige', 'обязать, удовлетворить просьбу', '["Circumstances obliged him to leave the town.", "We only went to the party to oblige some old friends who asked us to be there.", "We needed a guide and he was only too happy to oblige."]'
+969, 'mutilate', 'калечить, уродовать', '["Self-hatred apparently drove her to mutilate her own face."]'
+970, 'straggle', 'отставать', '["The players straggled in for the morning practice session.", "This host of course is not normal and shows straggling."]'
+971, 'rowdy', 'шумный (о человеке или мероприятии)', '[]'
+972, 'mellow', 'мягкий, спокойный, приятный (о вкусах, звуках, видах)', '[]'
+973, 'assertive', 'уверенный в себе', '[]'
+974, 'indulge', 'позволять себе что-то, возможно, сверх меры', '["We took a deliberate decision to indulge in a little nostalgia.", "The soccer fans indulged their patriotism, waving flags and singing songs.", "I love champagne but I don''t often indulge myself."]'
+975, 'astute', 'проницательный, быстро соображающий', '[]'
+976, 'chubby, plump', 'полный (слегка толстый)', '[]'
+977, 'coherent', 'логичный, четкий, ясный (идея, план)', '[]'
+978, 'commence', 'начать что-либо', '["We will commence building work in August of next year.", "Shall we let the meeting commence?"]'
+979, 'insoluble', 'неразрешимый', '["Traffic congestion in large cities seems to be an insoluble problem."]'
+980, 'discreet', 'тактичный, осторожный', '[]'
+981, 'eradicate', 'искоренять', '["The government claims to be doing all it can to eradicate corruption.", "The disease that once claimed millions of lives has now been eradicated."]'
+982, 'imminent', 'грядущий', '[]'
+983, '(in)eligible', '(не)удовлетворяющий требованиям, (не)подходящий по параметрам', '[]'
+984, 'inundate', 'заваливать (работой, вещами)', '[]'
+985, 'nag', 'задалбывать чем-либо, нытик', '["My mum''s always naggING me to get my hair cut.", "If you stop naggING at me, I might actually do it."]'
+986, 'peel', 'чистить (фрукты)', '[]'
+987, 'perennial', 'продолжительный, часто повторяющийся', '[]'
+988, 'perplex', 'озадачивать', '["The disease has continued to perplex doctors.", "You look perplexed."]'
+989, 'perspire', 'потеть', '[]'
+990, 'pledge', 'серьезное или формальное обещание, обещать', '["We are asking people to pledge their support for our campaign.", "Thousands of people made pledges to the charity campaign."]'
+991, 'predominantly', 'преимущественно', '["She is predominantly a dancer, but she also sings."]'
+992, 'prosecute', 'преследовать по суду, осуждать', '[]'
+993, 'prosperous', 'успешный, процветающий', '[]'
+994, 'prudent', 'благоразумный, осмысленный', '[]'
+995, 'pungent', 'насыщенный (вкус), сильный (запах)', '[]'
+996, 'repel', 'отражать (атаку, нападение), защищать от чего-либо', '[]'
+997, 'ramshackle', 'в очень плохом состоянии', '["There''s a ramshackle old shed at the bottom of the garden."]'
+998, 'rattle', 'греметь, трещать, стучать', '[]'
+999, 'rumble', 'гудеть, грохотать', '[]'
+1000, 'scatter', 'разбрасывать', '[]'
+1001, 'screech', 'визг, визжать', '[]'
+1002, 'skid', 'скользить, входить в занос', '[]'
+1003, 'skim', 'передвигаться почти не касаясь поверхности, бегло просматривать', '["The birds skimmed across the tops of the waves.", "We watched a child skimming stones across the lake."]'
+1004, 'slam', 'хлопнуть, резко ударить во что-то', '["He slammed the brakes on."]'
+1005, 'sluggish', 'вялый, малоподвижный', '[]'
+1006, 'snarl', 'скалиться, рычать', '[]'
+1007, 'squander', 'транжирить', '[]'
+1008, 'squeak', 'скрипеть, пищать', '[]'
+1009, 'squelch', 'хлюпать', '[]'
+1010, 'stagger', 'идти шатаясь, ошарашивать', '[]'
+1011, 'suffocate', 'задыхаться', '[]'
+1012, 'stifle', 'подавлять, сдерживать что-либо', '[]'
+1013, 'strenuous', 'ресурсоемкий', '[]'
+1014, 'superficial', 'поверхностный', '[]'
+1015, 'unanimous', 'единогласный', '[]'
+1016, 'vile, odious', 'мерзкий, неприятный, аморальный', '[]'
+1017, 'dormant', 'дремлющий', '[]'
+1018, 'delightful', 'восхитительный', '[]'
+1019, 'compel', 'принуждать', '[]'
+1020, 'reluctant', 'неохотный', '["I was having such a good time I was reluctant to leave.", "Many parents feel reluctant to talk openly with their children."]'
+1021, 'omniscient', 'всеведущий', '[]'
+1022, 'fluky', 'случайный', '[]'
+1023, 'wobble', 'колебаться, шататься', '["That bookcase wobbles whenever you put anything on it.", "The government can''t afford to wobble on this issue."]'
+1024, 'deceitful', 'лживый, бесчестный', '[]'
+1025, 'coincidence', 'совпадение', '[]'
+1026, 'beget', 'порождать', '["Poverty begets hunger, and hunger begets crime."]'
+1027, 'adhesion', 'сцепление', '["The adhesion of tires and asphalt is lower when str surfaces are cold.", "At this stage a resin is used with a high level of adhesion."]'
+1028, 'boon', 'благо', '[]'
+1029, 'articulate', 'ясно выражающийся', '[]'
+1030, 'heed', 'прислушиваться', '["Perhaps they should have heeded their own advice."]'
+1031, 'churn', 'сбивать, взбалтывать', '[]'
+1032, 'opt', 'выбирать что-то из чего-то', '[]'
+1033, 'lush', 'зеленый, сочный, пышный, буйный (о территории или растениях)', '[]'
+1034, 'blush', 'румянец, покраснеть, обычно от смущения', '["A blush of shame crept up his face.", "I always blush when I speak in public."]'
+1035, 'tray', 'поднос', '[]'
+1036, 'den', 'нора, берлога', '[]'
+1037, 'tin', 'олово, жесть', '[]'
+1038, 'clam', 'моллюск', '[]'
+1039, 'shack, hut', 'хижина, шалаш', '[]'
+1040, 'soar', 'взмывать, очень быстро подниматься высоко', '["House prices soared a further twenty percent.", "All night long fireworks soared into the sky."]'
+1041, 'entail', 'требовать, делать что-то обязательным, неизбежным', '["Such a large investment inevitably entails some risk."]'
+1042, 'excerpt', 'выдержка, вырезка, часть, цитировать', '["An excerpt from her new thriller will appear in this weekend''s magazine.", "This passage has been excerpted from her latest novel."]'
+1043, 'bald', 'лысый, гладкий, базовый (без лишних деталей)', '["There was just this bald statement of resignation no explanation or anything."]'
+1044, 'bold', 'смелый, бесстрашный, ярко выраженный, дерзкий', '["The newspaper took the bold step of publishing it.", "The team made the bold move of trading its star player.", "They painted the kitchen in bold colors."]'
