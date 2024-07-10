@@ -793,7 +793,7 @@ INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (792, 'sneer',
 INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (793, 'folly', 'глупость', '[]');
 INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (794, 'expound', 'излагать', '[]');
 INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (795, 'designated to', 'предназначен для', '[]');
-INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (796, 'vestige', 'пережиток, останки чего-то былого', '["Vestiges of ancient settlements can be found in the valley."]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (796, 'vestige, remnant', 'пережиток, останки чего-то былого', '["Vestiges of ancient settlements can be found in the valley."]');
 INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (797, 'cunning', 'хитрый, коварный, ушлый', '["He won''t miss opportunity to gain a profit - he''s pretty cunning businessman."]');
 INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (798, 'crave', 'жаждать', '["Big Boss craved for revenge.", "My body craves for morning exercises."]');
 INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (799, 'mend', 'заживать, поправляться, латать', '["Your wound has mended."]');
@@ -1042,3 +1042,15 @@ INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1041, 'entail
 INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1042, 'excerpt', 'выдержка, вырезка, часть, цитировать', '["An excerpt from her new thriller will appear in this weekend''s magazine.", "This passage has been excerpted from her latest novel."]');
 INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1043, 'bald', 'лысый, гладкий, базовый (без лишних деталей)', '["There was just this bald statement of resignation no explanation or anything."]');
 INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1044, 'bold', 'смелый, бесстрашный, ярко выраженный, дерзкий', '["The newspaper took the bold step of publishing it.", "The team made the bold move of trading its star player.", "They painted the kitchen in bold colors."]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1045, 'brazenly', 'нагло, неприкрыто, в открытую', '["The robber brazenly carried the stolen painting to the getaway car.", "I dont know how you can lie to me so brazenly."]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1046, 'peculiar', 'своеобразный, специфический, необычный, странный', '["What a peculiar smell!", "This cheese has a peculiar taste."]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1047, 'detain', 'задерживать, удерживать, мешать, замедлять', '["A suspect has been detained by the police for questioning.", "Several of the injured were detained overnight in hospital."]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1048, 'brine, pickle', 'рассол, маринад', '[]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1049, 'snuggle', 'прижаться, прильнуть', '["The children snuggled up to their mother to get warm.", "I was just snuggling down into my warm bed when my phone rang."]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1050, 'circumvent', 'обойти, избежать', '["Ships were registered abroad to circumvent employment and safety regulations."]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1051, 'bruise', 'синяк, ушиб', '[]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1052, 'pave', 'вымащивать, устилать', '["The area near the beach is paved with bricks set in patterns."]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1053, 'inedible', 'несъедобный', '[]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1054, 'curb', 'бордюр, ограничивать, регулировать. ограничение', '["The government should act to curb tax evasion."]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1055, 'vivid', 'яркий, четкий (представление, видение)', '["He gave a very vivid and often shocking description of his time in prison."]');
+INSERT INTO public.vocabulary (id, lang1, lang2, examples) VALUES (1056, 'incur', 'испытывать что-то на себе, зачастую неприятное', '["The play has incurred the wrath of critics.", "We incurred heavy expenses to repair the damage.", "Companies incur additional costs."]');
