@@ -1,2 +1,2 @@
-ALTER TABLE vocabulary
-    DROP COLUMN value;
+-- ALTER TABLE vocabulary
+--     DROP COLUMN value;

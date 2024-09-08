@@ -10,9 +10,9 @@ import org.springframework.data.repository.query.Param
  */
 interface IdiomRepository : JpaRepository<Idiom, Int> {
 
-    @Query(nativeQuery = true, value = "SELECT * FROM idioms ORDER BY random() LIMIT 1")
+    @Query(nativeQuery = true, value = "SELECT * FROM idioms ORDER BY RAND() LIMIT 1")
     fun findRandom(): Idiom
 
-    @Query(nativeQuery = true, value = "SELECT *  FROM idioms ORDER BY random() LIMIT :lim")
+    @Query(nativeQuery = true, value = "SELECT *  FROM idioms ORDER BY RAND() LIMIT :lim")
     fun findSome(@Param(value = "lim") lim: Int): List<Idiom>
 }

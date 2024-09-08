@@ -1,17 +1,34 @@
+val hibernateTypesVersion: String by project
+val h2Version: String by project
+val flywayVersion: String by project
+val tgVersion: String by project
+val loggingVersion: String by project
+val mockitoVersion: String by project
+
 plugins {
     // JVM support
-    kotlin("jvm") version "1.8.21"
+    kotlin("jvm") version "2.0.20"
     application
 
     // Spring support
-    id("org.springframework.boot") version "3.1.0"
+    id("org.springframework.boot") version "3.3.3"
     id("io.spring.dependency-management") version "1.1.0"
-    kotlin("plugin.spring") version "1.8.21"
-    kotlin("plugin.jpa") version "1.8.21"
-    kotlin("plugin.allopen") version "1.8.21"
-    kotlin("kapt") version "1.8.21"
+    kotlin("plugin.spring") version "2.0.20"
+    kotlin("plugin.jpa") version "2.0.20"
+    kotlin("plugin.allopen") version "2.0.20"
+    kotlin("kapt") version "2.0.20"
 
-    id("org.jlleitschuh.gradle.ktlint") version "11.3.1"
+    id("org.jlleitschuh.gradle.ktlint") version "12.1.1"
+}
+
+ktlint {
+    verbose.set(true)                  // Enable verbose output
+    outputToConsole.set(true)          // Enable output to the console
+    coloredOutput.set(true)            // Use colored output for better visibility
+    ignoreFailures.set(true)          // Fail the build on ktlint errors
+    reporters {
+        reporter(org.jlleitschuh.gradle.ktlint.reporter.ReporterType.PLAIN) // Plain text output to the console
+    }
 }
 
 group = "net.medrag"
@@ -31,18 +48,17 @@ dependencies {
 
     implementation("org.springframework.boot:spring-boot-starter")
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
-    implementation("com.vladmihalcea:hibernate-types-60:2.21.1")
+    implementation("com.vladmihalcea:hibernate-types-60:$hibernateTypesVersion")
+    implementation("com.h2database:h2:$h2Version")
+    implementation("org.flywaydb:flyway-core:$flywayVersion")
 
-    implementation("org.postgresql:postgresql:42.5.4")
-    implementation("org.flywaydb:flyway-core:9.16.0")
+    implementation("org.telegram:telegrambots:$tgVersion")
+    implementation("org.telegram:telegrambotsextensions:$tgVersion")
 
-    implementation("org.telegram:telegrambots:6.5.0")
-    implementation("org.telegram:telegrambotsextensions:6.5.0")
-
-    implementation("io.github.microutils:kotlin-logging-jvm:3.0.5")
+    implementation("io.github.microutils:kotlin-logging-jvm:$loggingVersion")
 
     testImplementation("org.springframework.boot:spring-boot-starter-test")
-    testImplementation("org.mockito.kotlin:mockito-kotlin:5.0.0")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:$mockitoVersion")
 }
 
 tasks.getByName<Test>("test") {
@@ -59,12 +75,6 @@ allOpen {
 
 tasks.getByName<Jar>("jar") {
     enabled = false
-}
-
-tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().all {
-    kotlinOptions {
-        jvmTarget = "17"
-    }
 }
 
 tasks.named("build") {

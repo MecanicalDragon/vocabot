@@ -11,10 +11,10 @@ import org.springframework.data.repository.query.Param
  */
 interface WordPairRepository : JpaRepository<WordPair, Int> {
 
-    @Query(nativeQuery = true, value = "SELECT * FROM vocabulary ORDER BY random() LIMIT 1")
+    @Query(nativeQuery = true, value = "SELECT * FROM vocabulary ORDER BY RAND() LIMIT 1")
     fun findRandom(): WordPair
 
-    @Query(nativeQuery = true, value = "SELECT * FROM vocabulary ORDER BY random() LIMIT :l")
+    @Query(nativeQuery = true, value = "SELECT * FROM vocabulary ORDER BY RAND() LIMIT :l")
     fun findSome(@Param(value = "l") l: Int): List<WordPair>
 
     @Query(nativeQuery = true, value = "SELECT * FROM vocabulary WHERE id IN :ids")

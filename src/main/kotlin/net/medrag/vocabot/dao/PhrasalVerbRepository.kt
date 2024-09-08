@@ -9,6 +9,6 @@ import org.springframework.data.repository.query.Param
  * 17.06.2023
  */
 interface PhrasalVerbRepository : JpaRepository<PhrasalVerb, Int> {
-    @Query(nativeQuery = true, value = "SELECT *  FROM phrasal ORDER BY random() LIMIT :lim")
+    @Query(nativeQuery = true, value = "SELECT *  FROM phrasal ORDER BY RAND() LIMIT :lim")
     fun findSome(@Param(value = "lim") lim: Int): List<PhrasalVerb>
 }

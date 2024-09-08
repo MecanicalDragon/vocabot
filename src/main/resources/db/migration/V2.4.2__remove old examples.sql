@@ -1,1 +1,1 @@
-ALTER TABLE vocabulary DROP COLUMN examples_plain;
+-- ALTER TABLE vocabulary DROP COLUMN examples_plain;

@@ -31,7 +31,7 @@ interface SubscriptionRepository : JpaRepository<Subscription, Long> {
     @Modifying
     @Query(
         nativeQuery = true,
-        value = "UPDATE subscriptions SET to_learn = to_learn || to_jsonb(:wordId) WHERE subscription_id = :subId"
+        value = "INSERT INTO learnings (sub_id, word_id) VALUES (:subId, :wordId)"
     )
     @Transactional
     fun addToLearn(@Param(value = "subId") subId: Long, @Param(value = "wordId") wordId: String): Int
@@ -39,14 +39,14 @@ interface SubscriptionRepository : JpaRepository<Subscription, Long> {
     @Modifying
     @Query(
         nativeQuery = true,
-        value = "UPDATE subscriptions SET to_learn = to_learn - text(:wordId) WHERE subscription_id = :subId"
+        value = "DELETE FROM learnings WHERE sub_id = :subId AND word_id = :wordId"
     )
     @Transactional
     fun learned(@Param(value = "subId") subId: Long, @Param(value = "wordId") wordId: String): Int
 
     @Query(
         nativeQuery = true,
-        value = "WITH word_ids as (SELECT jsonb_array_elements_text(to_learn) FROM subscriptions WHERE subscription_id = :subId) SELECT * FROM word_ids ORDER BY random() LIMIT :lim"
+        value = "WITH word_ids as (SELECT word_id FROM learnings WHERE sub_id = :subId) SELECT * FROM word_ids ORDER BY RAND() LIMIT :lim"
     )
     fun getToLearn(@Param(value = "subId") subId: Long, @Param(value = "lim") lim: Int): List<String>
 }

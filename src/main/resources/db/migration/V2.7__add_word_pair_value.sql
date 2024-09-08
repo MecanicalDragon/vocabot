@@ -1,2 +1,2 @@
-ALTER TABLE vocabulary
-    ADD COLUMN value INT DEFAULT 0;
+-- ALTER TABLE vocabulary
+--     ADD COLUMN value INT DEFAULT 0;
