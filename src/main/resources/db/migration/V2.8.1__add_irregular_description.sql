@@ -1,2 +1,0 @@
-ALTER TABLE irregular
-    ADD COLUMN description VARCHAR NOT NULL DEFAULT '';

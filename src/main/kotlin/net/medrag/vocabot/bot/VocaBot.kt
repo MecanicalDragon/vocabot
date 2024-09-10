@@ -125,9 +125,12 @@ class VocaBot(
 
     private fun applyAdminEvent(commanderInfo: CommanderInfo) {
         logger.info {
-            "Admin command has been received: sender: <${commanderInfo.user?.userName}>, " +
-                "chat id: <${commanderInfo.chat.idString()}>, " +
-                "command arguments: [${commanderInfo.arguments.argsToString()}]."
+            "Admin command has been received.\n" +
+                    "Sender id: <${commanderInfo.user?.id}>\n" +
+                    "Sender name: <${commanderInfo.user?.userName}>\n" +
+                    "Chat id: <${commanderInfo.chat.idString()}>\n" +
+                    "Chat name: <${commanderInfo.chat?.title}>\n" +
+                    "Command arguments: [${commanderInfo.arguments.argsToString()}]"
         }
         commanderInfo.arguments?.get(0)?.let {
             adminCommands[it]?.execute(commanderInfo)
