@@ -18,4 +18,9 @@ interface IrregularVerbRepository : JpaRepository<IrregularVerb, Int> {
             "(SELECT * FROM (SELECT DISTINCT pattern FROM irregular) AS patterns ORDER BY RAND() LIMIT 1)"
     )
     fun findSome(): List<IrregularVerb>
+
+    @Query(nativeQuery = true, value = "SELECT COUNT(*) FROM (SELECT DISTINCT pattern FROM irregular);")
+    fun getPatternsCount(): Int
+
+    fun findAllByPattern(pattern: Int): List<IrregularVerb>
 }

@@ -15,6 +15,7 @@ data class IrregularVerb(
     val form1: String,
     val form2: String,
     val form3: String,
+    val pattern: Int,
     val description: String
 ) {
     override fun toString(): String {
